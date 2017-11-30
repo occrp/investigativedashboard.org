@@ -1,0 +1,15 @@
+<footer class="w-100 bg-silver white pv3 f7">
+  <ul>
+    <li>
+      {% if site.author %}
+        {{ site.author | escape }}
+      {% else %}
+        {{ site.title | escape }}
+      {% endif %}
+    </li>
+    {% if site.email %}
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {% endif %}
+  </ul>
+
+</footer>
