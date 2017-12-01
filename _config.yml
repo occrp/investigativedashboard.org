@@ -8,8 +8,9 @@ description: >-
   publication.
 baseurl: ''
 url: ''
-logo: https://cdn.occrp.org/common/favicon/large.png
+logo: /static/svg/logo.svg
 google_analytics: ''
+repository_url: https://github.com/occrp/investigativedashboard.org
 
 # Build settings
 markdown: kramdown

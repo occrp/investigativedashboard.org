@@ -1,27 +1,10 @@
-<header role="Navigation" class="w-100">
+<header role="Navigation" class="w-100 {{page.hide_navigation}}">
 
-  <div class="w-90 center pv4 cf">
-    <div class="w-100 w-30-ns fl-ns">
-      <a class="link dim mid-gray" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
-        {{ site.title | escape }}
-      </a>
-    </div>
-
-    <nav class="w-100 w-70-ns fl-ns tr mt2 mt0-ns">
-      <a class="db dib-ns mr2-ns mr4-l mt2 mt0-ns link dim mid-gray" href="https://data.occrp.org/">
-        &#128269; Search
-      </a>
-      <a class="db dib-ns mr2-ns mr4-l mt2 mt0-ns link dim mid-gray" href="#databases">
-        &#128427; External Databases
-      </a>
-      <a class="db dib-ns mr2-ns mr4-l mt2 mt0-ns link dim mid-gray" href="/tickets">
-        &#128491; Research Requests
-      </a>
-      <a class="db dib-ns mr2-ns mr4-l mt2 mt0-ns link dim mid-gray" href="/about">
-        &#128366; About
-      </a>
-
-    </nav>
+  <div class="w-90 center pv2 cf">
+    <a class="ml2 link dim mid-gray f3" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
+      <img src="{{site.logo}}" alt="OCCRP" class="h2 fl" />
+      {{ site.title | escape }}
+    </a>
   </div>
 
 </header>
