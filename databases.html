@@ -1,0 +1,27 @@
+---
+title: Databases
+layout: page
+permalink: /databases/
+---
+
+<div class="databases-index">
+  {% for region in site.data.databases.region_names %}
+    {% assign region_code = region[0] %}
+    <input id="tab-{{region_code}}" type="radio" name="region"
+      {% if forloop.first %} checked="checked" {% endif %}/>
+    <label for="tab-{{region_code}}">{{region[1]}}</label>
+
+    <div class="content">
+      {% for country_code in site.data.databases.region_countries[region_code] %}
+        {% assign country_entries = site.data.databases.entries | where:'country', country_code %}
+
+        {% if country_entries.size > 0 %}
+          <br/>
+          <a href="/databases/country/{{country_code}}">{{site.data.databases.country_names[country_code]}}</a>
+          {{country_entries.size}}
+        {% endif %}
+
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

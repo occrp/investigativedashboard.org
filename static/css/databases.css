@@ -1,0 +1,32 @@
+.databases-index {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.databases-index label {
+  border-bottom: 1px solid #ddd;
+  padding: .7em 1em;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -1px;
+}
+.databases-index label:first-of-type {
+  margin-left: 0;
+}
+.databases-index .content {
+  width: 100%;
+  -webkit-order: 1;
+  order: 1;
+}
+.databases-index input[type=radio], .databases-index .content {
+  display: none;
+}
+.databases-index input[type=radio]:checked + label {
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  border-radius: 4px 4px 0 0;
+}
+.databases-index input[type=radio]:checked + label + .content {
+  display: block;
+}
