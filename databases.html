@@ -14,11 +14,11 @@ permalink: /databases/
 
     <div class="content">
       {% for country in region_data.countries %}
-        {% assign country_entries = site.data.databases.entries | where:'country', country.code %}
+        {% assign country_entries = site.data.databases.entries | where: 'country', country.code %}
 
         {% if country_entries.size > 0 %}
           <br/>
-          <a href="/databases/country/{{country_code}}">{{country.name}}</a>
+          <a href="/databases/country/{{country.code}}">{{country.name}}</a>
           {{country_entries.size}}
         {% endif %}
 
