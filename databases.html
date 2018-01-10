@@ -4,25 +4,60 @@ layout: page
 permalink: /databases/
 ---
 
-<div class="databases-index">
-  {% for region in site.data.databases.location_data %}
-    {% assign region_data = region[1] %}
+<div class="flex">
+  <div class="w-75">
+    <h2>Catalogue of Research Databases</h2>
+    <p class="text-muted">
+      Below is a collection of the most useful public data sources for investigative reporting compiled by OCCRP's   researchers.
+    </p>
+  </div>
+  <div class="w-25">
+    Didn't find what you were looking for?
+    Submit a research request
+  </div>
+</div>
 
-    <input id="tab-{{region[0]}}" type="radio" name="region"
-      {% if forloop.first %} checked="checked" {% endif %}/>
-    <label for="tab-{{region[0]}}">{{region_data.name}}</label>
+<div class="flex">
+  <div class="flex flex-wrap w-75 databases-index">
+    {% for region in site.data.databases.location_data %}
+      {% assign region_data = region[1] %}
 
-    <div class="content">
-      {% for country in region_data.countries %}
-        {% assign country_entries = site.data.databases.entries | where: 'country', country.code %}
+      <input id="tab-{{region[0]}}" type="radio" name="region"
+        {% if forloop.first %} checked="checked" {% endif %}/>
+      <label for="tab-{{region[0]}}">{{region_data.name}}</label>
 
-        {% if country_entries.size > 0 %}
-          <br/>
-          <a href="/databases/country/{{country.code}}">{{country.name}}</a>
-          {{country_entries.size}}
-        {% endif %}
+      <div class="content">
+        {% for country in region_data.countries %}
+          {% assign country_entries = site.data.databases.entries | where: 'country', country.code %}
+          {% if country_entries.size > 0 %}
+            <div class="w-30 dib">
+              <div class="database-item">
+                <a href="/databases/countries/{{country.code}}" class="link underline-hover">{{country.name}}</a>
+                <div class="badge">{{country_entries.size}}</div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
 
-      {% endfor %}
-    </div>
-  {% endfor %}
+  <div class="w-25">
+
+    <input id="db-types" type="radio" name="db-types" checked/>
+    <label for="db-types">Database types</label>
+
+    {% assign db_type_entries = site.data.databases.entries | group_by: "db_type" | sort: "size" | reverse %}
+
+    {% for db_type_group in db_type_entries %}
+      {% assign db_type_obj = site.data.databases.database_types | where: 'shortname', db_type_group.name %}
+
+      {% if db_type_group.name %}
+        <div class="database-item">
+          <a href="/databases/topics/{{db_type_group.name}}" class="link underline-hover">{{db_type_obj[0].name}}</a>
+          {{db_type_group.size}}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

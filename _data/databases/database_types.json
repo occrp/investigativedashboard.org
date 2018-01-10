@@ -1,46 +1,50 @@
-[
- {
-   "shortname": "business",
-   "name": "Business Registry"
- },
- {
-   "shortname": "regional",
-   "name": "Procurement registry"
- },
- {
-   "shortname": "regulatory",
-   "name": "Regulatory Agency"
- },
- {
-   "shortname": "commercial",
-   "name": "Commercial Register"
- },
- {
-   "shortname": "court",
-   "name": "Court Registry"
- },
- {
-   "shortname": "gazette",
-   "name": "Gazette"
- },
- {
-   "shortname": "land",
-   "name": "Land Registry"
- },
- {
-   "shortname": "ip",
-   "name": "Intellectual Property"
- },
- {
-   "shortname": "copyright",
-   "name": "Copyright"
- },
- {
-   "shortname": "land_tribunal",
-   "name": "Land Tribunal"
- },
- {
-   "shortname": "maritime",
-   "name": "Maritime"
- }
-]
+{
+  "business": {
+    "shortname": "business",
+    "name": "Business Registry"
+  },
+  "regional": {
+    "shortname": "regional",
+    "name": "Procurement Registry"
+  },
+  "regulatory": {
+    "shortname": "regulatory",
+    "name": "Regulatory Agency"
+  },
+  "commercial": {
+    "shortname": "commercial",
+    "name": "Commercial Register"
+  },
+  "court": {
+    "shortname": "court",
+    "name": "Court Registry"
+  },
+  "gazette": {
+    "shortname": "gazette",
+    "name": "Gazette"
+  },
+  "land": {
+    "shortname": "land",
+    "name": "Land Registry"
+  },
+  "ip": {
+    "shortname": "ip",
+    "name": "Intellectual Property"
+  },
+  "copyright": {
+    "shortname": "copyright",
+    "name": "Copyright"
+  },
+  "land_tribunal": {
+    "shortname": "land_tribunal",
+    "name": "Land Tribunal"
+  },
+  "maritime": {
+    "shortname": "maritime",
+    "name": "Maritime"
+  },
+  "_empty_": {
+    "shortname": "",
+    "name": "Other Registry"
+  }
+}

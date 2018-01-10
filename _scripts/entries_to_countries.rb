@@ -22,7 +22,14 @@ grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
   next if country_code.nil? || country_code.empty?
 
   # sort entries by db_type & agency
-  entries = entries.sort_by{ |h| [h['db_type'], h['agency']] }
+  entries = entries.sort do |a, b|
+    case
+    when (database_types_json[a['db_type']]['name'] <=> database_types_json[b['db_type']]['name']) == 0
+      a['agency'] <=> b['agency']
+    else
+      database_types_json[a['db_type']]['name'] <=> database_types_json[b['db_type']]['name']
+    end
+  end
 
   country_name = country_names_json[country_code]
 
@@ -30,18 +37,28 @@ grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
     "---\n"\
     "title: Databases #{country_name}\n"\
     "layout: page\n"\
-    "permalink: /databases/country/#{country_code}\n"\
+    "permalink: /databases/countries/#{country_code}\n"\
     "---\n"\
 
-  content = "<div class=\"entries w-50\">"
+  content = "<h3 class=\"database-listing-title\">
+      <i class=\"fa fa-fw fa-database\"></i>
+      External databases
+    </h3>
+    <p class=\"database-listing-summary\">
+      What are the best public information sources in #{country_name}?
+    </p>
+    "
+
+  content << "<div class=\"entries w-50\">"
 
   entries.each do |entry|
     agency = entry['agency'].gsub('"', '&quote;')
     notes = entry['notes'].gsub('"', '&quote;')
+    db_type = database_types_json[entry['db_type']]['name']
 
     content << "{% include country_entry.html
       agency=\"#{agency}\"
-      db_type=\"#{entry['db_type']}\"
+      db_type=\"#{db_type}\"
       url=\"#{entry['url']}\"
       notes=\"#{notes}\"
       paid=\"#{entry['paid']}\"

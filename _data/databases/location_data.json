@@ -1,10 +1,18 @@
 {
   "ALL":{
-     "name":"All Databases",
+     "name":"Worldwide",
      "countries":[
         {
-           "name":null,
-           "code":"JC"
+           "name":"Europe",
+           "code":"EUROPE"
+        },
+        {
+           "code":"GLOBAL",
+           "name":"Global Databases"
+        },
+        {
+          "code":"LAMERICA",
+          "name":"Latin America"
         },
         {
            "code":"AF",

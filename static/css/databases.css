@@ -1,32 +1,76 @@
-.databases-index {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.databases-index label {
+label {
   border-bottom: 1px solid #ddd;
   padding: .7em 1em;
   cursor: pointer;
   z-index: 1;
   margin-left: -1px;
 }
-.databases-index label:first-of-type {
+label:first-of-type {
   margin-left: 0;
 }
-.databases-index .content {
+.content {
   width: 100%;
   -webkit-order: 1;
   order: 1;
 }
-.databases-index input[type=radio], .databases-index .content {
+input[type=radio], .content {
   display: none;
 }
-.databases-index input[type=radio]:checked + label {
+input[type=radio]:checked + label {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   border-radius: 4px 4px 0 0;
 }
-.databases-index input[type=radio]:checked + label + .content {
+input[type=radio]:checked + label + .content {
   display: block;
+}
+
+
+
+.database-listing-title {
+  font-weight: bolder;
+  font-size: 1.4em;
+  margin-bottom: 0.7em;
+}
+.database-listing-summary {
+  color: #999;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+.databases-index .tab-content {
+  padding-top: 1em;
+}
+.database-facet {
+  margin-bottom: 1em;
+}
+.database-item {
+  min-height: 2.2em;
+}
+.database-item .badge {
+  background-color: white;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+}
+
+.database-detail {
+  margin-bottom: 2.5rem;
+}
+.database-detail h4.database-title {
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.database-detail .database-notes {
+  margin-bottom: 0.5rem;
+  line-height: 1.4em;
+}
+
+.database-detail .database-criteria {
+  color: #999;
 }
