@@ -1,20 +1,18 @@
 ---
 title: Databases Poland
 layout: page
-permalink: /databases/country/PL
+permalink: /databases/countries/PL
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Poland?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Ministry of Justice"
-      db_type="business"
-      url="http://bip.ms.gov.pl/pl/rejestry-i-ewidencje/"
-      notes="Available: links to list of all courts, register of pledges, land registry, authorized notaries etc."
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include country_entry.html
-      agency="Ministry of Justice"
-      db_type="business"
+      db_type="Business Registry"
       url="https://ems.ms.gov.pl/krs/wyszukiwaniepodmiotu"
       notes="Available: search only in Poland and basic company information"
       paid="f"
@@ -22,8 +20,17 @@ permalink: /databases/country/PL
       government_db="t"
     %} 
 {% include country_entry.html
+      agency="Ministry of Justice"
+      db_type="Business Registry"
+      url="http://bip.ms.gov.pl/pl/rejestry-i-ewidencje/"
+      notes="Available: links to list of all courts, register of pledges, land registry, authorized notaries etc."
+      paid="f"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include country_entry.html
       agency="Warsaw Stock Exchange"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.gpw.pl/lista_spolek_en"
       notes="Available: search only in Poland and basic company information"
       paid="f"
@@ -32,7 +39,7 @@ permalink: /databases/country/PL
     %} 
 {% include country_entry.html
       agency="http://www.ipophil.gov.ph/index.php"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.uprp.pl/strona-glowna/Menu01,9,0,index,pl/"
       notes=""
       paid="f"
@@ -41,7 +48,7 @@ permalink: /databases/country/PL
     %} 
 {% include country_entry.html
       agency="Central Statistics Agency"
-      db_type="regulatory"
+      db_type="Regulatory Agency"
       url="https://wyszukiwarkaregon.stat.gov.pl/appBIR/index.aspx"
       notes=""
       paid="f"

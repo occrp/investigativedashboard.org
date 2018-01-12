@@ -1,11 +1,18 @@
 ---
 title: Databases Bermuda
 layout: page
-permalink: /databases/country/BM
+permalink: /databases/countries/BM
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Bermuda?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Bermuda Registrar of Companies"
-      db_type="business"
+      db_type="Business Registry"
       url="https://www.roc.gov.bm/roc/rocweb.nsf/roc?OpenFrameSet"
       notes="Available: search and company records at request"
       paid="t"
@@ -14,7 +21,7 @@ permalink: /databases/country/BM
     %} 
 {% include country_entry.html
       agency="Bermuda Stock Exchange"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.bsx.com/Comp-All.asp"
       notes="Available: a list of all issued securities"
       paid="f"
@@ -23,7 +30,7 @@ permalink: /databases/country/BM
     %} 
 {% include country_entry.html
       agency="Supreme Court of Bermuda"
-      db_type="court"
+      db_type="Court Registry"
       url="http://www.commonlii.org/bm/cases/BMSC/"
       notes="Online access via court database from 2007-2013."
       paid="f"

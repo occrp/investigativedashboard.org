@@ -1,11 +1,18 @@
 ---
 title: Databases Liechtenstein
 layout: page
-permalink: /databases/country/LI
+permalink: /databases/countries/LI
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Liechtenstein?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Land and Trade Registry"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.oera.li/"
       notes="Available: detailed company information"
       paid="t"
@@ -14,7 +21,7 @@ permalink: /databases/country/LI
     %} 
 {% include country_entry.html
       agency="Teledata"
-      db_type="commercial"
+      db_type="Commercial Register"
       url="https://www.teledata.ch/index_e.php"
       notes="Available: search by name of company or person in databases from Switzerland and Liechtenstein.  It provides detailed information from financial institutions, official registries and other public administration departments including links to politicians, detailed financial status and reports, birth dates, addresses."
       paid="t"
@@ -23,7 +30,7 @@ permalink: /databases/country/LI
     %} 
 {% include country_entry.html
       agency="Bureau of Intellectual Property Office of Economic Affairs"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.avw.llv.li/"
       notes=""
       paid="f"

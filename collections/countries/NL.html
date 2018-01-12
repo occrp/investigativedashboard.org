@@ -1,11 +1,18 @@
 ---
 title: Databases Netherlands
 layout: page
-permalink: /databases/country/NL
+permalink: /databases/countries/NL
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Netherlands?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Kamer van Koophandel"
-      db_type="business"
+      db_type="Business Registry"
       url="https://www.kvk.nl/handelsregister/zoekenframeset.asp?url=https://server.db.kvk.nl/wwwsrvu/html/zoek.htm"
       notes="Available: detailed company information and original documents"
       paid="t"
@@ -14,7 +21,7 @@ permalink: /databases/country/NL
     %} 
 {% include country_entry.html
       agency="Open KvK"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.openkvk.nl/"
       notes="Available: short information about company name, personal name, or list of companies at a certain address"
       paid="f"
@@ -23,7 +30,7 @@ permalink: /databases/country/NL
     %} 
 {% include country_entry.html
       agency="NL Patent Office  NL Agency  Ministry of Economic Affairs"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://english.rvo.nl/"
       notes=""
       paid="f"
@@ -32,7 +39,7 @@ permalink: /databases/country/NL
     %} 
 {% include country_entry.html
       agency="Kadaster"
-      db_type="land"
+      db_type="Land Registry"
       url="https://webwinkel.kadaster.nl/"
       notes="Available: search by address and purchase of specific cadastral documents. Annual subscription of €60 is also available and it offers other types of information on parcels and cadastral boundaries."
       paid="t"

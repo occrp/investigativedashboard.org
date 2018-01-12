@@ -18,20 +18,22 @@ country_names_json = JSON.parse(country_names_file)
 
 grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
   country_code = entries[0]['country']
+  country_name = country_names_json[country_code]
 
   next if country_code.nil? || country_code.empty?
 
   # sort entries by db_type & agency
   entries = entries.sort do |a, b|
+    a_db_name = database_types_json[a['db_type']]['name'] || ''
+    b_db_name = database_types_json[b['db_type']]['name'] || ''
+
     case
-    when (database_types_json[a['db_type']]['name'] <=> database_types_json[b['db_type']]['name']) == 0
+    when (a_db_name <=> b_db_name) == 0
       a['agency'] <=> b['agency']
     else
-      database_types_json[a['db_type']]['name'] <=> database_types_json[b['db_type']]['name']
+      a_db_name <=> b_db_name
     end
   end
-
-  country_name = country_names_json[country_code]
 
   header =
     "---\n"\

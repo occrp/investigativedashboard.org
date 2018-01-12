@@ -1,11 +1,18 @@
 ---
 title: Databases Samoa
 layout: page
-permalink: /databases/country/WS
+permalink: /databases/countries/WS
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Samoa?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Ministry of Commerce, Industry and Labor"
-      db_type="business"
+      db_type="Business Registry"
       url="https://www.companies.gov.ws/"
       notes="Available: search by name or company official with basic company information"
       paid="f"
@@ -14,7 +21,7 @@ permalink: /databases/country/WS
     %} 
 {% include country_entry.html
       agency="Supreme Court of Samoa"
-      db_type="court"
+      db_type="Court Registry"
       url="http://www.paclii.org/ws/cases/WSSC/"
       notes="Online access from 1980-2013"
       paid="f"

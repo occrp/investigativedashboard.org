@@ -1,20 +1,18 @@
 ---
 title: Databases Montenegro
 layout: page
-permalink: /databases/country/ME
+permalink: /databases/countries/ME
 ---
-<div class="entries w-50">{% include country_entry.html
-      agency="Realestate Administration Agency"
-      db_type=""
-      url="http://www.nekretnine.co.me/me/Katastarski_podaci.asp"
-      notes="Available: search only by Unique Personal ID gives all the land property registered in someone's name, its size and any other available details"
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Montenegro?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Central Depository Agency"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.cda.me/EN/Pages/Naslovna.aspx"
       notes="Available: ID number, name, address, symbol, ISIN, number of shareholders, number of shares"
       paid="f"
@@ -23,7 +21,7 @@ permalink: /databases/country/ME
     %} 
 {% include country_entry.html
       agency="Ministry of Finance"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.crps.me/index.php/predraga"
       notes="Available: detailed company information"
       paid="f"
@@ -32,7 +30,7 @@ permalink: /databases/country/ME
     %} 
 {% include country_entry.html
       agency="Montenegro Stock Exchange"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.montenegroberza.com/code/navigate.asp?Id=87"
       notes="Available: financial reports of traded companies"
       paid="f"
@@ -41,7 +39,7 @@ permalink: /databases/country/ME
     %} 
 {% include country_entry.html
       agency="Securities Commission"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.scmn.me//index.php"
       notes="Available: financial reports of traded companies"
       paid="f"
@@ -50,7 +48,7 @@ permalink: /databases/country/ME
     %} 
 {% include country_entry.html
       agency="Tax Authority"
-      db_type="business"
+      db_type="Business Registry"
       url="https://eprijava.tax.gov.me/TaxisPortal"
       notes="Available: search by company ID number to check if the company files financial reports regularly."
       paid="f"
@@ -59,9 +57,18 @@ permalink: /databases/country/ME
     %} 
 {% include country_entry.html
       agency="Intellectual Property Office of Montenegro"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.ziscg.me/"
       notes=""
+      paid="f"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include country_entry.html
+      agency="Realestate Administration Agency"
+      db_type="Other Registry"
+      url="http://www.nekretnine.co.me/me/Katastarski_podaci.asp"
+      notes="Available: search only by Unique Personal ID gives all the land property registered in someone's name, its size and any other available details"
       paid="f"
       registration_required="f"
       government_db="t"

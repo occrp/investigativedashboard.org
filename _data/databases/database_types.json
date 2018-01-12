@@ -43,7 +43,7 @@
     "shortname": "maritime",
     "name": "Maritime"
   },
-  "_empty_": {
+  "": {
     "shortname": "",
     "name": "Other Registry"
   }

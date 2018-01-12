@@ -1,11 +1,18 @@
 ---
 title: Databases Mexico
 layout: page
-permalink: /databases/country/MX
+permalink: /databases/countries/MX
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Mexico?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Mexico Stock Exchange"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.bmv.com.mx/"
       notes="Available: list of all issuers and basic company information"
       paid="f"
@@ -14,7 +21,7 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Ministry of Economy"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.siem.gob.mx/siem/portal/consultas/ligas.asp?Tem=1"
       notes=""
       paid="f"
@@ -23,7 +30,7 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Registro Único de Proveedores y Contratistas"
-      db_type="business"
+      db_type="Business Registry"
       url="https://sites.google.com/site/cnetrupc/rupc"
       notes=""
       paid="f"
@@ -32,7 +39,7 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Secretariat of Economy"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.siger.gob.mx/"
       notes="Available: list of all state and municipal commercial registries which do not provide online searches"
       paid="f"
@@ -41,7 +48,7 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Diario Oficial de la Federación"
-      db_type="gazette"
+      db_type="Gazette"
       url="http://www.dof.gob.mx/"
       notes="Daily official gazete. Available: download."
       paid="f"
@@ -50,7 +57,7 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Mexican Institute of Industrial Property"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.impi.gob.mx/"
       notes=""
       paid="f"
@@ -59,18 +66,18 @@ permalink: /databases/country/MX
     %} 
 {% include country_entry.html
       agency="Instituto Federal de Acceso a la Información y Protección de Datos (IFAI)"
-      db_type="regulatory"
-      url="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=contrato"
-      notes="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=contrato"
+      db_type="Regulatory Agency"
+      url="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=concesion"
+      notes="Concesiones, permisos y autorizaciones otorgadas por el Gobierno. Avaiable: descarga de archivo zip."
       paid="f"
       registration_required="f"
       government_db="t"
     %} 
 {% include country_entry.html
       agency="Instituto Federal de Acceso a la Información y Protección de Datos (IFAI)"
-      db_type="regulatory"
-      url="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=concesion"
-      notes="Concesiones, permisos y autorizaciones otorgadas por el Gobierno. Avaiable: descarga de archivo zip."
+      db_type="Regulatory Agency"
+      url="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=contrato"
+      notes="http://portaltransparencia.gob.mx/pot/fichaOpenData.do?method=fichaOpenData&fraccion=contrato"
       paid="f"
       registration_required="f"
       government_db="t"

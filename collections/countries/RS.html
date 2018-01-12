@@ -1,11 +1,18 @@
 ---
 title: Databases Serbia
 layout: page
-permalink: /databases/country/RS
+permalink: /databases/countries/RS
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Serbia?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Belgrade Stock Exchange"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.belex.rs/eng/clanovi/spisak_clanova"
       notes="Available: lists of issuers and company reports"
       paid="f"
@@ -14,7 +21,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Central Securities Depository and Clearing House"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.crhov.rs/index.cfm?Opcija=1&jezik=en"
       notes="Available: lists of issuers and company reports"
       paid="f"
@@ -23,7 +30,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Public Procurements Registry"
-      db_type="business"
+      db_type="Business Registry"
       url="http://portal.ujn.gov.rs/Default.aspx"
       notes="Available: all public"
       paid="f"
@@ -32,7 +39,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Securities Commission"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.sec.gov.rs/index.php?option=com_content&task=category&sectionid=7&id=17&Itemid=56"
       notes="Available: Broker-Dealer Companies, Authorised Banks, Custody Banks, Investment Fund Management Companies, Investment Funds"
       paid="f"
@@ -41,7 +48,16 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Serbian Business Registers Agency"
-      db_type="business"
+      db_type="Business Registry"
+      url="http://pretraga.apr.gov.rs/udruzenja/AssociationSearch.aspx"
+      notes="Available: information on NGOs"
+      paid="f"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include country_entry.html
+      agency="Serbian Business Registers Agency"
+      db_type="Business Registry"
       url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
       notes="Available: information on entrepreneurs and small companies"
       paid="f"
@@ -50,16 +66,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Serbian Business Registers Agency"
-      db_type="business"
-      url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
-      notes="Available: search in latin or cyrillic with detailed company results"
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include country_entry.html
-      agency="Serbian Business Registers Agency"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.apr.gov.rs/eng/Registers/FinancialLeasing/Search.aspx"
       notes="Available: search in latin or cyrillic and financial leasing information"
       paid="f"
@@ -68,16 +75,16 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Serbian Business Registers Agency"
-      db_type="business"
-      url="http://pretraga.apr.gov.rs/udruzenja/AssociationSearch.aspx"
-      notes="Available: information on NGOs"
+      db_type="Business Registry"
+      url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
+      notes="Available: search in latin or cyrillic with detailed company results"
       paid="f"
       registration_required="f"
       government_db="t"
     %} 
 {% include country_entry.html
       agency="Serbian National Bank"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.nbs.rs/internet/english/index.html"
       notes="Available: a list of all authorised financial institutions and companies"
       paid="f"
@@ -86,7 +93,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Serbian Courts Registry"
-      db_type="court"
+      db_type="Court Registry"
       url="http://tpson.portal.sud.rs/libra_portal_full/default.cfm"
       notes="Available: search for court cases at all levels by case name or number; only available in Serbian"
       paid="f"
@@ -95,7 +102,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Intellectual Property Office of the Republic of Serbia"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.zis.gov.rs/pocetna.1.html"
       notes=""
       paid="f"
@@ -104,7 +111,7 @@ permalink: /databases/country/RS
     %} 
 {% include country_entry.html
       agency="Anti-Corruption Agency Serbia"
-      db_type="regulatory"
+      db_type="Regulatory Agency"
       url="http://www.acas.rs/sr_lat/aktuelnosti/114.html"
       notes="Available: data on property of state officials; search available by official's name"
       paid="f"

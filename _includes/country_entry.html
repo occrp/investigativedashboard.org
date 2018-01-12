@@ -1,23 +1,25 @@
-<h4 class="database-title">
-  {{include.db_type}}:
-  <a href="{{include.url}}" target="_blank">{{include.agency}}</a>
-</h4>
-{% if include.notes %}
-  <p class="database-notes">
-    {{include.notes}}
-  </p>
-{% endif %}
-<div class="database-criteria">
-  {% if include.paid == 't' %}
-    <i class="fa fa-fw fa-dollar"></i>
-    Paid Database
+<div class="database-detail mb4">
+  <h4 class="database-title">
+    {{include.db_type}}:
+    <a href="{{include.url}}" class="link underline-hover" target="_blank">{{include.agency}}</a>
+  </h4>
+  {% if include.notes %}
+    <p class="database-notes">
+      {{include.notes}}
+    </p>
   {% endif %}
-  {% if include.registration_required == 't' %}
-    <i class="fa fa-fw fa-edit"></i>
-    Registration Required
-  {% endif %}
-  {% if include.government_db == 't' %}
-    <i class="fa fa-fw fa-building"></i>
-    Government Database
-  {% endif %}
+  <div class="database-criteria">
+    {% if include.paid == 't' %}
+      <i class="fa fa-fw fa-dollar"></i>
+      Paid Database
+    {% endif %}
+    {% if include.registration_required == 't' %}
+      <i class="fa fa-fw fa-edit"></i>
+      Registration Required
+    {% endif %}
+    {% if include.government_db == 't' %}
+      <i class="fa fa-fw fa-building"></i>
+      Government Database
+    {% endif %}
+  </div>
 </div>

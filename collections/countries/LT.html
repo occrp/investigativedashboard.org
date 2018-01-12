@@ -1,11 +1,18 @@
 ---
 title: Databases Lithuania
 layout: page
-permalink: /databases/country/LT
+permalink: /databases/countries/LT
 ---
-<div class="entries w-50">{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Lithuania?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Centre of Registers"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.registrucentras.lt/jar/p/"
       notes="Available: detailed company information is only available to Lithuanian citizens with a digital signature or a bank account in Lithuania.
 Basic company information and a list of all filed documents is available for free to anyone.
@@ -16,7 +23,7 @@ Search by director is not available due to law on protection of personal informa
     %} 
 {% include country_entry.html
       agency="Eteismai"
-      db_type="court"
+      db_type="Court Registry"
       url="http://eteismai.lt/"
       notes="Available: search by name of individual not available - all the names are diminished to the first letters of the name and the surname.
 Includes litigation involving non-Lithuanian companies."
@@ -26,7 +33,7 @@ Includes litigation involving non-Lithuanian companies."
     %} 
 {% include country_entry.html
       agency="State Patent Bureau of the Republic of Lithuania"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.vpb.lt/"
       notes=""
       paid="f"

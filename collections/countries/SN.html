@@ -1,20 +1,18 @@
 ---
 title: Databases Senegal
 layout: page
-permalink: /databases/country/SN
+permalink: /databases/countries/SN
 ---
-<div class="entries w-50">{% include country_entry.html
-      agency="Business Creation Support Bureau"
-      db_type=""
-      url="http://creationdentreprise.sn/rechercher-une-societe"
-      notes="Basic company information"
-      paid="f"
-      registration_required="f"
-      government_db="f"
-    %} 
-{% include country_entry.html
+<h3 class="database-listing-title">
+      <i class="fa fa-fw fa-database"></i>
+      External databases
+    </h3>
+    <p class="database-listing-summary">
+      What are the best public information sources in Senegal?
+    </p>
+    <div class="entries w-50">{% include country_entry.html
       agency="Ministry of Industry, Directory of Enterprises"
-      db_type="business"
+      db_type="Business Registry"
       url="http://www.obs-industrie.sn/menuang/liste%20of%20entreprise.htm"
       notes=""
       paid="f"
@@ -23,7 +21,7 @@ permalink: /databases/country/SN
     %} 
 {% include country_entry.html
       agency="Government Gazette"
-      db_type="gazette"
+      db_type="Gazette"
       url="http://www.jo.gouv.sn/"
       notes="Online access from 2001."
       paid="f"
@@ -32,11 +30,20 @@ permalink: /databases/country/SN
     %} 
 {% include country_entry.html
       agency="Senegalese Agency of Industrial Property and Innovation Techologique (ASPIT)  Ministry of Trade, Industry and Handicraft"
-      db_type="ip"
+      db_type="Intellectual Property"
       url="http://www.aspit.sn/"
       notes=""
       paid="f"
       registration_required="f"
       government_db="t"
+    %} 
+{% include country_entry.html
+      agency="Business Creation Support Bureau"
+      db_type="Other Registry"
+      url="http://creationdentreprise.sn/rechercher-une-societe"
+      notes="Basic company information"
+      paid="f"
+      registration_required="f"
+      government_db="f"
     %} 
 </div>
