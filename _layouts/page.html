@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<div class="w-100 bg-red-id pv1">
-  <header class="w-90 center">
-    <h1 class="lh-copy white fw1">{{ page.title }}</h1>
-  </header>
-</div>
+{% unless page.hide_header %}
+  <div class="w-100 bg-red-id pv1">
+    <header class="w-90 center">
+      <h1 class="lh-copy white fw1">{{ page.title }}</h1>
+    </header>
+  </div>
+{% endunless %}
 
-<article class="page w-100 mid-gray">
+<article class="page cf w-100 ph3 pv3">
 
-  <div class="w-90 center pv4">
+  <div class="center">
     {{ content }}
   </div>
 
