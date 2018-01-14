@@ -40,6 +40,7 @@ grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
     "title: Databases in #{country_name}\n"\
     "layout: page\n"\
     "permalink: /databases/countries/#{country_code}\n"\
+    "type: country\n"\
     "---\n"\
 
   content = "<h3 class=\"mb2 database-listing-title\">

@@ -1,14 +1,14 @@
-<div class="database-detail mb4">
-  <h4 class="database-title">
+<div class="mb4 database-detail">
+  <h4 class="b f4 mv1">
     {{include.country_name}}:
     <a href="{{include.url}}" class="link underline-hover" target="_blank">{{include.agency}}</a>
   </h4>
   {% if include.notes %}
-    <p class="database-notes">
+    <p class="mt0 database-notes">
       {{include.notes}}
     </p>
   {% endif %}
-  <div class="database-criteria">
+  <div class="gray-mid">
     {% if include.paid == 't' %}
       <i class="fa fa-fw fa-dollar"></i>
       Paid Database

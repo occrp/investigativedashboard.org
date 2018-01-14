@@ -39,6 +39,7 @@ grouped_entries = entries_json.group_by { |h| h['db_type'] }.map do |_,entries|
     "title: #{db_type_name}\n"\
     "layout: page\n"\
     "permalink: /databases/topics/#{db_type}\n"\
+    "type: topic\n"\
     "---\n"\
 
   content = "<div class=\"entries w-75\">"

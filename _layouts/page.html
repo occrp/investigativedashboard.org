@@ -6,7 +6,12 @@ layout: default
   <div class="w-100 bg-blue-id pv1">
     <header class="ph3">
       <h2 class="white fw1">
-        <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
+        {% if page.type == 'country' %}
+          <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
+        {% endif %}
+        {% if page.type == 'topic' %}
+          <i class="fa fa-fw fa-database" aria-hidden="true"></i>
+        {% endif %}
         {{ page.title }}
       </h2>
     </header>
