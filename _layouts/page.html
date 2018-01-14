@@ -3,14 +3,17 @@ layout: default
 ---
 
 {% unless page.hide_header %}
-  <div class="w-100 bg-red-id pv1">
-    <header class="w-90 center">
-      <h1 class="lh-copy white fw1">{{ page.title }}</h1>
+  <div class="w-100 bg-blue-id pv1">
+    <header class="ph3">
+      <h2 class="white fw1">
+        <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
+        {{ page.title }}
+      </h2>
     </header>
   </div>
 {% endunless %}
 
-<article class="page cf w-100 ph3 pv3">
+<article class="page cf w-100 pa3">
 
   <div class="center">
     {{ content }}

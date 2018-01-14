@@ -7,26 +7,29 @@ permalink: /databases/
 
 <div class="databases-index">
 
-  <div class="fl w-75 pa2">
-    <h2 class="fw1">Catalogue of Research Databases</h2>
+  <div class="fl w-75 pv2">
+    <h1 class="fw1 mt3 mb2">Catalogue of Research Databases</h1>
     <p class="text-muted">
       Below is a collection of the most useful public data sources for investigative reporting compiled by OCCRP's   researchers.
     </p>
   </div>
 
-  <div class="fl w-25 pa2">
-    Didn't find what you were looking for?
-    Submit a research request
+  <div class="fl w-25 ph3 pv2 ba br2 submit-request-container">
+    <p>Didn't find what you were looking for?</p>
+    <a href="https://investigativedashboard.org/tickets/new" class="f6 link dim ph3 pv2 mb2 dib br2 white bg-red-id">
+      <i class="fa fa-comments-o"></i>
+      Submit a research request
+    </a>
   </div>
 
 
-  <div class="fl w-75 pa2 regions-container">
+  <div class="fl w-75 pv3 pr3 regions-container">
 
     <div class="db-nav">
-      <ul class="tabs">
+      <ul class="ma0 pa0 list tabs">
         {% for region in site.data.databases.location_data %}
           {% assign region_data = region[1] %}
-          <li class="tab-link pv2 ph3 {% if forloop.first %} current {% endif %}" data-tab="tab-{{region[0]}}">
+          <li class="dib tab-link {% if forloop.first %} current {% endif %}" data-tab="tab-{{region[0]}}">
             {{region_data.name}}
           </li>
         {% endfor %}
@@ -40,10 +43,10 @@ permalink: /databases/
         {% for country in region_data.countries %}
           {% assign country_entries = site.data.databases.entries | where: 'country', country.code %}
           {% if country_entries.size > 0 %}
-            <div class="w-30 dib">
-              <div class="database-item">
+            <div class="fl w-100 w-third-ns">
+              <div class="database-item pv2">
                 <a href="/databases/countries/{{country.code}}" class="link underline-hover">{{country.name}}</a>
-                <div class="badge">{{country_entries.size}}</div>
+                <div class="b dib gray-mid badge">{{country_entries.size}}</div>
               </div>
             </div>
           {% endif %}
@@ -53,24 +56,24 @@ permalink: /databases/
 
   </div>
 
-  <div class="fl w-25 pa2 db-types-container">
+  <div class="fl w-25 pv3 db-types-container">
 
     <div class="db-nav">
-      <ul class="tabs">
-        <li class="tab-link pv2 ph3 current">Database types</li>
+      <ul class="ma0 pa0 list tabs">
+        <li class="dib pv2 ph3 tab-link current">Database types</li>
       </ul>
     </div>
 
     {% assign db_type_entries = site.data.databases.entries | group_by: "db_type" | sort: "size" | reverse %}
 
-    <div class="tab-content pv3">
+    <div class="tab-content pv2">
       {% for db_type_group in db_type_entries %}
         {% assign db_type_obj = site.data.databases.database_types | where: 'shortname', db_type_group.name %}
 
         {% if db_type_group.name %}
-          <div class="database-item">
+          <div class="database-item pt3">
             <a href="/databases/topics/{{db_type_group.name}}" class="link underline-hover">{{db_type_obj[0].name}}</a>
-            {{db_type_group.size}}
+            <div class="b dib gray-mid badge">{{db_type_group.size}}</div>
           </div>
         {% endif %}
       {% endfor %}

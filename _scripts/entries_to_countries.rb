@@ -37,18 +37,18 @@ grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
 
   header =
     "---\n"\
-    "title: Databases #{country_name}\n"\
+    "title: Databases in #{country_name}\n"\
     "layout: page\n"\
     "permalink: /databases/countries/#{country_code}\n"\
     "---\n"\
 
-  content = "<h3 class=\"database-listing-title\">
+  content = "<h3 class=\"mb2 database-listing-title\">
       <i class=\"fa fa-fw fa-database\"></i>
       External databases
     </h3>
-    <p class=\"database-listing-summary\">
+    <div class=\"f4 pt2 pb4 gray-med\">
       What are the best public information sources in #{country_name}?
-    </p>
+    </div>
     "
 
   content << "<div class=\"entries w-50\">"

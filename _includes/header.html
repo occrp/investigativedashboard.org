@@ -1,9 +1,33 @@
-<header role="Navigation" class="w-100 bb {{page.hide_navigation}}">
+<header role="Navigation" class="w-100 main-nav {{page.hide_navigation}}">
 
-  <div class="center pv2 ph3 cf">
-    <a class="ml2 link dim mid-gray f3" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
+  <div class="pv2 ph3 cf">
+    <a class="ml3 link" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
       <img src="{{site.logo}}" alt="OCCRP" class="h2 fl" />
-      {{ site.title | escape }}
+      <span class="dib v-mid f4 ph1 pv1">{{ site.title | escape }}</span>
+    </a>
+
+    <a class="ml3 link" href="#" title="Search">
+      <span class="dib v-mid ph1 pv1">
+        <i class="fa fa-search"></i> Search
+      </span>
+    </a>
+
+    <a class="ml3 link" href="#" title="External Databases">
+      <span class="dib v-mid ph1 pv1">
+        <i class="fa fa-database"></i> External Databases
+      </span>
+    </a>
+
+    <a class="ml3 link" href="#" title="Research Requests">
+      <span class="dib v-mid ph1 pv1">
+        <i class="fa fa-comments-o"></i> Research Requests
+      </span>
+    </a>
+
+    <a class="ml3 link fr" href="#" title="Sign In">
+      <span class="dib v-mid ph1 pv1">
+        <i class="fa fa-sign-in"></i> Sign In
+      </span>
     </a>
   </div>
 

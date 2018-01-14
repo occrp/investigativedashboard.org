@@ -1,29 +1,27 @@
 .db-nav{
   border-bottom: 1px solid #ddd;
 }
-.db-nav ul{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
 .db-nav ul li{
-  display: inline-block;
   margin-bottom: -1px;
   cursor: pointer;
   color: #982022;
+  border-radius: 4px 4px 0 0;
+  padding: 10px 13px;
 }
 .db-nav ul li.current{
-  border-radius: 4px 4px 0 0;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
   color: #555555;
   background-color: #fff;
 }
-.db-nav ul li a:hover{
+.db-nav ul li:hover{
+  color: #591314;
   background-color: #eeeeee;
 }
-
+.submit-request-container{
+  border-color: #e7e7e7;
+}
 .regions-container .tab-content{
   display: none;
 }
@@ -31,46 +29,18 @@
   display: inherit;
 }
 
+/* entry item */
 .database-listing-title {
-  font-weight: bolder;
   font-size: 1.4em;
-  margin-bottom: 0.7em;
 }
-.database-listing-summary {
-  color: #999;
-  font-size: 1.2em;
-  margin-bottom: 2em;
-}
-.databases-index .tab-content {
-  padding-top: 1em;
-}
-.database-facet {
-  margin-bottom: 1em;
-}
-.database-item {
-  min-height: 2.2em;
-}
+
 .database-item .badge {
-  background-color: white;
-  display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
   font-size: 12px;
-  font-weight: bold;
-  color: #999;
-}
-
-.database-detail .database-title, .database-detail .database-title a {
-  margin-bottom: 0.2rem;
-  font-size: 18px;
 }
 
 .database-detail .database-notes {
   margin-bottom: 0.5rem;
-  margin-top: 0;
   line-height: 1.4em;
-}
-
-.database-detail .database-criteria {
-  color: #999;
 }
