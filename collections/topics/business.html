@@ -618,15 +618,6 @@ information about immovable assets http://www.ruat.gob.bo/inmuebles/MenuInmueble
       government_db="t"
     %} 
 {% include db_type_entry.html
-      agency="Financial Services Commission"
-      country_name="British Virgin Islands"
-      url="http://www.bvifsc.vg/en-us/divisions/registryofcorporateaffairs.aspx"
-      notes="Available: a form for Company Search Request which needs be emailed with credit card information for this service. Normally this only gives information about the registered agent, incorporation date and address. On some occasions the registry provides information about directors."
-      paid="t"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include db_type_entry.html
       agency="Bulgarian Stock Exchange"
       country_name="Bulgaria"
       url="http://www.bse-sofia.bg/?page=FinancialReportsOfIssuers"
@@ -952,6 +943,15 @@ Available: search and list of companies."
       government_db="t"
     %} 
 {% include db_type_entry.html
+      agency="Congo Statistics Agency"
+      country_name="Congo"
+      url="http://www.cnsee.org/"
+      notes=""
+      paid="f"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include db_type_entry.html
       agency="Bolsa de Comercio de Costa Rica"
       country_name="Costa Rica"
       url="http://www.bolsacr.com/principal/"
@@ -1026,7 +1026,7 @@ Available: search and list of companies."
     %} 
 {% include db_type_entry.html
       agency="Chamber of Commerce and Industry"
-      country_name="Curacao"
+      country_name="Curaçao"
       url="http://www.curacao-chamber.cw/services/registry/search-company"
       notes="Available: basic company information. More detailed information is avalable at request"
       paid="f"
@@ -1108,7 +1108,7 @@ All the information is only current, no historic data is available. Information 
     %} 
 {% include db_type_entry.html
       agency="Guichet Unique de Création d'Entreprise"
-      country_name="Democratic Republic of the Congo"
+      country_name="DR Congo"
       url="http://guichetunique.cd/"
       notes="No online search is available yet, but it is a good point to start researching, especially foreign investments"
       paid="f"
@@ -1117,7 +1117,7 @@ All the information is only current, no historic data is available. Information 
     %} 
 {% include db_type_entry.html
       agency="Ministry of Mining"
-      country_name="Democratic Republic of the Congo"
+      country_name="DR Congo"
       url="http://mines-rdc.cd/fr/"
       notes="Available: detailed overview of legislation and statistics. More information could be avialable at request"
       paid="f"
@@ -1126,7 +1126,7 @@ All the information is only current, no historic data is available. Information 
     %} 
 {% include db_type_entry.html
       agency="Registre du Commerce et du Crédit Mobilier (RCCM)"
-      country_name="Democratic Republic of the Congo"
+      country_name="DR Congo"
       url="http://www.cpcai.cd/"
       notes="Limited searches, more about procedures of registering a business, no online company search at the moment"
       paid="f"
@@ -2092,21 +2092,21 @@ Information provided includes: directors and members for all companies, list of 
 {% include db_type_entry.html
       agency="Ministry of Finance"
       country_name="Kazakhstan"
-      url="https://dfo.kz/ru/dfo-search/opi-search"
-      notes="Available information only for 'public interest organisations' - financial institutions, JSC (not all), companies with state participation or state-owned companies, companies providing services to government.
-For such companies full information is available, including annual reports. It's advised to use BIN (Business Identification Number) that can be found on http://kgd.gov.kz/en/services/taxpayer_search"
-      paid="f"
-      registration_required="t"
-      government_db="t"
-    %} 
-{% include db_type_entry.html
-      agency="Ministry of Finance"
-      country_name="Kazakhstan"
       url="http://kgd.gov.kz/en/services/taxpayer_search"
       notes="Available: Taxpayers search throughout Kazakhstan.
 Works for legal entities, self-employed entrepreneurs / sole traders and individuals. Gives the status of company (active/liquidated), date of incorporation, consolidated taxes paid for current year and 5 previous years. Most importantly, offers BIN number for companies."
       paid="f"
       registration_required="f"
+      government_db="t"
+    %} 
+{% include db_type_entry.html
+      agency="Ministry of Finance"
+      country_name="Kazakhstan"
+      url="https://dfo.kz/ru/dfo-search/opi-search"
+      notes="Available information only for 'public interest organisations' - financial institutions, JSC (not all), companies with state participation or state-owned companies, companies providing services to government.
+For such companies full information is available, including annual reports. It's advised to use BIN (Business Identification Number) that can be found on http://kgd.gov.kz/en/services/taxpayer_search"
+      paid="f"
+      registration_required="t"
       government_db="t"
     %} 
 {% include db_type_entry.html
@@ -2551,18 +2551,18 @@ The webpage is in Romanian, English, Russian."
       agency="Corporate Affairs Commission"
       country_name="Nigeria"
       url="http://cacnigeria.org/jm/"
-      notes=""
+      notes="Online search is not availablw"
       paid="f"
-      registration_required="t"
+      registration_required="f"
       government_db="t"
     %} 
 {% include db_type_entry.html
       agency="Corporate Affairs Commission"
       country_name="Nigeria"
       url="http://cacnigeria.org/jm/"
-      notes="Online search is not availablw"
+      notes=""
       paid="f"
-      registration_required="f"
+      registration_required="t"
       government_db="t"
     %} 
 {% include db_type_entry.html
@@ -2748,8 +2748,8 @@ The webpage is in Romanian, English, Russian."
 {% include db_type_entry.html
       agency="Ministry of Justice"
       country_name="Poland"
-      url="https://ems.ms.gov.pl/krs/wyszukiwaniepodmiotu"
-      notes="Available: search only in Poland and basic company information"
+      url="http://bip.ms.gov.pl/pl/rejestry-i-ewidencje/"
+      notes="Available: links to list of all courts, register of pledges, land registry, authorized notaries etc."
       paid="f"
       registration_required="f"
       government_db="t"
@@ -2757,8 +2757,8 @@ The webpage is in Romanian, English, Russian."
 {% include db_type_entry.html
       agency="Ministry of Justice"
       country_name="Poland"
-      url="http://bip.ms.gov.pl/pl/rejestry-i-ewidencje/"
-      notes="Available: links to list of all courts, register of pledges, land registry, authorized notaries etc."
+      url="https://ems.ms.gov.pl/krs/wyszukiwaniepodmiotu"
+      notes="Available: search only in Poland and basic company information"
       paid="f"
       registration_required="f"
       government_db="t"
@@ -2800,15 +2800,6 @@ The webpage is in Romanian, English, Russian."
       government_db="t"
     %} 
 {% include db_type_entry.html
-      agency="Congo Statistics Agency"
-      country_name="Republic of the Congo"
-      url="http://www.cnsee.org/"
-      notes=""
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include db_type_entry.html
       agency="Bucharest Stock Exchange"
       country_name="Romania"
       url="http://www.bvb.ro/Companies/ListedCompanies.aspx"
@@ -2837,7 +2828,7 @@ The webpage is in Romanian, English, Russian."
     %} 
 {% include db_type_entry.html
       agency="Enquiry Service of Legal Entities"
-      country_name="Russia"
+      country_name="Russian Federation"
       url="http://russianpartner.biz/"
       notes="Available: purchase of more detailed company profiles"
       paid="t"
@@ -2846,7 +2837,7 @@ The webpage is in Romanian, English, Russian."
     %} 
 {% include db_type_entry.html
       agency="Federal Service for Financial Market"
-      country_name="Russia"
+      country_name="Russian Federation"
       url="http://www.ffms.ru/ru/contributors/financialmarket/emitters/emitterslist/"
       notes="Available: a list of issuers for which the Federal Financial Markets Service is the registration authority"
       paid="f"
@@ -2855,7 +2846,7 @@ The webpage is in Romanian, English, Russian."
     %} 
 {% include db_type_entry.html
       agency="Federal Tax Authority"
-      country_name="Russia"
+      country_name="Russian Federation"
       url="http://egrul.nalog.ru/"
       notes="Available: Basic company information, Information on: representatives etc."
       paid="f"
@@ -2864,7 +2855,7 @@ The webpage is in Romanian, English, Russian."
     %} 
 {% include db_type_entry.html
       agency="disclosure.ru"
-      country_name="Russia"
+      country_name="Russian Federation"
       url="http://www.disclosure.ru/datacapital_tools/extsearch.jsp"
       notes="Available: financial reports"
       paid="t"
@@ -2873,7 +2864,7 @@ The webpage is in Romanian, English, Russian."
     %} 
 {% include db_type_entry.html
       agency="skrin.ru"
-      country_name="Russia"
+      country_name="Russian Federation"
       url="http://disclosure.skrin.ru/issuers.asp?id=4"
       notes="Available: lists of issuers and reports for some companies"
       paid="f"
@@ -2975,15 +2966,6 @@ registration enables search of registered companies by company name"
       agency="Serbian Business Registers Agency"
       country_name="Serbia"
       url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
-      notes="Available: search in latin or cyrillic with detailed company results"
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include db_type_entry.html
-      agency="Serbian Business Registers Agency"
-      country_name="Serbia"
-      url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
       notes="Available: information on entrepreneurs and small companies"
       paid="f"
       registration_required="f"
@@ -3003,6 +2985,15 @@ registration enables search of registered companies by company name"
       country_name="Serbia"
       url="http://www.apr.gov.rs/eng/Registers/FinancialLeasing/Search.aspx"
       notes="Available: search in latin or cyrillic and financial leasing information"
+      paid="f"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include db_type_entry.html
+      agency="Serbian Business Registers Agency"
+      country_name="Serbia"
+      url="http://pretraga2.apr.gov.rs/ObjedinjenePretrage/Search/Search"
+      notes="Available: search in latin or cyrillic with detailed company results"
       paid="f"
       registration_required="f"
       government_db="t"
@@ -3204,7 +3195,7 @@ eOBJAVE - insolvency cases w/supporting documentation"
     %} 
 {% include db_type_entry.html
       agency="Damascus Securities Exchange"
-      country_name="Syria"
+      country_name="Syrian Arab Republic"
       url="http://www.dse.sy/user/?page=issuers_company&lang=en"
       notes="Available: a list of issuers and basic company information"
       paid="f"
@@ -3213,7 +3204,7 @@ eOBJAVE - insolvency cases w/supporting documentation"
     %} 
 {% include db_type_entry.html
       agency="Ministry of Economy"
-      country_name="Syria"
+      country_name="Syrian Arab Republic"
       url="http://www.syrecon.org/index.php?module=subjects&func=printsubject&subid=82&scope=page"
       notes="Available: rulles and regulations for all business entities in Syria. More information could be available at request"
       paid="f"
@@ -3342,15 +3333,6 @@ eOBJAVE - insolvency cases w/supporting documentation"
       country_name="Turkey"
       url="http://www.iab.gov.tr/members.asp"
       notes="Available:a list of all authorised companies with basic company information"
-      paid="f"
-      registration_required="f"
-      government_db="t"
-    %} 
-{% include db_type_entry.html
-      agency="Department of Licensing and Consumer Affairs"
-      country_name="U.S. Virgin Islands"
-      url="https://secure.dlca.vi.gov/license/Asps/Search/License_search.aspx"
-      notes="Available: search for company name or number with basic company information"
       paid="f"
       registration_required="f"
       government_db="t"
@@ -4110,6 +4092,24 @@ List of U.S. issuers listed on NYSE normally available on NASDAQ"
       notes="Available: a directory of government procurements"
       paid="f"
       registration_required="t"
+      government_db="t"
+    %} 
+{% include db_type_entry.html
+      agency="Financial Services Commission"
+      country_name="Virgin Islands, British"
+      url="http://www.bvifsc.vg/en-us/divisions/registryofcorporateaffairs.aspx"
+      notes="Available: a form for Company Search Request which needs be emailed with credit card information for this service. Normally this only gives information about the registered agent, incorporation date and address. On some occasions the registry provides information about directors."
+      paid="t"
+      registration_required="f"
+      government_db="t"
+    %} 
+{% include db_type_entry.html
+      agency="Department of Licensing and Consumer Affairs"
+      country_name="Virgin Islands, U.S."
+      url="https://secure.dlca.vi.gov/license/Asps/Search/License_search.aspx"
+      notes="Available: search for company name or number with basic company information"
+      paid="f"
+      registration_required="f"
       government_db="t"
     %} 
 {% include db_type_entry.html

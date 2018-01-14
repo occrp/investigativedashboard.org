@@ -1,7 +1,7 @@
 require "json"
 require "FileUtils"
 
-topics_dir = "../collections/topics/"
+topics_dir = "../collections/topics"
 
 # remove old files
 p "Removing all database types files"
@@ -19,6 +19,8 @@ country_names_json = JSON.parse(country_names_file)
 grouped_entries = entries_json.group_by { |h| h['db_type'] }.map do |_,entries|
   db_type = entries[0]['db_type']
   db_type_name = database_types_json[db_type] ? database_types_json[db_type]['name'] : db_type
+
+  next if db_type.nil? || db_type.empty?
 
   # sort entries by country name
   entries = entries.sort do |a, b|

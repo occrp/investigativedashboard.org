@@ -1,7 +1,7 @@
 require "json"
 require "FileUtils"
 
-countries_dir = "../collections/countries/"
+countries_dir = "../collections/countries"
 
 # remove old files
 p "Removing all country files"

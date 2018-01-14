@@ -13,11 +13,12 @@ h2{ font-size: 1.6rem; }
 .page a.white { color: #fff }
 .red-id { color: #982022 }
 .bg-red-id { background-color: #982022 }
+.bg-red-id:hover { background-color: #591314 }
 .b--red-id { border-color: #982022 }
 .blue-id { color: #374953 }
 .bg-blue-id { background-color: #374953 }
 .b--blue-id { border-color: #374953 }
-.gray-med { color: #999 }
+.gray-mid { color: #999 }
 
 .main-nav{
   border-color: #e7e7e7;
