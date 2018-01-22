@@ -52,11 +52,12 @@ grouped_entries = entries_json.group_by { |h| h['country'] }.map do |_,entries|
     </div>
     "
 
-  content << "<div class=\"entries w-50\">"
+  content << "<div class=\"entries w-two-thirds-l w-100-ns\">"
 
   entries.each do |entry|
-    agency = entry['agency'].gsub('"', '&quote;')
-    notes = entry['notes'].gsub('"', '&quote;')
+    agency = entry['agency'].gsub('"', '&quot;')
+    notes = entry['notes'].gsub('"', '&quot;')
+
     db_type = database_types_json[entry['db_type']]['name']
 
     content << "{% include country_entry.html
