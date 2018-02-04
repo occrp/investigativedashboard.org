@@ -15,23 +15,29 @@
 
   </body>
 
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-    crossorigin="anonymous"></script>
-
   <script type="text/javascript">
-    $(document).ready(function(){
-        // activate current nav link and content, disable the rest
-        var regionNav = $('.regions-container ul li');
-        regionNav.click(function(){
-          var tab_id = $(this).attr('data-tab');
-          regionNav.removeClass('current');
-          $('.regions-container .tab-content').removeClass('current');
+      document.addEventListener("DOMContentLoaded", function() {
+        var navClick = function() {
+            var tab = this.getAttribute("data-tab");
 
-          $(this).addClass('current');
-          $("#"+tab_id).addClass('current');
-        })
-      })
+            // De-activate the current tab and content container
+            // Turn htmlCollection into an array so removing classes doesn't alter the collection length
+            var allCurrent = [].slice.call(document.getElementsByClassName('current'));
+
+            for (var i = 0; i < allCurrent.length; i++) {
+              allCurrent[i].classList.remove('current');
+            }
+
+            // Activate the target tab and content container
+            this.classList.add('current')
+            var tabContainer = document.getElementById(tab);
+            if (tabContainer) tabContainer.classList.add('current');
+        };
+
+        var navButtons = document.getElementsByClassName("nav-tab-link");
+        for (var i = 0; i < navButtons.length; i++) {
+          navButtons[i].addEventListener('click', navClick.bind(navButtons[i]), false);
+        }
+      });
   </script>
 </html>

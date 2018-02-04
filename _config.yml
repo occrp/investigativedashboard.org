@@ -23,11 +23,13 @@ page_gen:
     data: countries_entries
     template: country
     name: country_code
+    title: country_name
     dir: databases/countries
   - index_files: false
     data: topics_entries
     template: topic
     name: db_type
+    title: db_type_name
     dir: databases/topics
 
 plugins:

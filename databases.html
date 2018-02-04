@@ -24,7 +24,7 @@ permalink: /databases/
     <ul class="ma0 pa0 list">
       {% for region in site.data.databases.location_data %}
         {% assign region_data = region[1] %}
-        <li class="dib pointer br2 br--top red-id {% if forloop.first %} current {% endif %}" data-tab="tab-{{region[0]}}">
+        <li class="dib pointer br2 br--top red-id nav-tab-link {% if forloop.first %} current {% endif %}" data-tab="tab-{{region[0]}}">
           {{ region_data.name }}
         </li>
       {% endfor %}
@@ -52,7 +52,7 @@ permalink: /databases/
 
   <div class="bb b--moon-gray db-nav">
     <ul class="ma0 pa0 list">
-      <li class="dib br2 br--top pointer red-id current">Database types</li>
+      <li class="dib br2 br--top pointer red-id current-db-type">Database types</li>
     </ul>
   </div>
 
