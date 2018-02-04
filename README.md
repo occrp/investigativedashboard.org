@@ -43,7 +43,7 @@ Will go into the Virgin Islands part of the data file:
 }
 ```
 
-####2. Add the entry to the appropriate database type in the `_data/topics_entries.json` file.
+#### 2. Add the entry to the appropriate database type in the `_data/topics_entries.json` file.
 Example: Entry
 ```json
 {
@@ -72,5 +72,5 @@ Will go into the Virgin Islands part of the data file:
 }
 ```
 
-####3. After adding entries, make sure you run a `jekyll build` to build again the project, so that the entries will be added to the compiled pages.
+#### 3. After adding entries, make sure you run a `jekyll build` to build again the project, so that the entries will be added to the compiled pages.
 
