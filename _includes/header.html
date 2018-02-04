@@ -1,34 +1,43 @@
-<header role="Navigation" class="w-100 main-nav {{page.hide_navigation}}">
+<header role="Navigation" class="cf w-100 pa3 main-nav {{page.hide_navigation}}">
 
-  <div class="pv2 ph3 cf">
-    <a class="ml3 link" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
-      <img src="{{site.logo}}" alt="OCCRP" class="h2 fl" />
-      <span class="dib v-mid f4 ph1 pv1">{{ site.title | escape }}</span>
-    </a>
+  <ul class="ma0 pa0 h-inherit">
+    <li class="db fl list mr3">
+      <a class="link" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
+        <img src="{{site.logo}}" alt="OCCRP" class="h2 fl mr3" />
+        <span class="f4 ph1">{{ site.title | escape }}</span>
+      </a>
+    </li>
 
-    <a class="ml3 link" href="#" title="Search">
-      <span class="dib v-mid ph1 pv1">
-        <i class="fa fa-search"></i> Search
-      </span>
-    </a>
+    <li class="db fl list mr3">
+      <a class="link" href="https://data.occrp.org" title="Search">
+        <span class="ph1">
+          <i class="fa fa-search"></i> Search
+        </span>
+      </a>
+    </li>
 
-    <a class="ml3 link" href="{{ "databases" | relative_url }}" title="External Databases">
-      <span class="dib v-mid ph1 pv1">
-        <i class="fa fa-database"></i> External Databases
-      </span>
-    </a>
+    <li class="db fl list mr3 active">
+      <a class="link" href="{{ "databases" | relative_url }}" title="External Databases">
+        <span class="ph1">
+          <i class="fa fa-database"></i> External Databases
+        </span>
+      </a>
+    </li>
 
-    <a class="ml3 link" href="#" title="Research Requests">
-      <span class="dib v-mid ph1 pv1">
-        <i class="fa fa-comments-o"></i> Research Requests
-      </span>
-    </a>
+    <li class="fl db list mr3">
+      <a class="link" href="/accounts/login/?next=/tickets" title="Research Requests">
+        <span class="ph1">
+          <i class="fa fa-comments-o"></i> Research Requests
+        </span>
+      </a>
+    </li>
 
-    <a class="ml3 link fr" href="#" title="Sign In">
-      <span class="dib v-mid ph1 pv1">
-        <i class="fa fa-sign-in"></i> Sign In
-      </span>
-    </a>
-  </div>
-
+    <li class="fr db list mr3">
+      <a class="link" href="/accounts/login/" title="Sign In">
+        <span class="ph1">
+          <i class="fa fa-sign-in"></i> Sign In
+        </span>
+      </a>
+    </li>
+  </ul>
 </header>
