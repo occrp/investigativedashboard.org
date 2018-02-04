@@ -1,39 +1,38 @@
-<header role="Navigation" class="cf w-100 pa3 main-nav {{page.hide_navigation}}">
-
-  <ul class="ma0 pa0 h-inherit">
-    <li class="db fl list mr3">
-      <a class="link" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
-        <img src="{{site.logo}}" alt="OCCRP" class="h2 fl mr3" />
-        <span class="f4 ph1">{{ site.title | escape }}</span>
+<header role="Navigation" class="cf w-100 ph3 bb b--moon-gray {{page.hide_navigation}}">
+  <ul class="list ma0 pa0">
+    <li class="dib v-mid">
+      <a class="link gray" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
+        <img src="{{site.logo}}" alt="OCCRP" class="absolute h2 pt2 top-0"/>
+        <span class="f4 ml4 pl3 hover-dark-gray">{{ site.title | escape }}</span>
       </a>
     </li>
 
-    <li class="db fl list mr3">
-      <a class="link" href="https://data.occrp.org" title="Search">
+    <li class="dib pa3">
+      <a class="link gray hover-dark-gray" href="https://data.occrp.org" title="Search">
         <span class="ph1">
           <i class="fa fa-search"></i> Search
         </span>
       </a>
     </li>
 
-    <li class="db fl list mr3 active">
-      <a class="link" href="{{ "databases" | relative_url }}" title="External Databases">
+    <li class="dib pa3 bg-light-gray">
+      <a class="link mid-gray" href="{{ "databases" | relative_url }}" title="External Databases">
         <span class="ph1">
           <i class="fa fa-database"></i> External Databases
         </span>
       </a>
     </li>
 
-    <li class="fl db list mr3">
-      <a class="link" href="/accounts/login/?next=/tickets" title="Research Requests">
+    <li class="dib pa3">
+      <a class="link gray hover-dark-gray" href="/accounts/login/?next=/tickets" title="Research Requests">
         <span class="ph1">
           <i class="fa fa-comments-o"></i> Research Requests
         </span>
       </a>
     </li>
 
-    <li class="fr db list mr3">
-      <a class="link" href="/accounts/login/" title="Sign In">
+    <li class="dib fr pa3">
+      <a class="link gray hover-dark-gray" href="/accounts/login/" title="Sign In">
         <span class="ph1">
           <i class="fa fa-sign-in"></i> Sign In
         </span>

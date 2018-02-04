@@ -11,9 +11,51 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="/static/css/main.css">
-  <link rel="stylesheet" href="/static/css/databases.css">
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: "Open Sans", sans-serif;
+    }
+    body, html{
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .page a { color: #982022 }
+    .page a:hover { color: #591314 }
+    .page a.white { color: #fff }
+    .red-id { color: #982022 }
+    .bg-red-id { background-color: #982022 }
+    .bg-red-id:hover { background-color: #591314 }
+    .b--red-id { border-color: #982022 }
+    .blue-id { color: #374953 }
+    .bg-blue-id { background-color: #374953 }
+    .b--blue-id { border-color: #374953 }
 
+    .db-nav ul li{
+      margin-bottom: -1px;
+      padding: 10px 15px;
+    }
+    .db-nav ul li.current{
+      border: 1px solid #ddd;
+      border-bottom-color: transparent;
+      cursor: default;
+      color: #555555;
+      background-color: #fff;
+    }
+    .db-nav ul li:not(.current):hover{
+      color: #591314;
+      background-color: #eeeeee;
+    }
+    .regions-container .tab-content{
+      display: none;
+    }
+    .regions-container .tab-content.current{
+      display: inherit;
+    }
+  </style>
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}

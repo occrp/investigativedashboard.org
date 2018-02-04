@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <main aria-label="Content" class="w-100">
+    <main aria-label="Content" class="w-100 flex-auto">
       {{ content }}
     </main>
 
@@ -19,5 +19,19 @@
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
     crossorigin="anonymous"></script>
-  <script src="/static/javascript/main.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        // activate current nav link and content, disable the rest
+        var regionNav = $('.regions-container ul li');
+        regionNav.click(function(){
+          var tab_id = $(this).attr('data-tab');
+          regionNav.removeClass('current');
+          $('.regions-container .tab-content').removeClass('current');
+
+          $(this).addClass('current');
+          $("#"+tab_id).addClass('current');
+        })
+      })
+  </script>
 </html>

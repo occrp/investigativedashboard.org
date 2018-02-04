@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Databases in {{ page.country_name }}
 ---
 
 <div class="w-100 bg-blue-id pv1">
@@ -12,18 +11,18 @@ title: Databases in {{ page.country_name }}
   </header>
 </div>
 
-<article class="page cf w-100 pa3">
+<article class="page cf w-100 ph3">
   <div class="pv4">
     <div class="f3 pb2 b">
       <i class="fa fa-database"></i> External Databases
     </div>
-    <div class="gray-mid">
+    <div class="f4 silver">
       What are the best public information sources in Global Databases?
     </div>
   </div>
 
   {% for entry in page.entries %}
-    <div class="mb4">
+    <div class="w-75-ns w-100 mb4">
       <h4 class="b f4 mv1">
         {% assign db_type_obj = site.data.databases.database_types | where: 'shortname', entry.db_type %}
         {{ db_type_obj[0].name }}:
@@ -34,18 +33,15 @@ title: Databases in {{ page.country_name }}
           {{ entry.notes }}
         </p>
       {% endif %}
-      <div class="gray-mid">
+      <div class="silver">
         {% if entry.paid == 't' %}
-          <i class="fa fa-fw fa-dollar"></i>
-          Paid Database
+          <i class="fa fa-fw fa-dollar"></i> Paid Database
         {% endif %}
         {% if entry.registration_required == 't' %}
-          <i class="fa fa-fw fa-edit"></i>
-          Registration Required
+          <i class="fa fa-fw fa-edit"></i> Registration Required
         {% endif %}
         {% if entry.government_db == 't' %}
-          <i class="fa fa-fw fa-building"></i>
-          Government Database
+          <i class="fa fa-fw fa-building"></i> Government Database
         {% endif %}
       </div>
     </div>

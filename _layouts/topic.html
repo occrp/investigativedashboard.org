@@ -13,7 +13,7 @@ layout: default
 
 <article class="page cf w-100 pa3">
   {% for entry in page.entries %}
-    <div class="mb4">
+    <div class="w-75-ns w-100 mb4">
       <h4 class="b f4 mv1">
         {% assign country_name = site.data.databases.country_names[entry.country] %}
         {% if country_name %}
@@ -28,18 +28,15 @@ layout: default
           {{ entry.notes }}
         </p>
       {% endif %}
-      <div class="gray-mid">
+      <div class="silver">
         {% if entry.paid == 't' %}
-          <i class="fa fa-fw fa-dollar"></i>
-          Paid Database
+          <i class="fa fa-fw fa-dollar"></i> Paid Database
         {% endif %}
         {% if entry.registration_required == 't' %}
-          <i class="fa fa-fw fa-edit"></i>
-          Registration Required
+          <i class="fa fa-fw fa-edit"></i> Registration Required
         {% endif %}
         {% if entry.government_db == 't' %}
-          <i class="fa fa-fw fa-building"></i>
-          Government Database
+          <i class="fa fa-fw fa-building"></i> Government Database
         {% endif %}
       </div>
     </div>
