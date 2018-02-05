@@ -3,7 +3,6 @@
 ## Prerequisites
 You will need the following things properly installed on your computer:
 
-* [Git](https://git-scm.com/)
 * [jekyll](https://jekyllrb.com/.com/)
 
 
@@ -71,6 +70,4 @@ Will go into the Virgin Islands part of the data file:
     ]
 }
 ```
-
-#### 3. After adding entries, make sure you run a `jekyll build` to build again the project, so that the entries will be added to the compiled pages.
 
