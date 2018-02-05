@@ -36,11 +36,11 @@ permalink: /databases/
 
     <div id="tab-{{region[0]}}" class="pv3 tab-content {% if forloop.first %} current {% endif %}">
       {% for country in region_data.countries %}
-        {% assign country_entries = site.data.databases.entries | where: 'country', country.code %}
-        {% if country_entries.size > 0 %}
+        {% assign country_entries = site.data.countries_entries | where: 'country_code', country.code %}
+        {% if country_entries[0].entries.size > 0 %}
           <div class="fl w-third-ns w-50-m w-100 pv2">
             <a href="/databases/countries/{{country.code}}" class="link underline-hover">{{ country.name }}</a>
-            <div class="b dib f6 pl2 silver">{{ country_entries.size }}</div>
+            <div class="b dib f6 pl2 silver">{{ country_entries[0].entries.size }}</div>
           </div>
         {% endif %}
       {% endfor %}
@@ -56,19 +56,21 @@ permalink: /databases/
     </ul>
   </div>
 
-  {% assign db_type_entries = site.data.databases.entries | group_by: "db_type" | sort: "size" | reverse %}
+  <!--
+    Sorting db types is tricky: Group them by entries size
+    and sort the resulting groups by name (group by generates the name property)
+  -->
+  {% assign db_type_grouped_by_size = site.data.topics_entries | group_by_exp: "item", "item.entries.size" %}
+  {% assign db_type_groups_sorted = db_type_grouped_by_size | sort:"name" | reverse %}
 
   <div class="pv3 tab-content">
-    {% for db_type_group in db_type_entries %}
-      {% assign db_type = site.data.databases.database_types[db_type_group.name] %}
-
-      {% if db_type.shortname != "" %}
+    {% for db_type_group in db_type_groups_sorted %}
+      {% for db_type in db_type_group.items %}
         <div class="pv2">
-          <a href="/databases/topics/{{db_type_group.name}}" class="link underline-hover">{{ db_type.name }}</a>
-          <div class="b dib f6 pl2 silver">{{ db_type_group.size }}</div>
+          <a href="/databases/topics/{{db_type.db_type}}" class="link underline-hover">{{ db_type.db_type_name }}</a>
+          <div class="b dib f6 pl2 silver">{{ db_type.entries.size }}</div>
         </div>
-      {% endif %}
-
+      {% endfor %}
     {% endfor %}
   </div>
 </div>
