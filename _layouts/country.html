@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="w-100 bg-blue-id pv1">
+  <header class="pa3">
+    <h2 class="white fw1">
+      <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
+      Databases in {{ page.country_name }}
+    </h2>
+  </header>
+</div>
+
+<article class="page cf w-100 ph3">
+  <div class="pv4">
+    <div class="f3 pb2 b">
+      <i class="fa fa-database"></i> External Databases
+    </div>
+    <div class="f4 silver">
+      What are the best public information sources in Global Databases?
+    </div>
+  </div>
+
+  {% for entry in page.entries %}
+    <div class="w-75-ns w-100 mb4">
+      <h4 class="b f4 mv1">
+        {% assign db_type_obj = site.data.databases.database_types | where: 'shortname', entry.db_type %}
+        {{ db_type_obj[0].name }}:
+        <a href="{{ entry.url }}" class="link underline-hover" target="_blank">{{ entry.agency }}</a>
+      </h4>
+      {% if entry.notes %}
+        <p class="mv2">
+          {{ entry.notes }}
+        </p>
+      {% endif %}
+      <div class="silver">
+        {% if entry.paid == 't' %}
+          <i class="fa fa-fw fa-dollar"></i> Paid Database
+        {% endif %}
+        {% if entry.registration_required == 't' %}
+          <i class="fa fa-fw fa-edit"></i> Registration Required
+        {% endif %}
+        {% if entry.government_db == 't' %}
+          <i class="fa fa-fw fa-building"></i> Government Database
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</article>

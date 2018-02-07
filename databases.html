@@ -1,0 +1,76 @@
+---
+title: Databases
+layout: page
+hide_header: true
+permalink: /databases/
+---
+
+<div class="fl w-75-l w-100 pv2">
+  <h1 class="fw1 mt3 mb2">Catalogue of Research Databases</h1>
+  <p class="silver">
+    Below is a collection of the most useful public data sources for investigative reporting compiled by OCCRP's researchers.
+  </p>
+</div>
+
+<div class="fl w-25-l w-100 ph3 pv4 br2 ba b--moon-gray">
+  <div class="mb3">Didn't find what you were looking for?</div>
+  <a href="/tickets/new" class="link ph3 pv2 dib br2 white bg-red-id">
+    <i class="fa fa-comments-o"></i> Submit a research request
+  </a>
+</div>
+
+<div class="fl w-75-l w-100 pv3 pr3-l regions-container">
+  <div class="bb b--moon-gray db-nav">
+    <ul class="ma0 pa0 list">
+      {% for region in site.data.databases.location_data %}
+        {% assign region_data = region[1] %}
+        <li class="dib pointer br2 br--top red-id nav-tab-link {% if forloop.first %} current {% endif %}" data-tab="tab-{{region[0]}}">
+          {{ region_data.name }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% for region in site.data.databases.location_data %}
+    {% assign region_data = region[1] %}
+
+    <div id="tab-{{region[0]}}" class="pv3 tab-content {% if forloop.first %} current {% endif %}">
+      {% for country in region_data.countries %}
+        {% assign country_entries = site.data.countries_entries | where: 'country_code', country.code %}
+        {% if country_entries[0].entries.size > 0 %}
+          <div class="fl w-third-ns w-50-m w-100 pv2">
+            <a href="/databases/countries/{{country.code}}" class="link underline-hover">{{ country.name }}</a>
+            <div class="b dib f6 pl2 silver">{{ country_entries[0].entries.size }}</div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="fl w-25-l w-100 pv3">
+
+  <div class="bb b--moon-gray db-nav">
+    <ul class="ma0 pa0 list">
+      <li class="dib br2 br--top pointer red-id current-db-type">Database types</li>
+    </ul>
+  </div>
+
+  <!--
+    Sorting db types is tricky: Group them by entries size
+    and sort the resulting groups by name (group by generates the name property)
+  -->
+  {% assign db_type_grouped_by_size = site.data.topics_entries | group_by_exp: "item", "item.entries.size" %}
+  {% assign db_type_groups_sorted = db_type_grouped_by_size | sort:"name" | reverse %}
+
+  <div class="pv3 tab-content">
+    {% for db_type_group in db_type_groups_sorted %}
+      {% for db_type in db_type_group.items %}
+        <div class="pv2">
+          <a href="/databases/topics/{{db_type.db_type}}" class="link underline-hover">{{ db_type.db_type_name }}</a>
+          <div class="b dib f6 pl2 silver">{{ db_type.entries.size }}</div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

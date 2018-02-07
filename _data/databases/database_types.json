@@ -1,0 +1,50 @@
+{
+  "business": {
+    "shortname": "business",
+    "name": "Business Registry"
+  },
+  "regional": {
+    "shortname": "regional",
+    "name": "Procurement Registry"
+  },
+  "regulatory": {
+    "shortname": "regulatory",
+    "name": "Regulatory Agency"
+  },
+  "commercial": {
+    "shortname": "commercial",
+    "name": "Commercial Register"
+  },
+  "court": {
+    "shortname": "court",
+    "name": "Court Registry"
+  },
+  "gazette": {
+    "shortname": "gazette",
+    "name": "Gazette"
+  },
+  "land": {
+    "shortname": "land",
+    "name": "Land Registry"
+  },
+  "ip": {
+    "shortname": "ip",
+    "name": "Intellectual Property"
+  },
+  "copyright": {
+    "shortname": "copyright",
+    "name": "Copyright"
+  },
+  "land_tribunal": {
+    "shortname": "land_tribunal",
+    "name": "Land Tribunal"
+  },
+  "maritime": {
+    "shortname": "maritime",
+    "name": "Maritime"
+  },
+  "": {
+    "shortname": "",
+    "name": "Other Registry"
+  }
+}
