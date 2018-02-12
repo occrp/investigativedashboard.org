@@ -1,0 +1,145 @@
+country,type,paid,needs_registration,governmental,agency,url,notes
+Afghanistan,Intellectual Property,f,f,t,Afghanistan Central Business Registry and Intellectual Property  Ministry of Commerce and Industry,http://acbr.gov.af/,
+Armenia,Intellectual Property,f,f,t,Intellectual Property Agency of the Republic of Armenia  Ministry of Economy of the Republic of Armenia,http://www.aipa.am/hy/,
+Armenia,Business Registry,f,f,f,NasdayOmx,http://www.nasdaqomx.am/en/issuer_reports.htm,Reports of traded companies. Information available only in Armenian.
+Armenia,Business Registry,f,f,t,Central Bank of Armenia,https://www.cba.am/am/SitePages/Default.aspx,Financial reports of traded companies. Information available only in Armenian.
+Azerbaijan,Intellectual Property,f,f,t,"State Committee on Standardization, Metrology and Patents of the Republic of Azerbaijan",http://www.azstand.gov.az/,
+Azerbaijan,Business Registry,f,t,t,Ministry of Taxes of Azerbaijan,https://www.e-taxes.gov.az/ebyn/commersialChecker.jsp,Available: search by name (in capital letters) and by company number.
+Azerbaijan,Regulatory Agency,f,f,t,National Depository System,http://mdm.az/index.php?r=1&lang=en,A lot of information is only available in Azeri
+Bahrain,Intellectual Property,f,f,t,Directorate of Industrial Property  Ministry of Industry and Commerce,http://www.moic.gov.bh/moic/en/,
+Bahrain,Business Registry,f,f,t,Ministry of Industry and Commerce,http://www.moic.gov.bh/MoIC/En/Main/eServices/Commercial+Registration+Inquiry/,
+Bahrain,Regulatory Agency,f,f,t,Central Bank of Bahrain,http://www.cbb.gov.bh/page.php?p=cbb_register,A list of licensed financial institutions (and companies) in Bahrain
+Bahrain,Business Registry,f,f,t,Ministry of Industry and Commerce,http://www.moic2.gov.bh/eInvestor.Web/Web.UI.Pages/Online/Inquiry/Inquiry.aspx?inq=1,
+Bahrain,Business Registry,f,f,t,Bahrain Stock Exchange,http://www.bahrainbourse.net/bhb/default.asp?language=en,Available: financial reports of listed companies
+Bangladesh,Intellectual Property,f,f,t,"Department of Patents, Designs and Trademarks (DPDT)  Ministry of Industries",http://www.dpdt.gov.bd/,
+Bangladesh,Court Registry,f,f,t,Supreme Court of Bangladesh,http://www.minlaw.gov.bd/supremecourt.htm,
+Bangladesh,Business Registry,f,f,t,Office of the Registrar,http://www.roc.gov.bd:7781/psp/nc_search?p_user_id=,Available: basic information on joint stock and limited companies
+Bhutan,Court Registry,f,f,t,Supreme Court of Bhutan,http://www.judiciary.gov.bt/,
+Bhutan,Business Registry,f,f,t,Ministry of Economic Affairs,http://www.moea.gov.bt/content/index.php,No online data available.
+Brunei,Intellectual Property,f,f,t,Brunei Intellectual Property Office (BruIPO)  The Brunei Economic Development Board (BEDB),http://www.brunei-patents.com.bn/cgi-sys/suspendedpage.cgi,Account of government suspended.
+Brunei,Court Registry,f,f,t,Supreme Court of Brunei Darussalam,http://www.judicial.gov.bn/supr_court.htm,
+Cambodia,Business Registry,f,f,t,Ministry of Commerce,http://www.moc.gov.kh/,
+Cambodia,Business Registry,f,f,t,Global Witness,https://cambodiacorporates.globalwitness.org,"To the best of Global Witness’ knowledge, Cambodia Corporates includes all company registration and amendment records that were stored on the MoC’s corporate registry in February 2016."
+China,Intellectual Property,f,f,t,Patent Office  State Intellectual Property Office of the Peoples' Republic of China (SIPO),http://www.sipo.gov.cn/,
+China,Business Registry,f,f,t,State Administration for Industry and Commerce,http://gsxt.saic.gov.cn/,
+China,Business Registry,f,f,t,Shenzhen Stock Exchange,http://www.szse.cn/main/en/marketdata/stockquotes/,Available: search by code; historical data on company
+China,Business Registry,f,f,t,State Administration for Industry and Commerce,http://www.saic.gov.cn/ywbl/zxcx/djqyxxcx/index.html,A list of authorities and company regulators. Some information about foreign invested companies might be available at request.
+Georgia,Intellectual Property,f,f,t,National Intellectual Property Center (Sakpatenti),http://www.sakpatenti.org.ge/,
+Georgia,Commercial Registry,f,f,f,CompanyInfo.ge,http://www.companyinfo.ge/en/,"A scraped database of companies searchable by company name, directors and shareholders, company ID etc.
+Database will be updated from time to time."
+Georgia,Business Registry,f,t,t,Revenue,https://www.revenue.mof.ge/rtos/auto_login.aspx,Available only in Georgian
+Georgia,Business Registry,f,f,t,Business Registry,https://enreg.reestri.gov.ge/main.php,"Available: search for enterpreneurs, limited companies and nonprofits. Only in Georgian"
+Georgia,Business Registry,f,f,t,Electronic Governmental Resources,http://e-government.ge/index.php?lang=4&id=-1&p=start&page=1,"Available: cadastral data, company status, birth and death certificates, other citizen affairs related documents"
+Georgia,Business Registry,f,f,t,Georgian Stock Exchange,http://www.gse.ge/Stocks/Issues.htm,"Available in English and Georgian, offers information and reports of issuers"
+Hong Kong,Land Registry,f,f,f,Hong Kong Lands Tribunal,http://www.hklii.hk/eng/hk/cases/hklt/,Online access from 1982-2014
+Hong Kong,Business Registry,f,f,t,Hong Kong Stock Exchange,http://www.hkex.com.hk/eng/market/sec_tradinfo/englishstk.htm,Available: basic information on issuers
+Hong Kong,Business Registry,t,t,t,Hong Kong Government,http://www.gov.hk/en/residents/taxes/etax/services/brn_enquiry.htm,"Available: a procedure for obtaining information about ""unlimited"" companies in Hong Kong"
+Hong Kong,Business Registry,t,f,t,Integrated Companies Registry Information System,http://www.icris.cr.gov.hk/csci/,"Available: image record (including document index), company particular search, directors index search (company based), register of charges, director particular search etc."
+Hong Kong,Business Registry,f,f,t,Securities Commission,http://www.sfc.hk/publicregWeb?locale=en,
+India,Intellectual Property,f,f,t,"Office of the Controller-General of Patents, Designs and Trademarks Department of Industrial Policy Promotions Ministry of Commerce and Industry Government of India",http://www.ipindia.nic.in/,
+India,Business Registry,f,f,t,Ministry of Corporate Affairs,http://www.mca.gov.in/DCAPortalWeb/dca/MyMCALogin.do?method=setDefaultProperty&mode=12,Available: search by company name or number and basic company information
+India,Business Registry,f,f,t,Bombai Stock Exchange,http://www.bseindia.com/,Available: list of issuers and reports for some companies
+India,Business Registry,f,f,t,National Stock Exchange of India,http://www.nseindia.com/,Available: list of issuers and reports for some companies
+India,Business Registry,f,f,t,Securities and Exchange Board of India,http://www.sebi.gov.in/sebiweb/,Available: list of issuers and basic company information
+Indonesia,Intellectual Property,f,f,t,Directorate General of Intellectual Property Rights Ministry of Law and Human Rights,http://merek-indonesia.dgip.go.id/,
+Indonesia,Business Registry,f,f,t,Industrial Comany Directory,http://kemenperin.go.id/direktori-perusahaan,
+Indonesia,Business Registry,f,f,t,Indonesia Stock Exchange,http://www.idx.co.id/Home/ListedCompanies/CompanyProfile/tabid/89/language/en-US/Default.aspx,Available: list of issuers and reports for some companies
+Indonesia,Business Registry,f,f,t,Ministry of Trade,http://www.kemendag.go.id/en/perdagangan-kita/company-directory/data-center-collection/,Available: basic company information
+Iran,Intellectual Property,f,f,t,Industrial Property Office Registration Organization of Deeds and Property of Islamic Republic of Iran,http://iripo.ssaa.ir/,
+Iran,Business Registry,f,f,t,Iranian Official Journal,http://www.gazette.ir/Archive/Index.asp,Available only in Persian
+Iran,Business Registry,f,f,t,Teheran Stock Exchange,http://en.tsetmc.com/Loader.aspx?ParTree=121C1417,Available: basic information for all listed companies and reports for some
+Iran,Business Registry,f,f,t,SEBA,http://www.seba.ir/,Available only in Persian
+Israel,Intellectual Property,f,f,t,Israel Patent Office Ministry of Justice,http://www.patent.justice.gov.il/MojHeb/RashamHaPtentim,
+Israel,Business Registry,f,f,f,Israel Company Profiles,https://www.israelbizreg.com/,"The only English language index of Israeli companies.
+Updated approximately every six months. It does not include previous names of companies."
+Israel,Court Registry,f,f,f,Nevo,http://www.nevo.co.il/,Available only in Hebrew. Some information on court records and procedures.
+Israel,Business Registry,f,f,t,Israely Corpration Authority,http://havarot.justice.gov.il/,Available: search by company name to find the company number needed for futher research
+Israel,Business Registry,f,f,t,Israel Securities Authority,http://www.isa.gov.il/Default.aspx?Site=ENGLISH&id=-17,Available: list of issuers with basic company information
+Israel,Business Registry,t,t,t,Registrar of Companies,http://ecom.gov.il/Counter/alternative/cde/CdeInputPage.aspx?counter=20&catalog=1&category=companyextract&language=he,Available: search only by company number with detailed company information available
+Japan,Intellectual Property,f,f,t,"Japan Patent Office (JPO), Ministry of Economy, Trade and Industry (METI)",http://www.jpo.go.jp/,
+Japan,Business Registry,f,f,t,Osaka Securities Exchange,http://www.ose.or.jp/e/,Available: all listed companies and basic information
+Japan,Business Registry,f,f,t,Tokyo Stock Exchange,http://www.tse.or.jp/english/,Available: all listed companies and basic information
+Japan,Business Registry,f,f,t,Nagoya Stock Exchange,http://www.nse.or.jp/e/index.html,Available: all listed companies and basic information
+Japan,Business Registry,f,f,t,Ministry of Justice Registry,http://www1.touki.or.jp/gateway.html,Available only in Japanese
+Jordan,Intellectual Property,f,f,t,Industrial Property Protection Directorate Ministry of Industry and Trade,http://www.mit.gov.jo/,
+Jordan,Business Registry,f,f,t,Companies Control Department,http://www.ccd.gov.jo:7777/ccd_gov_jo_2/CompanyInquiry/companyByNameAction_reset.do,Available: search by name and basic company information
+Jordan,Business Registry,f,f,t,Jordan Stock Exchange,http://www.exchange.jo/en/equities,Available: list of issuers with basic company information
+Kazakhstan,Intellectual Property,f,f,t,Committee of Intellectual Property Rights Ministry of Justice of the Republic of Kazakhstan,http://www.kazpatent.kz/index.php/kz/,
+Kazakhstan,Business Registry,f,f,t,Kazakhstan Stock Exchange,http://www.kase.kz/en/emitters,Available: list of issuers with basic company information
+Kazakhstan,Business Registry,f,f,t,Ministry of Finance,http://kgd.gov.kz/en/services/taxpayer_search,"Available: Taxpayers search throughout Kazakhstan.
+Works for legal entities, self-employed entrepreneurs / sole traders and individuals. Gives the status of company (active/liquidated), date of incorporation, consolidated taxes paid for current year and 5 previous years. Most importantly, offers BIN number for companies."
+Kazakhstan,Business Registry,f,t,t,Ministry of Finance,https://dfo.kz/ru/dfo-search/opi-search,"Available information only for 'public interest organisations' - financial institutions, JSC (not all), companies with state participation or state-owned companies, companies providing services to government.
+For such companies full information is available, including annual reports. It's advised to use BIN (Business Identification Number) that can be found on http://kgd.gov.kz/en/services/taxpayer_search"
+Kazakhstan,Business Registry,f,t,t,E-government Kazakhstan,http://egov.kz/cms/en,"Available only with registration which requires a Kazakh personal ID number. The database is available to ID researcher.
+Information provided includes: directors and members for all companies, list of historical changes with dates. Description of changes can later be requested through written request."
+Kazakhstan,Commercial Registry,f,f,f,SERJ/СЕРЖ,http://serj.ws/salyk,"Available: search for individuals by their personal number (IIN number). Search results include DOB (which are also the first 6 digits of the ИИН)
+First four digits of domestic ID
+First four digits of passport (every one registered to the individual)
+Region of Kazakhstan
+Nationality"
+Kyrgyzstan,Intellectual Property,f,f,t,State Service of Intellectual Property and Innovation under the Government of the Kyrgyz Republic (Kyrgyzpatent),http://patent.kg/en,Website down.
+Kyrgyzstan,Business Registry,f,f,t,Kyrgyz Stock Exchange,http://www.kse.kg/en/PublicInfo/Page:3,Available: list of issuers with basic company information
+Kyrgyzstan,Business Registry,f,f,t,Ministry of Justice,http://register.minjust.gov.kg/register/SearchAction.seam?logic=and&cid=204,
+Laos,Intellectual Property,f,f,t,"Department of Intellectual Property, Ministry of Science and Technology",http://www.stea.la.wipo.net/index.html,Website down.
+Laos,Land Registry,f,f,f,Other,http://datajuridica.com/,"Avaiable: a search for justices cases in Panama, Colombia, Brasil Mexico. Search by name."
+Lebanon,Intellectual Property,f,f,t,Office of Intellectual Property Department of Intellectual Property Directorate General of Economy and Trade Ministry of Economy and Trade,http://www.economy.gov.lb/,
+Macao,Business Registry,f,f,t,Government Printing Bureau,http://en.io.gov.mo/Search/Default.aspx?t=C,Available: company search and basic company information
+Malaysia,Intellectual Property,f,f,t,Intellectual Property Corporation of Malaysia,http://www.myipo.gov.my/,
+Malaysia,Business Registry,f,f,t,Securities Commission Malaysia,http://www.sc.com.my/sub.asp?menuid=242,"AvailaAvailable: list of Shariah compliant securities, unit trust funds in Malaysia, list of unit trust funds etc."
+Malaysia,Business Registry,f,t,t,Companies Commission of Malaysia,https://www.ssm-einfo.my/,Available: company search and basic company information
+Maldives,Intellectual Property,f,f,t,Intellectual Property Unit Ministry of Economic Development,http://www.trade.gov.mv/,
+Mongolia,Intellectual Property,f,f,t,Intellectual Property Office of Mongolia,http://www.ipom.mn/,
+Nepal,Intellectual Property,f,f,t,Department of Industry  Ministry of Industry,http://doind.gov.np/index.php,Website down.
+Nepal,Business Registry,f,f,t,Ministry of Industry,http://www.ocr.gov.np/index.php/en/,
+Oman,Intellectual Property,f,f,t,Intellectual Property Department  Ministry of Commerce and Industry,http://www.mocioman.gov.om/,
+Oman,Business Registry,f,f,t,Ministry of Commerce and Industry,https://www.business.gov.om/wps/portal/pes/services/searchcommercialname/!ut/p/c5/,Available: search by name and basic company information
+Pakistan,Intellectual Property,f,f,t,Intellectual Property Organization of Pakistan (IPO-Pakistan),http://www.ipo.gov.pk/,
+Pakistan,Business Registry,f,f,t,Karachi Stock Exchange,http://www.kse.com.pk/,Available: search by name and basic company information
+Pakistan,Business Registry,f,f,t,Securities and Exchange Commission of Pakistan,http://www.secp.gov.pk/ns/index.asp,Available: search by name and basic company information
+Philippines,Intellectual Property,f,f,t,Intellectual Property Office of Philippines (IPOPHIL),http://www.ipophil.gov.ph/index.php,
+Philippines,Business Registry,f,f,t,Philippine Business Registry,http://www.business.gov.ph/web/guest/search,Available: search by name and basic company information
+Singapore,Court Registry,f,f,f,Supreme Court of Singapore,http://www.commonlii.org/sg/cases/SGHC/,Online access from 2005-2013
+Singapore,Court Registry,f,f,f,Intellectual Property Decisions in Singapore,http://www.asianlii.org/sg/cases/SGIPOS/,Online access from 1999-2011.
+Singapore,Intellectual Property,f,f,t,Intellectual Property Office of Singapore (IPOS),http://www.ipos.gov.sg/,
+Singapore,Business Registry,f,f,t,Bizfile,https://www.bizfile.gov.sg/,Available: search by company name with basic company information
+South Korea,Intellectual Property,f,f,t,Korean Intellectual Property Office (KIPO),http://www.kipo.go.kr/kpo/user.tdf?a=user.main.MainApp,
+South Korea,Business Registry,f,f,t,Korea Exchange,http://eng.krx.co.kr/m6/m6_1/m6_1_1/JHPENG06001_01.jsp,Available: a list of issuers with basic company information
+South Korea,Business Registry,f,f,t,Start-Biz,http://startbiz.go.kr/EP/web/portal/jsp/EP_Default1.jsp,Available: only in Korean
+South Korea,Business Registry,f,f,t,Kosovo Business Registration Agency,http://www.arbk.org/en/Home,"Available: search by company name, company number or owners personal ID"
+Sri Lanka,Intellectual Property,f,f,t,National Intellectual Property Office of Sri Lanka,http://www.nipo.gov.lk/,
+Syria,Intellectual Property,f,f,t,Directorate of Commercial and Industrial Property Protection (DCIP),http://www.spo.gov.sy/,
+Syria,Business Registry,f,f,t,Ministry of Economy,http://www.syrecon.org/index.php?module=subjects&func=printsubject&subid=82&scope=page,Available: rulles and regulations for all business entities in Syria. More information could be available at request
+Syria,Business Registry,f,f,t,Damascus Securities Exchange,http://www.dse.sy/user/?page=issuers_company&lang=en,Available: a list of issuers and basic company information
+Taiwan,Business Registry,f,f,t,Department of Commerce,https://gcis.nat.gov.tw/pub/cmpy/cmpyInfoListAction.do,"Available: only in Chinese (traditional Han), a search by name, English name, address or number"
+Taiwan,Business Registry,f,f,t,Market Observation Post System,http://emops.twse.com.tw/emops_all.htm,Available: basic information about listed issuers
+Tajikistan,Intellectual Property,f,f,t,National Center for Patents and Information (NCPI)  Ministry of Economic Development and Trade,http://www.ncpi.tj/index2.php,
+Tajikistan,Business Registry,f,f,t,Tax Committee,http://andoz.tj/index.php/ru/elektronnye-uslugi/informatsiya-po-gosudarstvennomu-reestru/reestr-yuridicheskikh-lits,"Search is available by number or name in Russian. Results only list company number, registration date and status (active/dissolved)."
+Thailand,Intellectual Property,f,f,t,Department of Intellectual Property (DIP)  Ministry of Commerce,http://www.ipthailand.go.th/ipthailand/index.php?lang=en,
+Thailand,Business Registry,f,f,t,Ministry of Commerce,http://www.dbd.go.th/corpsearch_test/main.phtml,"Available: search by company name, type or number with basic company information"
+Thailand,Business Registry,f,f,t,Stock Exchange of Thailand,http://www.set.or.th/en/company/companylist.html,Available: basic information about listed issuers
+Thailand,Commercial Registry,t,t,f,DBThai,http://www.dbthai.com/,Available: company records with information on directors and shareholders is available for purchase after creating an account.
+Turkey,Intellectual Property,f,f,t,Turkish Patent Institute,http://www.tpe.gov.tr/portal/default.jsp,
+Turkey,Business Registry,f,f,t,Istanbul Chamber of Commerce,http://www.ito.org.tr/wps/portal/bilgi-bankasi/detay/?page=fb/sk/tug&prmPageId=BM1.1.3&initView=true,"Available: basic company information, directors, owners, previous owners, list of notifications published in gazette, whole profile available for download in PDF format"
+Turkey,Gazette,f,t,t,Turkish Trade Registry Gazette,http://www.ticaretsicil.gov.tr/english/,
+Turkey,Business Registry,f,f,t,Istanbul Precious Metals and Diamond Market,http://www.iab.gov.tr/members.asp,Available:a list of all authorised companies with basic company information
+Turkey,Business Registry,f,f,t,Central Registration System,http://mersis.gumrukticaret.gov.tr/Mersis/%C5%9EirketSorgulama.aspx,
+United Arab Emirates,Intellectual Property,f,f,t,Department of Industrial Property  Ministry of Economy,http://www.economy.gov.ae/Arabic/Pages/default.aspx,
+United Arab Emirates,Business Registry,f,f,t,Abu Dhabi Securities Exchange,http://www.adx.ae/English/Securities/Pages/ListedCompanies.aspx,Available: a registry of participants on the market
+United Arab Emirates,Business Registry,f,f,t,Dubai Financial Services Authority,http://www.dfsa.ae/PublicReqister/Default.aspx,Available: a registry of participants on financial market
+United Arab Emirates,Business Registry,f,f,t,Ministry of Economy,http://cbls.economy.gov.ae/,Available: search by Arabic or English name and basic company information
+United Arab Emirates,Business Registry,f,f,t,Abu Dhabi Chamber of Commerce,https://business.abudhabi.ae/egovPoolPortal_WAR/appmanager/ADeGP/Business?_nfpb=true&_pageLabel=P2800547921215097790384&lang=en,Available: search by English name and basic company information
+United Arab Emirates,Business Registry,f,f,t,Sharajah Chamber of Commerce and Industry,http://www.sharjah.gov.ae/EN/Services/Pages/BusinessDirectory.aspx,Available: directory of registered companies
+United Arab Emirates,Business Registry,f,f,t,Abu Dhabi Business Center,https://adbc.abudhabi.ae/CitizenAccess/Cap/CapHome.aspx?module=Licenses&TabName=LICENSES&FilterName=TRADENAME#SearchLicenses,Available: search for business licence by Number
+United Arab Emirates,Business Registry,f,f,t,Dubai Chamber of Commerce,"http://www.dubaichamber.ae/portal/page?_pageid=53,3213,53_3170&_dad=portal&_schema=PORTAL",Available; trade name search in English and a directory of companies
+United Arab Emirates,Business Registry,f,f,t,Dubai Airport Freezone,http://dafz-directory.com/,Available: directory of clients
+United Arab Emirates,Business Registry,f,f,t,Abu Dhabi Commercial Directory,https://online.abudhabichamber.ae/aspApp2012/online_information/adcd/g_search2.asp?P=0,"Available: search by name, phone number, email address or key word"
+United Arab Emirates,Business Registry,f,t,t,Dubai Department of Economic Development,http://www.dubaided.gov.ae/eServices/Pages/Anon/TNSrch.aspx?PID=10106&LID=&sname=Search_Trade_Names,Available; trade name search in Arabic only
+United Arab Emirates,Business Registry,f,f,t,Dubai Jebel Ali Freezone,http://eservices.dubaitrade.ae/clientdirectory/clientsSearch.do,Available: directory of clients
+United Arab Emirates,Business Registry,f,f,t,Dubai International Financial Centre,http://www.difc.ae/browse-directory,Available: directory of clients
+United Arab Emirates,Business Registry,f,f,t,Fujairah Ali Freezone,http://www.fujairahfreetradezone.com/appdir/company-listing.php,Available: directory of clients
+United Arab Emirates,Business Registry,f,t,t,Ajman Free Zone Authority,http://www.afza.gov.ae/en/index.php?option=com_content&view=article&id=193&Itemid=267,
+United Arab Emirates,Business Registry,f,f,t,Hamriyah Freezone Authority,http://www.hfza.ae/en-us/directory.aspx,Available: directory of registered companies
+Uzbekistan,Intellectual Property,f,f,t,Agency on Intellectual Property of the Republic of Uzbekistan,http://www.ima.uz/ru/,
+Vietnam,Intellectual Property,f,f,t,"National Office of Intellectual Property (NOIP)  Ministry of Science, Technology and the Environment",http://www.noip.gov.vn/,
+Yemen,Intellectual Property,f,f,t,"Ministry of Industry and Trade, General Department for Intellectual Property Protection",http://www.yipo.gov.ye/,
+Yemen,Business Registry,f,f,t,Ministry of Industry and Trade,http://www.moit.gov.ye/search/,Available only in Arabic

@@ -1,0 +1,28 @@
+country,type,paid,needs_registration,governmental,agency,url,notes
+Australia,Intellectual Property,f,f,t,IP Australia  Department of Industry,http://www.ipaustralia.gov.au/,
+Australia,Court Registry,f,f,f,Australia  Federal Court,http://www.austlii.edu.au/au/cases/cth/FCAFC/#nt,From 2002-2013
+Australia,Business Registry,f,f,t,Australian Business Register,http://www.abr.business.gov.au/Index.aspx,
+Australia,Regulatory Agency,f,t,t,Australian Securities and Investments Commission,https://asicconnect.asic.gov.au/public/faces/landingPage?_afrLoop=2898181417933000&_afrWindowMode=0&_adf.ctrl-state=ehlqp78e9_4,
+East Timor,Intellectual Property,f,f,t,National Director of Human Rights and Citizenship  Ministry of Justice,http://www.mj.gov.tl/,
+Fiji,Court Registry,f,f,f,Supreme Court of Fiji,http://www.paclii.org/fj/cases/FJSC/,Online access from 1876-2013
+Fiji,Intellectual Property,f,f,t,Office of the Attorney-General  Ministry of Justice,http://www.ag.gov.fj/,
+Fiji,Business Registry,t,t,t,Fiji Government,https://www.egov.gov.fj/g2b/Commerce/default.aspx,
+Guam,Court Registry,f,f,f,Supreme Court of Guam,http://www.paclii.org/gu/cases/GUSC/,Online access from 1996-2013
+Marshall Islands,Court Registry,f,f,f,Supreme Court of Marshall Islands,http://www.paclii.org/mh/cases/MHSC/,Online access from 1982-2013
+Marshall Islands,Business Registry,f,f,t,Marshal Islands Martime & Corporate Administrators,http://www.register-iri.com/miCorporate/index.cfm/Corporate/search,Available: Search by name or number and basic company information
+Nauru,Court Registry,f,f,f,Supreme Court of Nauru,http://www.paclii.org/nr/cases/NRSC/,Online access from 1969-2013
+New Zealand,Intellectual Property,f,f,t,"Intellectual Property Office of New Zealand (IPONZ)  Ministry of Business, Innovation and Employment",http://www.iponz.govt.nz/cms,
+New Zealand,Business Registry,f,f,t,Companies Office,http://www.business.govt.nz/companies/app/ui/pages/companies/search,Available: detailed company information
+New Zealand,Business Registry,f,f,t,New Zealand Stock Exchange,https://www.nzx.com/markets/NZSX,Available: list of all issuers and company reports
+New Zealand,Business Registry,f,f,t,Ministry of Business Innovation and Employment,https://www.companiesoffice.govt.nz/companies/app/ui/pages/companies/search?newSearch=true&advancedPanel=false&mode=standard,Available: search by company name or number or by personal names. Results include current and previous directors and shareholders.
+Niue,Business Registry,f,f,t,Companies Office,http://www.companies.gov.nu/cms/search-the-register/register-search/banner_template/CNAME,Available: company search and basic company information
+Palau,Court Registry,f,f,f,Supreme Court of Palau,http://www.paclii.org/pw/cases/PWSC/,Online access from 1994-2013
+Papua New Guinea,Court Registry,f,f,f,Supreme Court of Papua New Guinea,http://www.paclii.org/pg/cases/PGSC/,Online access from 1930-2013
+Papua New Guinea,Intellectual Property,f,f,t,Intellectual Property Office of Papua New Guinea (IPOPNG),http://www.ipopng.gov.pg/,
+Samoa,Court Registry,f,f,f,Supreme Court of Samoa,http://www.paclii.org/ws/cases/WSSC/,Online access from 1980-2013
+Samoa,Business Registry,f,f,t,"Ministry of Commerce, Industry and Labor",https://www.companies.gov.ws/,Available: search by name or company official with basic company information
+Tonga,Court Registry,f,f,f,Supreme Court of Tonga,http://www.paclii.org/to/cases/TOSC/,Online access from 1986-2013
+Tonga,Court Registry,f,f,f,Land Court of Tonga,http://www.paclii.org/to/cases/TOLC/,Online access from 1999-2013
+Tonga,Intellectual Property,f,f,t,"The Registry & Intellectual Property Office (RIPO)  Ministry of Labour, Commerce and Industries",http://www.mlci.gov.to/?page_id=1042,
+Tonga,Business Registry,f,f,t,Companies Office,http://www.companies.gov.to/cms/banner_template/CNAME,Available: search by company name or number with basic company information
+Vanuatu,Court Registry,f,f,f,Supreme Court of Vanuatu,http://www.paclii.org/vu/cases/VUSC/,Online access from 1980-2013
