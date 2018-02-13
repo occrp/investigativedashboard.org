@@ -1,5 +1,5 @@
 ---
-title: Databases
+title: Catalogue of Research Databases
 layout: page
 permalink: /databases/
 ---
@@ -19,6 +19,17 @@ permalink: /databases/
     });
   });
 </script>
+
+<p class="lh-copy measure">
+  Below is a collection of the most useful public data sources for investigative
+  reporting compiled by our researchers.
+</p>
+
+<p class="lh-copy measure">
+  This page information is publicly available and can be updated. If you find
+  errors, please report them
+  <a href="https://github.com/occrp/investigativedashboard.org/issues">on github</a>.
+</p>
 
 {% assign datasets = site.data | sort  %}
 
