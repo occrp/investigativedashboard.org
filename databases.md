@@ -77,15 +77,15 @@ permalink: /databases/
             <p class="lh-copy gray mt0 gray f6">
               &#128450; {{ source.type }}
               &nbsp;
-              {% if source.paid %}
+              {% if source.paid == 't' %}
                 &#128184; Paid
+                &nbsp;
               {% endif %}
-              &nbsp;
-              {% if source.needs_registration %}
+              {% if source.needs_registration == 't' %}
                 &#128274; Needs registration
+                &nbsp;
               {% endif %}
-              &nbsp;
-              {% if source.governmental %}
+              {% if source.governmental == 't' %}
                 &#127963; Governmental
               {% endif %}
               <br/>
