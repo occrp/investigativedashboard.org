@@ -3,9 +3,6 @@ title: Research Requests
 layout: default
 permalink: /tickets/
 ---
-
-> TODO: Setup CORS, assets, etc.
-
 <script>
   var ajax = new XMLHttpRequest();
   ajax.open('GET', 'https://investigativedashboard.org/static/frontend/dist/assets/symbols.svg', true);
@@ -26,5 +23,5 @@ permalink: /tickets/
   </div>
 </article>
 
-<script src="https://investigativedashboard.org/static/frontend/dist/assets/vendor.js"></script>
-<script src="https://investigativedashboard.org/static/frontend/dist/assets/id.js"></script>
+<script src="/frontend/assets/vendor.js"></script>
+<script src="/frontend/dist/assets/id.js"></script>
