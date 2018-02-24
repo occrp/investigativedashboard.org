@@ -24,4 +24,4 @@ permalink: /tickets/
 </article>
 
 <script src="/frontend/assets/vendor.js"></script>
-<script src="/frontend/assets/assets/id.js"></script>
+<script src="/frontend/assets/id.js"></script>
