@@ -5,7 +5,7 @@ permalink: /tickets/
 ---
 <script>
   var ajax = new XMLHttpRequest();
-  ajax.open('GET', 'https://investigativedashboard.org/static/frontend/dist/assets/symbols.svg', true);
+  ajax.open('GET', '/frontend/assets/symbols.svg', true);
   ajax.send();
   ajax.onload = function(e) {
     if (this.status === 404) {
