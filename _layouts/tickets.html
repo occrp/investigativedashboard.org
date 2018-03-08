@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head-tickets.html %}
+
+  <body>
+    <script>
+      var ajax = new XMLHttpRequest();
+      ajax.open('GET', '/frontend/assets/symbols.svg', true);
+      ajax.send();
+      ajax.onload = function(e) {
+        if (this.status === 404) {
+          return;
+        }
+        var div = document.createElement('div');
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      };
+    </script>
+
+    {{ content }}
+
+    <script src="/frontend/assets/vendor.js"></script>
+    <script src="/frontend/assets/id.js"></script>
+  </body>
+</html>
