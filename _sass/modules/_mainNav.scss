@@ -1,0 +1,29 @@
+.mainNav {
+  background: white;
+  padding: $spacer-2 0;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.mainNav-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: inherit;
+
+  img {
+    display: inline-block;
+    margin-right: $spacer-1;
+  }
+}
+
+a.mainNav-logo {
+  &:hover {
+    color: theme-color("primary");
+    text-decoration: none;
+  }
+}

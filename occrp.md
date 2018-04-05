@@ -41,7 +41,7 @@ won more than a dozen international awards, led to indictments, arrests and
 seizures, forced the resignation of heads of state, and exposed the activities
 of organized crime.
 
-## Staff
+### Staff
 
 * Miranda Patrucić, Lead Researcher
 * Lejla Čamdzić, Researcher
@@ -50,20 +50,20 @@ of organized crime.
 * Friedrich Lindenburg, Developer
 * James Robb, Developer
 
-## Supporters
+### Supporters
 
 The Investigative Dashboard has been developed in collaboration with [Google
 Ideas](http://www.google.com/ideas/). Core support for the project is generously provided by the Open Society
 Foundations with additional assistance from USAID.
 
-## Partners
+### Partners
 
 The Research Desk is managed by OCCRP in co-operation with four partner
 Centers - African Network of Centers for Investigative Reporting (ANCIR), the
 Arab Reporters for Investigative Journalism (ARIJ), the International Center
 for Journalists, and Connectas in the Americas.
 
-## ID History
+### ID History
 
 The Investigative Dashboard was developed by Paul Cristian Radu (OCCRP) and
 Justin Arenstein (ANCIR) while they both were in residence at Stanford
@@ -71,7 +71,7 @@ University as Knight Fellows. The John S. Knight Fellowships for Professional
 Journalists made the dashboard possible by providing access to the know-how of
 fellow journalists and of experts at Stanford University and in Silicon Valley.
 
-## Advisory Committee
+### Advisory Committee
 
 * Kitty Bennett, News Researcher<br/>
   The New York Times
@@ -101,7 +101,7 @@ fellow journalists and of experts at Stanford University and in Silicon Valley.
 * Margot Williams, Database Correspondent,<br/>
   Research Editor, The International Consortium of Investigative Journalists
 
-## Acknowledgements
+### Acknowledgements
 
 The Investigative Dashboard is a collaborative project and valuable information
 was added by many investigative journalists around the world. Individual

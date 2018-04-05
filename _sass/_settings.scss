@@ -1,0 +1,211 @@
+// ==========================================================================
+// 1. "Globals"
+// ==========================================================================
+
+
+// Color system
+// ==========================================================================
+
+$gray-000:    #fafbfc !default;
+$gray-100:    #f8f9fa !default;
+$gray-200:    #e9ecef !default;
+$gray-300:    #dee2e6 !default;
+$gray-400:    #ced4da !default;
+$gray-500:    #adb5bd !default;
+$gray-600:    #868e96 !default;
+$gray-650:    #6a727a !default;
+$gray-700:    #495057 !default;
+$gray-800:    #343a40 !default;
+$gray-900:    #212529 !default;
+
+$blue:        #4A90E2 !default;
+$indigo:      #6610f2 !default;
+$purple:      #6f42c1 !default;
+$pink:        #e83e8c !default;
+$red:         #dc3545 !default;
+$orange:      #fd7e14 !default;
+$yellow:      #ffc107 !default;
+$green:       #28a745 !default;
+$teal:        #20c997 !default;
+$cyan:        #17a2b8 !default;
+
+$occrp-red:   #982022 !default;
+$occrp-olive: #374953 !default;
+
+$pal-orange:          #FB8C00;
+$pal-materialCyan:    #00BCD4;
+
+$theme-colors: (
+  "primary": $occrp-red,
+  "secondary": $pal-materialCyan
+  // "success": $green,
+  // "info": $cyan,
+  // "warning": $yellow,
+  // "danger": $red
+) !default;
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 8% !default;
+
+
+// Breakpoints
+// ==========================================================================
+
+$width-xs: 320px;
+$width-sm: 544px;
+$width-md: 768px;
+$width-lg: 1012px;
+$width-xl: 1280px;
+$width-xxl: 1440px; // usually max container size
+
+$breakpoints: (
+  xs: to-em($width-xs),
+  sm: to-em($width-sm),
+  md: to-em($width-md),
+  lg: to-em($width-lg),
+  xl: to-em($width-xl)
+) !default;
+
+
+// Typography
+// ==========================================================================
+// Font, line-height and color for body text, headings and more.
+
+// https://css-tricks.com/snippets/css/system-font-stack/
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace:  "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$font-family-base: 'Open Sans', $font-family-sans-serif !default;
+
+$font-size-exa:         5.5rem !default;
+$font-size-peta:        4.5rem !default;
+$font-size-tera:        3.5rem !default;
+$font-size-giga:        3rem !default;
+$font-size-mega:        2.5rem !default;
+$font-size-xxl:         2rem !default;
+$font-size-xl:          1.5rem !default;
+$font-size-lg:          1.25rem !default;
+$font-size-base:        1rem !default;
+$font-size-sm:          .875rem !default;
+$font-size-xs:          to-rem(13px) !default;
+$font-size-xxs:         .75rem !default;
+
+$h1-font-size:          $font-size-mega !default;
+$h2-font-size:          $font-size-xxl !default;
+$h3-font-size:          $font-size-xl !default;
+$h4-font-size:          $font-size-lg !default;
+$h5-font-size:          $font-size-base !default;
+$h6-font-size:          $font-size-sm !default;
+
+$line-height-lg:        1.75 !default;
+$line-height-base:      1.5 !default;
+$line-height-sm:        1.25 !default;
+$line-height-xs:        1 !default;
+
+$font-weight-light:     300 !default;
+$font-weight-normal:    400 !default;
+$font-weight-semibold:  600 !default;
+$font-weight-bold:      700 !default;
+
+$font-weight-base:      $font-weight-normal !default;
+
+// Body
+$body-bg:               $gray-200 !default;
+$body-color:            $gray-900 !default;
+
+// Links
+$link-color:            theme-color("primary") !default;
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 10%) !default;
+$link-hover-decoration: underline !default;
+
+// Misc
+$hr-border-color:       rgba(black, .1) !default;
+$hr-border-width:       1px !default;
+$mark-bg:               #fcf8e3 !default;
+
+// Handy
+$text-muted:            $gray-600 !default;
+
+
+// z-index master list
+// ==========================================================================
+
+$zindex-dropdown:       1000 !default;
+// $zindex-sticky:         1020 !default;
+// $zindex-fixed:          1030 !default;
+$zindex-modal:          1040 !default;
+$zindex-modal-dialog:   1050 !default;
+// $zindex-popover:        1060 !default;
+// $zindex-tooltip:        1070 !default;
+$zindex-loading-slider: 2048 !default;
+
+
+// Spacing
+// ==========================================================================
+
+$spacer: 0.5rem !default; // 8px
+$spacers: (
+  0,
+  $spacer * .5,
+  $spacer,
+  $spacer * 2,
+  $spacer * 3,
+  $spacer * 4,
+  $spacer * 5,
+  $spacer * 6,
+  $spacer * 7
+) !default;
+
+// Aliases for easy use
+$spacer-1: nth($spacers, 2) !default; // 4px
+$spacer-2: nth($spacers, 3) !default; // 8px $spacer
+$spacer-3: nth($spacers, 4) !default; // 16px
+$spacer-4: nth($spacers, 5) !default; // 24px
+$spacer-5: nth($spacers, 6) !default; // 32px
+$spacer-6: nth($spacers, 7) !default; // 40px
+$spacer-7: nth($spacers, 8) !default; // 48px
+$spacer-8: nth($spacers, 9) !default; // 56px
+
+// Common
+// ==========================================================================
+
+$border-radius-lg:      .375rem !default;
+$border-radius:         .25rem !default;
+$border-radius-sm:      .125rem !default;
+
+$transition-base:       all .2s ease-in-out !default;
+$transition-fade:       opacity .15s linear !default;
+$transition-collapse:   height .35s ease !default;
+
+$caret-width:           .3em !default;
+
+
+
+// ==========================================================================
+// 2. Base components
+// ==========================================================================
+// Adapted from Bootstrap 4 or elsewhere
+
+
+// Buttons
+// ==========================================================================
+
+$btn-font-weight:           $font-weight-bold !default;
+$btn-border-width:          2px !default;
+
+$btn-padding-y:             .375rem !default;
+$btn-padding-x:             1.25rem !default;
+$btn-line-height:           1.75 !default;
+
+$btn-padding-y-sm:          .25rem !default;
+$btn-padding-x-sm:          .75rem !default;
+$btn-line-height-sm:        $line-height-base !default;
+
+$btn-focus-box-shadow:      0 0 0 3px rgba(theme-color("secondary"), .25) !default;
+$btn-active-box-shadow:     inset 0 3px 5px rgba(black, .125) !default;
+
+$btn-transition:            background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+$btn-link-disabled-color:   $gray-600 !default;

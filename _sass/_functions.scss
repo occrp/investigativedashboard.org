@@ -1,0 +1,50 @@
+// Colors
+// ==========================================================================
+
+// Shorthand map-get
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
+
+// "Black" or white based on contrast
+@function color-yiq($color) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+
+  $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+  @if ($yiq >= 150) {
+    @return #111;
+  } @else {
+    @return white;
+  }
+}
+
+// Request a theme color level
+@function theme-color-level($color-name: "primary", $level: 0) {
+  $color: theme-color($color-name);
+  $color-base: if($level > 0, black, white);
+  $level: abs($level);
+
+  @return mix($color-base, $color, $level * $theme-color-interval);
+}
+
+// Typography
+// ==========================================================================
+
+@function to-em($value: 16px, $context: 16px) {
+  @if (unit($value) != "px" or unit($context) != "px") {
+    @warn "both $value and $context must be expressed in px";
+  }
+
+  @return ($value / $context) * 1em;
+}
+
+@function to-rem($value: 16px, $context: 16px) {
+  @if (unit($value) != "px" or unit($context) != "px") {
+    @warn "both $value and $context must be expressed in px";
+  }
+
+  @return ($value / $context) * 1rem;
+}

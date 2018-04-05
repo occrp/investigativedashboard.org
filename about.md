@@ -1,10 +1,10 @@
 ---
-title: About
+title: About us
 layout: page
 permalink: /about/
 ---
 
-## Purpose
+### Purpose
 
 Investigative Dashboard (ID) is intended to help investigative journalists to
 do their work in a fast and effective way. It combines a number of software
@@ -12,14 +12,14 @@ tools, including search engines, databases, a research support system and a
 file manager, to try to shorten the lead time from story inception to
 publication.
 
-## Investigative Dashboard Development
+### Investigative Dashboard Development
 
 ID is developed by the Organized Crime and Corruption Reporting Project. It is
 designed to meet the needs of OCCRP reporters, but open for public use.
 
-[Read more](/about/occrp/)...
+<a href="/about/occrp/" class="button buttonOutlined--primary">Read more</a>
 
-## About OCCRP
+### About OCCRP
 
 The Organized Crime and Corruption Reporting Project (OCCRP) is a
 not-for-profit, joint program of a number of regional non-profit investigative
@@ -35,4 +35,5 @@ including court records, laws, reports, studies, company records and other
 public documents that will be an invaluable resource center for journalists and
 the public alike.
 
-[Read more](https://www.occrp.org/en/about-us)...
+<a href="https://www.occrp.org/en/about-us" class="button buttonOutlined--primary">Read more<svg class="icon"><use xlink:href="#link-external"></use></svg></a>
+

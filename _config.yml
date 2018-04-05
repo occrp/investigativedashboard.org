@@ -1,4 +1,4 @@
-title: The Investigative Dashboard
+title: Investigative Dashboard
 email: id@occrp.org
 description: >-
   Investigative Dashboard (ID) is intended to help investigative journalists to
@@ -15,8 +15,16 @@ repository_url: https://github.com/occrp/investigativedashboard.org
 # Build settings
 markdown: kramdown
 
+sass:
+  style: compressed
+
+autoprefixer:
+  browsers:
+    - last 2 versions
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-autoprefixer
 
 exclude:
   - Gemfile

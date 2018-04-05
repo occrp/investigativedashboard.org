@@ -1,0 +1,87 @@
+// ==========================================================================
+// Responsive utilities
+// ==========================================================================
+
+// Width media queries
+// ==========================================================================
+// A $breakpoints map is expected from which to pull the actual values
+
+
+// Respond to min-width
+
+@mixin respond-min ($key) {
+  @media (min-width: map-get($breakpoints, $key)) {
+    @content;
+  }
+}
+
+
+// Respond to max-width
+
+@mixin respond-max ($key) {
+  @media (max-width: map-get($breakpoints, $key)) {
+    @content;
+  }
+}
+
+
+// Respond between a min & max width
+
+@mixin respond-between ($min, $max) {
+  @media (min-width: map-get($breakpoints, $min)) and (max-width: map-get($breakpoints, $max)) {
+    @content;
+  }
+}
+
+
+// Shorthand for min/max width media queries
+//
+// $min - flag or value to be used as min-width
+// $max - flag or value to be used as max-width
+//
+// Depending on which parameters are left as false, the appropriate media query
+// will be included.
+
+@mixin respond ($min: false, $max: false) {
+
+  @if ($min == false) and ($max == false) {
+    @warn "Either $min or $max must be specified.";
+  }
+
+  @if $min and $max {
+    @include respond-between($min, $max) {
+      @content;
+    }
+  } @else {
+    @if $min {
+      @include respond-min($min) {
+        @content;
+      }
+    } @else {
+      @include respond-max($max) {
+        @content;
+      }
+    }
+  }
+
+}
+
+
+
+// Retina/HiDPI media queries
+// ==========================================================================
+
+$retina-pixel-ratio: 2 !default;
+
+@mixin retina-media-query {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: $ratio),
+    only screen and (min--moz-device-pixel-ratio: $ratio),
+    only screen and (-moz-min-device-pixel-ratio: $ratio),
+    only screen and (-o-min-device-pixel-ratio: $ratio/1),
+    only screen and (min-device-pixel-ratio: $ratio),
+    only screen and (min-resolution: $ratio * 96dpi),
+    only screen and (min-resolution: $ratio * 1dppx) {
+    @content;
+  }
+}

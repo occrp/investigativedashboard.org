@@ -1,0 +1,131 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "functions";
+
+@import "settings";
+
+@import "mixins/responsive";
+@import "mixins/utils";
+
+@import "reboot";
+
+@import "type";
+@import "utilities";
+@import "layout";
+
+@import "modules/button";
+@import "modules/icon";
+
+@import "modules/mainNav";
+
+main {
+  background: white;
+}
+
+.b-primary {
+  background: theme-color("primary");
+  color: white;
+}
+
+.hero {
+  background: url('/static/images/splash.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: $spacer-5 * 2 0;
+}
+
+.sidekick {
+  background: theme-color("primary");
+  color: white;
+  padding: $spacer-5 0 $spacer-4 0;
+}
+
+$grid-gutter-width: 30px;
+$grid-vertical-spacing: 1rem;
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: ($grid-vertical-spacing * -1) ($grid-gutter-width / -2);
+}
+
+.grid-unit {
+  width: 100%;
+  min-height: 1px; // Prevent collapsing
+  padding: $grid-vertical-spacing ($grid-gutter-width / 2);
+}
+
+.grid--thirds {
+  .grid-unit {
+    flex: 0 0 percentage(1/3);
+    max-width: percentage(1/4);
+  }
+}
+
+$grid-gutter-width: 60px;
+
+.grid--fourths {
+  margin: ($grid-vertical-spacing * -1) ($grid-gutter-width / -2);
+
+  .grid-unit {
+    flex: 0 0 percentage(1/2);
+    max-width: percentage(1/2);
+    padding: $grid-vertical-spacing ($grid-gutter-width / 2);
+  }
+}
+
+.research {
+  display: flex;
+  align-items: center;
+}
+
+.research-text {
+  margin-bottom: $spacer-6;
+}
+
+.research-team {
+  flex: 0 0 660px;
+  margin-left: 80px;
+}
+
+.face {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid white;
+  background-clip: border-box;
+}
+
+.whodis {
+  display: flex;
+  align-items: center;
+}
+
+.whodis-partners {
+  flex: 0 0 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.partner {
+  display: block;
+  flex: 0 0 auto;
+  padding: 15px 15px;
+
+  img {
+    display: block;
+  }
+}
+
+footer {
+  background: $gray-200;
+}
