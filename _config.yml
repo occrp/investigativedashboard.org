@@ -25,6 +25,7 @@ autoprefixer:
 plugins:
   - jekyll-seo-tag
   - jekyll-autoprefixer
+  - jekyll-typogrify
 
 exclude:
   - Gemfile

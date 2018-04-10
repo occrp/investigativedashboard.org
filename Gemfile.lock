@@ -36,6 +36,9 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.3.0)
       jekyll (~> 3.3)
+    jekyll-typogrify (0.3.3)
+      titlecase
+      typogruby
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -53,12 +56,16 @@ GEM
       ffi (>= 0.5.0, < 2)
     rouge (3.1.1)
     ruby_dep (1.5.0)
+    rubypants (0.7.0)
     safe_yaml (1.0.4)
     sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    titlecase (0.1.1)
+    typogruby (1.0.18)
+      rubypants
 
 PLATFORMS
   ruby
@@ -67,6 +74,7 @@ DEPENDENCIES
   jekyll
   jekyll-autoprefixer
   jekyll-seo-tag
+  jekyll-typogrify
 
 BUNDLED WITH
    1.16.1

@@ -31,7 +31,7 @@ main {
 }
 
 .hero {
-  background: url('/static/images/splash.png') no-repeat center center;
+  background: $gray-900 url('/static/images/splash.png') no-repeat center center;
   background-size: cover;
   color: white;
   padding: $spacer-5 * 2 0;
@@ -61,8 +61,16 @@ $grid-vertical-spacing: 1rem;
 
 .grid--thirds {
   .grid-unit {
-    flex: 0 0 percentage(1/3);
+    flex: 0 0 percentage(1/4);
     max-width: percentage(1/4);
+  }
+}
+
+
+.grid--regions {
+  .grid-unit {
+    flex: 0 0 percentage(1/3);
+    max-width: percentage(1/3);
   }
 }
 
@@ -109,7 +117,7 @@ $grid-gutter-width: 60px;
 }
 
 .whodis-partners {
-  flex: 0 0 420px;
+  flex: 0 0 460px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,6 +132,69 @@ $grid-gutter-width: 60px;
   img {
     display: block;
   }
+}
+
+.region {
+  display: block;
+  padding: $spacer-2 $spacer-3;
+  border: 2px solid $gray-500;
+  border-radius: $border-radius;
+  color: $gray-700;
+  transition: $btn-transition;
+
+  &.is-active {
+    background: theme-color("primary");
+    border-color: theme-color("primary");
+    color: white;
+  }
+
+  &:hover {
+    background: darken(theme-color("primary"), 7.5%);
+    border-color: darken(theme-color("primary"), 7.5%);
+    color: white;
+    text-decoration: none;
+  }
+
+}
+
+.regionNav {
+
+}
+
+.regionNav-unit {
+  & + & {
+    margin-top: $spacer-2;
+  }
+}
+
+.source {
+  position: relative;
+  display: block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: to-rem(7px);
+    left: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 3px solid $gray-800;
+    border-radius: 50%;
+  }
+
+  & + & {
+    margin-top: $spacer-4;
+  }
+
+  .icon {
+    margin-right: .4em;
+    vertical-align: -2px;
+  }
+}
+
+.source-tags {
+  color: $gray-650;
 }
 
 footer {
