@@ -18,6 +18,11 @@ markdown: kramdown
 sass:
   style: compressed
 
+jekyll_get:
+  data: aleph
+  cache: true
+  json: 'https://data.occrp.org/api/2/collections?limit=9999'
+
 autoprefixer:
   browsers:
     - last 2 versions
