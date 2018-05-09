@@ -1,7 +1,6 @@
 ---
 title: OCCRP and ID Development
 layout: layout
-permalink: /about/occrp/
 ---
 
 Investigative Dashboard (ID) has been developed by the Organized Crime and

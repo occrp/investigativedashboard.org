@@ -7,4 +7,5 @@ title: Follow the Money Atlas
 * How-to guides
     * Offshore research
     * Digital security
+    * Collaborating in OCCRP
     * Using OCCRP Data
