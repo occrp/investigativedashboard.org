@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: page
 title: Homepage
 hide_navigation: dn
 ---
@@ -103,36 +103,4 @@ hide_navigation: dn
 
   </div>
 </div>
-</div>
-
-<div class="wrapper pt-6 pb-6">
-  <div class="whodis">
-
-    <div class="whodis-text">
-      <div class="copy t-sm">
-        <h4 class="t3 t-light">Who is behind this?</h4>
-        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organised Crime and Corruption Reporting Project</a>,<br /> a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
-        <p><a href="/about" class="button buttonOutlined--primary">More about us</a></p>
-      </div>
-    </div>
-
-    <div class="whodis-partners">
-      <a href="https://occrp.org/" class="partner">
-        <img src="/static/images/logos/occrp.png" alt="OCCRP" width="130" height="25"/>
-      </a>
-      <a href="http://en.arij.net/" class="partner">
-        <img src="/static/images/logos/arij.png" alt="ARIJ" width="99" height="25"/>
-      </a>
-      <a href="https://investigativecenters.org/" class="partner">
-        <img src="/static/images/logos/ancir.png" alt="ANCIR" width="134" height="25"/>
-      </a>
-      <a href="https://jigsaw.google.com/" class="partner">
-        <img src="/static/images/logos/jigsaw.png" alt="Jigsaw" width="79" height="25"/>
-      </a>
-      <a href="https://www.opensocietyfoundations.org/" class="partner">
-        <img src="/static/images/logos/osf.png" alt="OSF" width="107" height="25"/>
-      </a>
-    </div>
-
-  </div>
 </div>

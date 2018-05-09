@@ -74,6 +74,16 @@ footer {
     // i {
     //   color: $primary-color;
     // }
+
+    .partners {
+        a, a:hover { 
+            text-decoration: none;
+        }
+
+        img {
+            margin: 0.5em 2em 2em 0;
+        }
+    }
   
     ul {
       list-style-type: none;
