@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
-
   <body>
     <script>
       var ajax = new XMLHttpRequest();
@@ -17,9 +15,6 @@
         document.body.insertBefore(div, document.body.childNodes[0]);
       };
     </script>
-
-
-    {% include header.html %}
 
     <main aria-label="Content">
       {{ content }}

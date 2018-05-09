@@ -1,0 +1,92 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+
+// https://css-tricks.com/snippets/css/system-font-stack/
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace:  "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+
+@mixin plainfont() {
+    font-family: $font-family-sans-serif;
+    font-weight: 400;
+}
+
+@mixin textfont() {
+    @include plainfont();
+    line-height: 1.3em;
+}
+
+@mixin smalltext() {
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+.navbar {
+    .navbar-brand {
+        font-weight: 700;
+
+        img {
+            height: 32px;
+            width: 32px;
+        }
+    }
+    background-color: white;
+}
+
+body {
+    @include plainfont();
+    background-color: #333;
+}
+
+#page {
+    padding-top: 60px;
+    min-height: 80vh;
+    background-color: #f7f7f7;
+}
+
+
+/* Footer area */
+
+footer {
+    $col: white;
+    @include plainfont();
+    @include smalltext();
+  
+    margin: 2em 0 1m 0;
+    padding: 1em 0 1em 0;
+    color: $col;
+    border-top: 1px solid white;
+  
+    a {
+      text-decoration: underline;
+      color: $col;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+      color: $col;
+    }
+  
+    // i {
+    //   color: $primary-color;
+    // }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin-bottom: 0.5em;
+        
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  

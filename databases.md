@@ -1,6 +1,5 @@
 ---
 title: Catalogue of Research Databases
-layout: database-index
 permalink: /databases/
 ---
 
@@ -23,3 +22,4 @@ permalink: /databases/
 
   {% endfor %}
 </div>
+

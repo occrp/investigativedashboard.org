@@ -1,5 +1,5 @@
-title: Investigative Dashboard
-email: id@occrp.org
+title: OCCRP Commons
+email: info@occrp.org
 description: >-
   Investigative Dashboard (ID) is intended to help investigative journalists to
   do their work in a fast and effective way. It combines a number of software
@@ -19,9 +19,11 @@ sass:
   style: compressed
 
 jekyll_get:
-  data: aleph
-  cache: true
-  json: 'https://data.occrp.org/api/2/collections?limit=9999'
+  # - data: collections
+  #   json: 'https://data.occrp.org/api/2/collections?limit=0&facet=category&facet=countries'
+  - data: aleph
+    json: 'https://data.occrp.org/api/2/statistics'
+
 
 autoprefixer:
   browsers:

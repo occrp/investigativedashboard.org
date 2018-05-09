@@ -1,5 +1,40 @@
-<footer>
-  <div class="wrapper pt-3 pb-3 t-sm t-center t-muted">
-    <p>Updated {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} &bull; Hosted on <a href="{{ site.repository_url }}">GitHub</a></p>
-  </div>
+<footer class="hidden-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <p>
+                    We're part of the <a href="//occrp.org/">Organized Crime and Corruption Reporting Project</a>.
+                    {{site.description}}
+                </p>
+                <p>
+                    <a href="https://www.occrp.org/en/about-us">About OCCRP</a> &middot;
+                    <a href="https://www.occrp.org/en/contact">Contact</a> &middot;
+                    <a href="https://www.occrp.org/en/donate">Donate</a> &middot;
+                    <a href="https://www.occrp.org/en/become-a-whistleblower/">Share information</a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/occrp">
+                            <i class="fa fa-twitter-square"></i>
+                            twitter.com/occrp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/occrp">
+                            <i class="fa fa-github-square"></i>
+                            github.com/occrp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@occrp.org">
+                            <i class="fa fa-envelope-square"></i>
+                            info@occrp.org
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>

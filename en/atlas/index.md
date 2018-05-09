@@ -1,6 +1,10 @@
 ---
-layout: default
-title: Homepage
+layout: page
+title: Follow the Money Atlas
 ---
 
-bla atlas
+* Country profiles
+* How-to guides
+    * Offshore research
+    * Digital security
+    * Using OCCRP Data

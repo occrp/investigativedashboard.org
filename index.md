@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout
 title: Homepage
 hide_navigation: dn
 ---

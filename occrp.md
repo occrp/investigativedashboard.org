@@ -1,6 +1,6 @@
 ---
 title: OCCRP and ID Development
-layout: page
+layout: layout
 permalink: /about/occrp/
 ---
 

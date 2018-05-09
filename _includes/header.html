@@ -1,13 +1,25 @@
-<nav class="mainNav t-sm t-muted">
-  <div class="wrapper">
-    <a href="{{ "/" | relative_url }}" class="mainNav-logo t4 t-light">
-      <img width="32" height="32" src="https://cdn.occrp.org/common/logo/RedTransparent_globe.png" />
-      <span>{{ site.title | escape }}</span>
+<nav class="navbar fixed-top navbar-expand-md navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="/en/">
+      <img src="https://cdn.occrp.org/common/logo/RedTransparent_globe.png" alt="{{site.title}}">
     </a>
-    <div class="mainNav-items">
-        <a href="/tickets/new">Research requests<svg class="icon"><use xlink:href="#arrow-right"></use></svg></a>
+    <a class="navbar-brand" href="/en/">
+      {{site.title}}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/en/work/">Collaborate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/en/atlas">Atlas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/en/library">Data Library</a>
+        </li>
+      </ul>
     </div>
-  </div>
 </nav>
-
-
