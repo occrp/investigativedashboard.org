@@ -11,46 +11,8 @@ hide_navigation: dn
   </div>
 </div>
 
-<div class="wrapper pt-6 pb-6">
-  <div class="grid grid--thirds">
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Find online sources</h3>
-        <p>Browse our global index of public registries for companies, land registries and courts.</p>
-        <p class="mt-4"><a href="/databases" class="button button--primary">Browse databases</a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Search for leads</h3>
-        <p>Search millions of documents and datasets, from public sources, leaks and investigations.</p>
-        <p class="mt-4"><a href="https://data.occrp.org/" class="button buttonOutlined--primary">Search Documents<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Search your collections</h3>
-        <p>Upload documents, make them searchable, and find mentions of persons and companies.</p>
-        <p class="mt-4"><a href="https://data.occrp.org/collections" class="button buttonOutlined--primary">Browse collections<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Map your investigation</h3>
-        <p>Create visual investigative scenarios that map the people and companies in your story.</p>
-        <p class="mt-4"><a href="https://vis.occrp.org/" class="button buttonOutlined--primary">Visualise networks<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-  </div>
-</div>
-
 <div class="b-primary">
-<div class="wrapper pt-6 pb-6">
+<div class="wrapper pt-7 pb-7">
   <div class="research">
 
     <div class="research-text">
@@ -106,11 +68,49 @@ hide_navigation: dn
 </div>
 
 <div class="wrapper pt-6 pb-6">
-  <div class="whodis">
+  <div class="grid grid--thirds">
+
+    <div class="grid-unit">
+      <div class="copy t-sm">
+        <h3 class="t-light t-primary">Find online sources</h3>
+        <p>Browse our global index of public registries for companies, land registries and courts.</p>
+        <p class="mt-4"><a href="/databases" class="button buttonOutlined--primary">Browse databases</a></p>
+      </div>
+    </div>
+
+    <div class="grid-unit">
+      <div class="copy t-sm">
+        <h3 class="t-light t-primary">Search for leads</h3>
+        <p>Search millions of documents and datasets, from public sources, leaks and investigations.</p>
+        <p class="mt-4"><a href="https://data.occrp.org/" class="button buttonOutlined--primary">Search Documents<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
+      </div>
+    </div>
+
+    <div class="grid-unit">
+      <div class="copy t-sm">
+        <h3 class="t-light t-primary">Search your collections</h3>
+        <p>Upload documents, make them searchable, and find mentions of persons and companies.</p>
+        <p class="mt-4"><a href="https://data.occrp.org/collections" class="button buttonOutlined--primary">Browse collections<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
+      </div>
+    </div>
+
+    <div class="grid-unit">
+      <div class="copy t-sm">
+        <h3 class="t-light t-primary">Map your investigation</h3>
+        <p>Create visual investigative scenarios that map the people and companies in your story.</p>
+        <p class="mt-4"><a href="https://vis.occrp.org/" class="button buttonOutlined--primary">Visualise networks<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="whodis pt-6 pb-6">
 
     <div class="whodis-text">
       <div class="copy t-sm">
-        <h4 class="t3 t-light">Who is behind this?</h4>
+        <h4 class="t3 t-light t-muted">Who is behind this?</h4>
         <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organised Crime and Corruption Reporting Project</a>,<br /> a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
         <p><a href="/about" class="button buttonOutlined--primary">More about us</a></p>
       </div>
