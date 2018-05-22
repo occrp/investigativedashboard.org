@@ -73,9 +73,9 @@ Pećo had trained in researching corporate structures and obtaining world-wide c
   <img class="faceLarge media-img" src="/static/images/team/lejla-sarcevic-500.jpg" alt="Lejla Sarcevic" width="250" height="250" />
 
   <div class="media-block">
-    <h2 class="t-light mb-3">Lejla Sarčević</h2>
+    <h2 class="t-light mb-3">Lejla Šarčević</h2>
 <div class="copy" markdown="1">
-Lejla Sarčević is an investigative researcher at OCCRP, specializing in property registries and US businesses. She received her Master's in multi-platform journalism from the University of Maryland, where she focused on investigative journalism. She really likes spreadsheets, much to the dismay of her teenage-self.
+Lejla Šarčević is an investigative researcher at OCCRP, specializing in property registries and US businesses. She received her Master's in multi-platform journalism from the University of Maryland, where she focused on investigative journalism. She really likes spreadsheets, much to the dismay of her teenage-self.
 
 Prior to that she worked as a cinematographer and camera assistant in Australia and Canada and earned a Bachelor of Creative Arts in Cinematography from Flinders University of South Australia. She’s received awards from the Australian Cinematographer’s Society for her work and she’s worked on award winning, international productions. She's passionate about finding innovative ways to tell stories, and inform audiences.
 </div>

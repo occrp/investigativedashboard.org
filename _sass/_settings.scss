@@ -52,14 +52,15 @@ $theme-color-interval: 8% !default;
 // ==========================================================================
 
 $width-xs: 320px;
-$width-sm: 544px;
-$width-md: 768px;
-$width-lg: 1012px;
-$width-xl: 1280px;
-$width-xxl: 1440px; // usually max container size
+$width-sm: 576px;
+$width-md: 900px;
+$width-lg: 1024px;
+$width-xl: 1200px; // usually max container size
+$width-xxl: 1440px;
 
 $breakpoints: (
   xs: to-em($width-xs),
+  researchers: to-em(400px),
   sm: to-em($width-sm),
   md: to-em($width-md),
   lg: to-em($width-lg),

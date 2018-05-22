@@ -17,6 +17,10 @@ layout: default
       {% assign datasets = site.data | sort  %}
 
       <nav class="regionNav">
+        <a href="/databases" class="t-bold region regionNav-unit region--home">
+          <svg class="icon icon--lg"><use xlink:href="#arrow-left"></use></svg>Index
+        </a>
+
         {% for dataset in datasets %}
         <a href="/databases/{{dataset[0] | replace: '_global', 'global'}}" class="t-bold region regionNav-unit {% if dataset[0] == page.dataset %}is-active{% endif %}">
           {{ dataset[0] | replace: '_', ' ' | titlecase }}

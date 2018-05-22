@@ -50,6 +50,8 @@ of organized crime.
 * Friedrich Lindenburg, Developer
 * James Robb, Developer
 
+<p><a href="/about/researchers/" class="button buttonOutlined--primary">Research team</a></p>
+
 ### Supporters
 
 The Investigative Dashboard has been developed in collaboration with [Google

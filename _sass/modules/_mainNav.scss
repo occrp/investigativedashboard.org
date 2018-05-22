@@ -19,7 +19,20 @@
     display: inline-block;
     margin-right: $spacer-1;
   }
+  abbr {
+    display: none;
+  }
+
+  @include respond($max: sm) {
+    span {
+      @include squish-text;
+    }
+    abbr {
+      display: inline;
+    }
+  }
 }
+
 
 a.mainNav-logo {
   &:hover {
@@ -29,8 +42,5 @@ a.mainNav-logo {
 }
 
 .mainNav-items {
-  .icon {
-    vertical-align: -3px;
-    margin-left: .25em;
-  }
+  text-align: right;
 }

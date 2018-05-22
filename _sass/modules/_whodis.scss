@@ -1,16 +1,29 @@
 .whodis {
-  display: flex;
-  align-items: center;
   border-top: 1px solid $gray-300;
+  padding: 0 15px;
 }
 
 .whodis-partners {
-  flex: 0 0 460px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 20px;
+  margin-top: $spacer-5;
 }
+
+
+@include respond(md) {
+  .whodis {
+    display: flex;
+    align-items: center;
+  }
+
+  .whodis-partners {
+    flex: 0 0 460px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+}
+
 
 .partner {
   display: block;

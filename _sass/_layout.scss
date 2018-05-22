@@ -1,14 +1,15 @@
 .wrapper {
   width: 100%;
-  max-width: 1170px;
+  max-width: $width-xl;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 
 .l-fixedColumn {
   width: 100%;
-  @include respond(sm) {
+
+  @include respond(md) {
     display: flex;
 
     .l-fixedColumn-main {

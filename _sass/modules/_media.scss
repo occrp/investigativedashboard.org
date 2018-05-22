@@ -3,20 +3,41 @@
   padding: $spacer-6 0 $spacer-4 * 2;
   margin: 0 auto;
 
-  &:first-child {
-    // padding-top: 0;
-  }
-
   & + & {
     border-top: 1px solid $gray-300;
   }
 }
 
 .media-img {
-  float: left;
-  margin-right: 60px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+};
+
+@include respond(md) {
+  .media-img {
+    float: left;
+    margin: 0;
+    margin-right: 60px;
+  }
+
+  .media-block {
+    overflow: hidden;
+  }
 }
 
-.media-block {
-  overflow: hidden;
+@include respond($max: sm) {
+  .media-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@include respond($max: researchers) {
+  .media-img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }

@@ -6,13 +6,13 @@ hide_navigation: true
 
 <div class="hero">
   <div class="wrapper t-center">
-    <h1 class="f3 pb-2 t-normal"><img width="60" height="60" src="https://cdn.occrp.org/common/logo/WhiteTransparent_globe.png" /> {{site.title | escape}}</h1>
+    <h1 class="t-normal"><img width="60" height="60" src="https://cdn.occrp.org/common/logo/WhiteTransparent_globe.png" /> {{site.title | escape}}</h1>
     <p>We help journalists anywhere to trace people, companies and assets across the globe.</p>
   </div>
 </div>
 
 <div class="b-primary">
-<div class="wrapper pt-7 pb-7">
+<div class="wrapper pt-6 pb-7">
   <div class="research">
 
     <div class="research-text">
@@ -23,7 +23,7 @@ hide_navigation: true
     </div>
 
     <div class="research-team">
-      <div class="grid grid--fourths">
+      <div class="grid grid--thirds">
 
 <div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#lejla-c">
@@ -46,19 +46,9 @@ hide_navigation: true
 </div>
 
 <div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#vladimir">
-    <img class="face mb-2" src="/static/images/team/vladimir-petin-500.jpg" alt="Vladimir Petin" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Vladimir Petin</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Tracks companies, people and their assets in the CIS region, including Russian Federation.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#dragana">
-    <img class="face mb-2" src="/static/images/team/dragana-peco-500.jpg" alt="Dragana Peco" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Dragana Peco</h3>
+    <img class="face mb-2" src="/static/images/team/dragana-peco-500.jpg" alt="Dragana Pećo" width="150" height="150" />
+    <h3 class="t4 t-light t-center mb-3">Dragana Pećo</h3>
   </a>
   <div class="copy t-sm">
     <p>An experienced investigative journalist herself, Dragana helps you track down hidden assets and business interests across the Balkan countries and in broader Eastern Europe.</p>
@@ -68,10 +58,20 @@ hide_navigation: true
 <div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#lejla-s">
     <img class="face mb-2" src="/static/images/team/lejla-sarcevic-500.jpg" alt="Lejla Sarčević" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Lejla Sarčević</h3>
+    <h3 class="t4 t-light t-center mb-3">Lejla Šarčević</h3>
   </a>
   <div class="copy t-sm">
     <p>Hunts down tangible assets and their owners around the world. Lejla’s focus is on public records in the United States.</p>
+  </div>
+</div>
+
+<div class="grid-unit">
+  <a class="link-hiddenWhite" href="/about/researchers/#vladimir">
+    <img class="face mb-2" src="/static/images/team/vladimir-petin-500.jpg" alt="Vladimir Petin" width="150" height="150" />
+    <h3 class="t4 t-light t-center mb-3">Vladimir Petin</h3>
+  </a>
+  <div class="copy t-sm">
+    <p>Tracks companies, people and their assets in the CIS region, including Russian Federation.</p>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ hide_navigation: true
 </div>
 
 <div class="wrapper pt-6 pb-6">
-  <div class="grid grid--thirds">
+  <div class="grid grid--fourths">
 
     <div class="grid-unit">
       <div class="copy t-sm">

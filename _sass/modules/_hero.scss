@@ -2,15 +2,62 @@
   background: $gray-900 url('/static/images/splash.png') no-repeat center center;
   background-size: cover;
   color: white;
-  padding: $spacer-5 * 2 0;
+  padding: $spacer-3 * 2 0;
+
+  h1 {
+    font-size: $h2-font-size;
+    margin-bottom: $spacer-3;
+  }
 
   img {
-    vertical-align: -10px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: $spacer-2;
+  }
+
+  @include respond(sm) {
+    padding: $spacer-5 * 2 0;
+
+    h1 {
+      font-size: $h1-font-size;
+    }
+
+    img {
+      display: inline;
+      vertical-align: -8px;
+      margin-bottom: 0;
+    }
+  }
+
+  @include respond(md) {
+    h1 {
+      font-size: $font-size-tera;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      vertical-align: -10px;
+    }
   }
 }
 
 .sidekick {
   background: theme-color("primary");
   color: white;
-  padding: $spacer-5 0 $spacer-4 0;
+  padding: $spacer-4 0 $spacer-3 0;
+
+  h1 {
+    font-size: $h3-font-size;
+  }
+
+  @include respond(sm) {
+    padding: $spacer-5 0 $spacer-4 0;
+
+    h1 {
+      font-size: $h2-font-size;
+    }
+  }
 }

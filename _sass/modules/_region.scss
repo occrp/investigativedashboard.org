@@ -6,6 +6,11 @@
   color: $gray-700;
   transition: $btn-transition;
 
+  .icon {
+    vertical-align: -6px;
+    margin: 0 .25rem 0 -5px ;
+  }
+
   &.is-active {
     background: theme-color("primary");
     border-color: theme-color("primary");
@@ -17,5 +22,35 @@
     border-color: darken(theme-color("primary"), 7.5%);
     color: white;
     text-decoration: none;
+  }
+}
+
+.regionNav {
+  margin-bottom: $spacer-5;
+
+  .region {
+    display: none;
+  }
+  .region--home {
+    display: block;
+  }
+}
+
+.regionNav-unit {
+  & + & {
+    margin-top: $spacer-2;
+  }
+}
+
+@include respond(md) {
+  .regionNav {
+    margin-bottom: 0;
+
+    .region {
+      display: block;
+    }
+    .region--home {
+      display: none;
+    }
   }
 }

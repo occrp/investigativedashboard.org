@@ -27,8 +27,13 @@
 @import "modules/face";
 @import "modules/whodis";
 @import "modules/region";
-@import "modules/regionNav";
 @import "modules/source";
+
+@include respond($max: sm) {
+  html {
+    font-size: 15px;
+  }
+}
 
 // body is gray
 main {
