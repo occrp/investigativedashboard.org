@@ -77,7 +77,7 @@ hide_navigation: true
 
 <div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#karina">
-    <img class="face mb-2" src="/static/images/team/chris-benevento-500.jpg" alt="Karina Shedrofsky" width="150" height="150" />
+    <img class="face mb-2" src="/static/images/team/karina-shedrofsky-500.jpg" alt="Karina Shedrofsky" width="150" height="150" />
     <h3 class="t4 t-light t-center mb-3">Karina Shedrofsky</h3>
   </a>
   <div class="copy t-sm">

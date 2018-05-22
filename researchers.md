@@ -83,7 +83,7 @@ Prior to that she worked as a cinematographer and camera assistant in Australia 
 </div>
 
 <div class="media" id="karina">
-  <img class="faceLarge media-img" src="/static/images/team/chris-benevento-500.jpg" alt="Karina Shedrofsky" width="250" height="250" />
+  <img class="faceLarge media-img" src="/static/images/team/karina-shedrofsky-500.jpg" alt="Karina Shedrofsky" width="250" height="250" />
 
   <div class="media-block">
     <h2 class="t-light mb-3">Karina Shedrofsky</h2>
