@@ -18,8 +18,9 @@
       };
     </script>
 
-
-    {% include header.html %}
+    {% if page.hide_navigation != true %}
+      {% include header.html %}
+    {% endif %}
 
     <main aria-label="Content">
       {{ content }}

@@ -1,0 +1,29 @@
+.source {
+  position: relative;
+  display: block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: to-rem(7px);
+    left: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 3px solid $gray-800;
+    border-radius: 50%;
+  }
+
+  & + & {
+    margin-top: $spacer-4;
+  }
+
+  .icon {
+    margin-right: .4em;
+    vertical-align: -2px;
+  }
+}
+
+.source-tags {
+  color: $gray-650;
+}

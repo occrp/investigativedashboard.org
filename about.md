@@ -12,6 +12,9 @@ tools, including search engines, databases, a research support system and a
 file manager, to try to shorten the lead time from story inception to
 publication.
 
+<a href="/about/researchers/" class="button buttonOutlined--primary">Our researchers</a>
+
+
 ### Investigative Dashboard Development
 
 ID is developed by the Organized Crime and Corruption Reporting Project. It is

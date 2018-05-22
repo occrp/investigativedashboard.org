@@ -1,0 +1,20 @@
+.face {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid white;
+  background-clip: border-box;
+}
+
+.faceLarge {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  // background: theme-color("primary");
+  // border: 5px solid theme-color("primary");
+  // background-clip: border-box;
+}

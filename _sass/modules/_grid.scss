@@ -1,0 +1,53 @@
+$grid-gutter-width: 30px;
+$grid-vertical-spacing: 1rem;
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: ($grid-vertical-spacing * -1) ($grid-gutter-width / -2);
+}
+
+.grid-unit {
+  width: 100%;
+  min-height: 1px; // Prevent collapsing
+  padding: $grid-vertical-spacing ($grid-gutter-width / 2);
+}
+
+.grid--thirds {
+  .grid-unit {
+    flex: 0 0 percentage(1/4);
+    max-width: percentage(1/4);
+  }
+}
+
+
+.grid--regions {
+  .grid-unit {
+    flex: 0 0 percentage(1/3);
+    max-width: percentage(1/3);
+  }
+}
+
+$grid-gutter-width: 60px;
+
+.grid--fourths {
+  justify-content: center;
+  margin: ($grid-vertical-spacing * -1) ($grid-gutter-width / -2);
+
+  .grid-unit {
+    flex: 0 0 percentage(1/3);
+    max-width: percentage(1/3);
+    padding: $grid-vertical-spacing ($grid-gutter-width / 2);
+  }
+}
+
+.grid--split {
+  margin: ($grid-vertical-spacing * -1) ($grid-gutter-width / -2);
+
+  .grid-unit {
+    flex: 0 0 percentage(1/2);
+    max-width: percentage(1/2);
+    padding: $grid-vertical-spacing ($grid-gutter-width / 2);
+  }
+}

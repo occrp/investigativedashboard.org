@@ -1,0 +1,16 @@
+.hero {
+  background: $gray-900 url('/static/images/splash.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: $spacer-5 * 2 0;
+
+  img {
+    vertical-align: -10px;
+  }
+}
+
+.sidekick {
+  background: theme-color("primary");
+  color: white;
+  padding: $spacer-5 0 $spacer-4 0;
+}

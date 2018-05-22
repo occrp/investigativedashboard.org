@@ -1,0 +1,22 @@
+.media {
+  @include cf;
+  padding: $spacer-6 0 $spacer-4 * 2;
+  margin: 0 auto;
+
+  &:first-child {
+    // padding-top: 0;
+  }
+
+  & + & {
+    border-top: 1px solid $gray-300;
+  }
+}
+
+.media-img {
+  float: left;
+  margin-right: 60px;
+}
+
+.media-block {
+  overflow: hidden;
+}
