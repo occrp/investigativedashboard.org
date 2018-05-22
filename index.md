@@ -51,7 +51,7 @@ hide_navigation: true
     <h3 class="t4 t-light t-center mb-3">Vladimir Petin</h3>
   </a>
   <div class="copy t-sm">
-    <p>An experienced investigative journalist herself, Dragana helps you track down hidden assets and business interests across the Balkan countries and in broader Eastern Europe.</p>
+    <p>Tracks companies, people and their assets in the CIS region, including Russian Federation.</p>
   </div>
 </div>
 
@@ -67,7 +67,7 @@ hide_navigation: true
 
 <div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#lejla-s">
-    <img class="face mb-2" src="/static/images/team/chris-benevento-500.jpg" alt="Lejla Sarčević" width="150" height="150" />
+    <img class="face mb-2" src="/static/images/team/lejla-sarcevic-500.jpg" alt="Lejla Sarčević" width="150" height="150" />
     <h3 class="t4 t-light t-center mb-3">Lejla Sarčević</h3>
   </a>
   <div class="copy t-sm">

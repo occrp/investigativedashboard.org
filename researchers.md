@@ -47,13 +47,9 @@ Before OCCRP, Benevento volunteered for Internews’ Strengthening Independent M
   <div class="media-block">
     <h2 class="t-light mb-3">Vladimir Petin</h2>
 <div class="copy" markdown="1">
-Chris Benevento is a Balkans-based researcher with a specialization in Russian and Bosnian language. His geographic focus is Eastern Europe and the former USSR.
+Vladimir Petin joined the OCCRP network as a researcher in 2017. He has vast experience in researching people connected to Russian politicians, across numerous jurisdictions. He is helping journalists all over the world to track down companies and assets in CIS countries.
 
-Benevento is a graduate of Northeastern University in Boston, Massachusetts and holds a bachelor’s degree in journalism, with a minor in Russian language. He has more than seven years of accumulated Russian language study, including a 2014 program based in Moscow, and the Middlebury Language School in 2016.
-
-Prior to joining Investigative Dashboard in August 2017, Benevento held the position of Central Asia reporter, contributing research to such projects as OCCRP’s “Agents of Influence” series and an OCCRP collaboration with McClatchy tracking billions in stolen Kazakhstani funds. His work since has included tracking companies, people and assets across the globe using a variety of tools - with a specific focus on social media.
-
-Before OCCRP, Benevento volunteered for Internews’ Strengthening Independent Media Project in Bosnia and Herzegovina in 2015, and worked for The Boston Globe in 2013. In addition to journalistic pursuits, he has experience in data-analytics and marketing.
+Petin has participated in several projects with OCCRP, including recent work on Paradise Papers investigations.
 </div>
   </div>
 </div>
@@ -74,7 +70,7 @@ Pećo had trained in researching corporate structures and obtaining world-wide c
 </div>
 
 <div class="media" id="lejla-s">
-  <img class="faceLarge media-img" src="/static/images/team/chris-benevento-500.jpg" alt="Lejla Sarcevic" width="250" height="250" />
+  <img class="faceLarge media-img" src="/static/images/team/lejla-sarcevic-500.jpg" alt="Lejla Sarcevic" width="250" height="250" />
 
   <div class="media-block">
     <h2 class="t-light mb-3">Lejla Sarčević</h2>
