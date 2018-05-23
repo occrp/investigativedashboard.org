@@ -93,7 +93,7 @@ hide_navigation: true
 </div>
 
 <div class="wrapper pt-6 pb-6">
-  <div class="grid grid--fourths">
+  <div class="grid grid--extra">
 
     <div class="grid-unit">
       <div class="copy t-sm">
@@ -108,14 +108,6 @@ hide_navigation: true
         <h3 class="t-light t-primary">Search for leads</h3>
         <p>Search millions of documents and datasets, from public sources, leaks and investigations.</p>
         <p class="mt-4"><a href="https://data.occrp.org/" class="button buttonOutlined--primary">Search Documents<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Search your collections</h3>
-        <p>Upload documents, make them searchable, and find mentions of persons and companies.</p>
-        <p class="mt-4"><a href="https://data.occrp.org/collections" class="button buttonOutlined--primary">Browse collections<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
       </div>
     </div>
 
@@ -136,7 +128,7 @@ hide_navigation: true
     <div class="whodis-text">
       <div class="copy t-sm">
         <h4 class="t3 t-light t-muted">Who is behind this?</h4>
-        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organised Crime and Corruption Reporting Project</a>,<br /> a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
+        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organised Crime and Corruption Reporting Project</a>, a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
         <p><a href="/about" class="button buttonOutlined--primary">More about us</a></p>
       </div>
     </div>
