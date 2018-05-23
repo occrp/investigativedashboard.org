@@ -64,7 +64,7 @@ Dragana Pećo is an investigative journalist at the Crime and Corruption Reporti
 
 Her awards include 2017 Data Journalism Award in open data category, "Dušan Bogavac" Journalistic Award for Ethics and Courage, three awards from the Independent Journalists’ Association of Serbia and U.S. Embassy awards for investigative journalism in 2011, 2014 and 2016. Pećo was also a recipient of the Balkan Fellowship for Journalistic Excellence in 2014. She had attended various journalism courses and trainings, including the “Economic and Political Reporting from Southeast Europe” program, hosted by the Thomson Reuters Foundation in 2015.
 
-Pećo had trained in researching corporate structures and obtaining world-wide company records, as well as data journalism and data visualization. She is a graduate from the Faculty of Political Science, University of Belgrade, where she received a degree in Journalism.
+Pećo has trained in researching corporate structures and obtaining world-wide company records, as well as data journalism and data visualization. She is a graduate from the Faculty of Political Science, University of Belgrade, where she received a degree in Journalism.
 </div>
   </div>
 </div>
