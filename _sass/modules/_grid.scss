@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: -1.5rem -15px;
-  justify-content: center;
 }
 
 .grid-unit {
@@ -14,6 +13,7 @@
 
 
 .grid--thirds {
+  justify-content: center;
 
   // leaving extra padding on the sides
   .grid-unit {
@@ -39,6 +39,7 @@
 
 .grid--extra {
   text-align: center;
+  justify-content: center;
 
   // leaving extra padding on the sides
   .grid-unit {
