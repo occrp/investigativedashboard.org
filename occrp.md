@@ -2,6 +2,7 @@
 title: OCCRP and ID Development
 layout: page
 permalink: /about/occrp/
+published: true
 ---
 
 Investigative Dashboard (ID) has been developed by the Organized Crime and
@@ -43,14 +44,8 @@ of organized crime.
 
 ### Staff
 
-* Miranda Patrucić, Lead Researcher
-* Lejla Čamdzić, Researcher
-* Smári McCarthy, Chief Technologist
-* Michał Wozńiak, Developer
-* Friedrich Lindenburg, Developer
-* James Robb, Developer
-
-<p><a href="/about/researchers/" class="button buttonOutlined--primary">Research team</a></p>
+Requests on the Investigative Dashboard are handled by the 
+<a href="/about/researchers/" class="button buttonOutlined--primary">research team</a>.
 
 ### Supporters
 
