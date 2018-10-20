@@ -56,16 +56,6 @@ hide_navigation: true
 </div>
 
 <div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#lejla-s">
-    <img class="face mb-2" src="/static/images/team/lejla-sarcevic-500.jpg" alt="Lejla Sarčević" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Lejla Šarčević</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Hunts down tangible assets and their owners around the world. Lejla’s focus is on public records in the United States.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#vladimir">
     <img class="face mb-2" src="/static/images/team/vladimir-petin-500.jpg" alt="Vladimir Petin" width="150" height="150" />
     <h3 class="t4 t-light t-center mb-3">Vladimir Petin</h3>
