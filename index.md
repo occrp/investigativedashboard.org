@@ -115,7 +115,7 @@ hide_navigation: true
       <div class="copy t-sm">
         <h3 class="t-light t-primary">Map your investigation</h3>
         <p>Create visual investigative scenarios that map the people and companies in your story.</p>
-        <p class="mt-4"><a href="https://vis.occrp.org/" class="button buttonOutlined--primary">Visualise networks<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
+        <p class="mt-4"><a href="https://vis.occrp.org/" class="button buttonOutlined--primary">Visualize networks<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
       </div>
     </div>
 
@@ -128,7 +128,7 @@ hide_navigation: true
     <div class="whodis-text">
       <div class="copy t-sm">
         <h4 class="t3 t-light t-muted">Who is behind this?</h4>
-        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organised Crime and Corruption Reporting Project</a>, a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
+        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organized Crime and Corruption Reporting Project</a>, a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
         <p><a href="/about" class="button buttonOutlined--primary">More about us</a></p>
       </div>
     </div>
