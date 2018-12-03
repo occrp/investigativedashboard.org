@@ -5,42 +5,6 @@ permalink: /about/researchers/
 ---
 
 
-<div class="media mt-n6" id="lejla-c">
-  <img class="faceLarge media-img" src="/static/images/team/lejla-camdzic-500.jpg" alt="Lejla Čamdžić" width="250" height="250" />
-
-  <div class="media-block">
-    <h2 class="t-light mb-3">Lejla Čamdžić</h2>
-<div class="copy" markdown="1">
-Lejla Čamdžić joined the Organized Crime and Corruption Reporting Project (OCCRP) network in Sarajevo in 2011 and quickly became the organization’s premier researcher. She currently operates as the head of research at OCCRP.
-
-In addition to her research duties, Čamdžić is responsible for guiding the development of the Investigative Dashboard platform – part of an international, collaborative effort aimed at helping reporters and civil society organizations around the world to research businesses and people in a variety of countries, accessing and interpreting different kinds of records.
-
-Čamdžić has helped journalists across the globe - from media startups in the developing world, to the most prominent newsrooms - uncover critical information and confirm key facts. She has held numerous workshops and trainings on how to conduct cross-border investigations, find and use various types of records in jurisdictions worldwide, use commercial databases and look into offshore companies.
-
-In her time at OCCRP, Čamdžić has been an integral part of large-scale investigative projects, including Panama Papers and Paradise Papers. She has also provided support to regional editors on other major corruption and organized crime investigations, such as “Making a Killing,” “Unholy Alliances,” and the network’s series on TeliaSonera’s dealings with the first families of Uzbekistan and Azerbaijan.
-
-Čamdžić served as the organization’s lead fact-checker for five years.
-</div>
-  </div>
-</div>
-
-<div class="media" id="chris">
-  <img class="faceLarge media-img" src="/static/images/team/chris-benevento-500.jpg" alt="Chris Benevento" width="250" height="250" />
-
-  <div class="media-block">
-    <h2 class="t-light mb-3">Chris Benevento</h2>
-<div class="copy" markdown="1">
-Chris Benevento is a Balkans-based researcher with a specialization in Russian and Bosnian language. His geographic focus is Eastern Europe and the former USSR.
-
-Benevento is a graduate of Northeastern University in Boston, Massachusetts and holds a bachelor’s degree in journalism, with a minor in Russian language. He has more than seven years of accumulated Russian language study, including a 2014 program based in Moscow, and the Middlebury Language School in 2016.
-
-Prior to joining Investigative Dashboard in August 2017, Benevento held the position of Central Asia reporter, contributing research to such projects as OCCRP’s “Agents of Influence” series and an OCCRP collaboration with McClatchy tracking billions in stolen Kazakhstani funds. His work since has included tracking companies, people and assets across the globe using a variety of tools - with a specific focus on social media.
-
-Before OCCRP, Benevento volunteered for Internews’ Strengthening Independent Media Project in Bosnia and Herzegovina in 2015, and worked for The Boston Globe in 2013. In addition to journalistic pursuits, he has experience in data-analytics and marketing.
-</div>
-  </div>
-</div>
-
 <div class="media" id="vladimir">
   <img class="faceLarge media-img" src="/static/images/team/vladimir-petin-500.jpg" alt="Vladimir Petin" width="250" height="250" />
 

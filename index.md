@@ -26,26 +26,6 @@ hide_navigation: true
       <div class="grid grid--thirds">
 
 <div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#lejla-c">
-    <img class="face mb-2" src="/static/images/team/lejla-camdzic-500.jpg" alt="Lejla Čamdžić" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Lejla Čamdžić</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Head of the Research team. Helps reporters track people, companies and assets in offshore jurisdictions and identifies new resources to help journalists during their investigations. Wants your feedback.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#chris">
-    <img class="face mb-2" src="/static/images/team/chris-benevento-500.jpg" alt="Chris Benevento" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Chris Benevento</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Tracks down companies, assets, and people throughout the former Soviet Union and various offshore jurisdictions. Specializes in Russian and Bosnian language queries.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
   <a class="link-hiddenWhite" href="/about/researchers/#dragana">
     <img class="face mb-2" src="/static/images/team/dragana-peco-500.jpg" alt="Dragana Pećo" width="150" height="150" />
     <h3 class="t4 t-light t-center mb-3">Dragana Pećo</h3>
