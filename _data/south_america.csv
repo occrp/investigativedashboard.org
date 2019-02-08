@@ -23,14 +23,14 @@ Bolivia,Business Registry,f,t,t,RUAT - Registro Unico para la Administracion Tri
 information about vehicles http://www.ruat.gob.bo/vehiculos/MenuVehiculos.jsf
 information about immovable assets http://www.ruat.gob.bo/inmuebles/MenuInmuebles.jsf"
 Brazil,Intellectual Property,f,f,t,"National Institute of Industrial Property  Ministry of Development, Industry and Foreign Trade (INPI)",http://www.inpi.gov.br/portal/,
-Brazil,Court Registry,f,f,t,Supreme Court of Brazil,http://www.stf.jus.br/portal/principal/principal.asp,
-Brazil,Business Registry,f,t,t,Junta comercial de São Paulo,http://www.institucional.jucesp.sp.gov.br,Business Registry. Registration required.
-Brazil,Business Registry,f,f,t,Portal de Transparencia,http://www.portaltransparencia.gov.br/,Budget and financial execution of the federal government. Searche available.
-Brazil,Business Registry,f,f,t,Portal do Tribunal de Contas da Union,http://portal2.tcu.gov.br/TCU,
-Brazil,Business Registry,f,f,t,Junta Comercial do Estadovde Goiás,http://www.juceg.go.gov.br/,Available only in Portuguese.
+Brazil,Court Registry,f,f,t,Federal Supreme Court of Brazil,http://www.stf.jus.br/portal/principal/principal.asp,
+Brazil,Business Registry,f,t,t,Junta Comercial de São Paulo,http://www.institucional.jucesp.sp.gov.br,Business Registry. Registration required.
+Brazil,Business Registry,f,f,t,Portal da Transparência,http://www.transparencia.gov.br/,Budget and financial execution of the federal government. Search available.
+Brazil,Business Registry,f,f,t,Portal do Tribunal de Contas da União,http://portal2.tcu.gov.br/TCU,
+Brazil,Business Registry,f,f,t,Junta Comercial do Estado de Goiás,http://www.juceg.go.gov.br/,Available only in Portuguese.
 Brazil,Business Registry,f,f,t,Secretaria de Relações do Trabalho,http://www3.mte.gov.br/sistemas/sirett/consulta/consultarRegistroEmpresaFormulario.asp,Available search by company name or company's number. Only in Portuguese
 Brazil,Intellectual Property,f,f,t,Portal Brasileiro de Dados Abertos,http://dados.gov.br/,Available: free and open access to government datasets.
-Brazil,Business Registry,f,f,t,Government of Alagoas,http://www.facilita.al.gov.br/consultaprevia,Available only in Portuguese
+Brazil,Business Registry,f,f,t,Government of Alagoas,http://www.facilita.al.gov.br/consultaprevia,Available only in Portuguese (not currently working)
 Brazil,Business Registry,f,f,t,Commercial Registry of São Paulo,http://www.jucesp.fazenda.sp.gov.br/,Available only in Portuguese
 Brazil,Business Registry,t,f,t,Commercial Registry of Bahia,http://www.juceb.ba.gov.br/servicos/pesquisa_nome_empresarial,Available only in Portuguese
 Brazil,Business Registry,f,t,t,Commercial Registry of Santa Catarina,http://www.jucesc.sc.gov.br/index.php/pesquisa-de-nome,Available only in Portuguese
@@ -53,10 +53,10 @@ Brazil,Business Registry,f,f,t,Business registry of Paraíba,http://jucep.pb.gov
 Brazil,Business Registry,f,t,t,Business Registry of Rio Grande do Sul,http://www.jucergs.rs.gov.br/p_login.asp,Available: search by company number but registration is only possible with Brazilian personal ID number.
 Brazil,Business Registry,f,f,t,Business Registry of Rondônia,http://www.rondonia.ro.gov.br/jucer/,Available: online search by company number with basic company information and status returned in the search results.
 Brazil,Business Registry,f,f,t,Business Registry Tocantins,http://jucetins.to.gov.br/,No online search available.
-Brazil,Commercial Registry,f,f,f,Bolsa de Valores de San Pablo,http://www.bmfbovespa.com.br/cias-listadas/empresas-listadas/BuscaEmpresaListada.aspx?Idioma=en-us,"Available: listed companies info.
+Brazil,Commercial Registry,f,f,f,Bolsa de Valores de São Paulo,http://www.bmfbovespa.com.br/cias-listadas/empresas-listadas/BuscaEmpresaListada.aspx?Idioma=en-us,"Available: listed companies info.
 BM&FBOVES manages the organized Securities and Derivatives markets, providing registration, clearing and settlement services. It acts as central counterparty, guaranteeing financial settlement for the trades executed in its environments."
 Brazil,Commercial Registry,t,t,f,CCFácil,https://www.ccfacil.com.br/,
-Chile,Intellectual Property,f,f,t,National Institute of Industrial Property  Ministry of Economy,http://www.inapi.cl/portal/institucional/600/w3-channel.html,
+Chile,Intellectual Property,f,f,t,National Institute of Industrial Property Ministry of Economy,http://www.inapi.cl/portal/institucional/600/w3-channel.html,
 Chile,Business Registry,f,f,f,Bolsa de Comercio de Santiago,http://www.bolsadesantiago.com/index.aspx,
 Chile,Business Registry,f,f,t,Dirección Chile Compra,http://www.chilecompra.cl/,Proveedores del Estado.
 Chile,Business Registry,f,f,f,Superintendencia de Bancos e Instituciones Financieras,http://www.sbif.cl/sbifweb/servlet/Portada?indice=0.0,Listed publicly-traded companies.
