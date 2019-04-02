@@ -21,7 +21,7 @@ hide_navigation: true
       <p>Their support is free for reporters from anywhere in the world.</p>
       <p class="mt-5">
         <a href="/tickets/new" class="button button--inverted">Send a research request</a>
-        <a href="/tickets" class="button button--inverted">See your requests</a>
+        <a href="/tickets" class="button button--inverted">Track your requests</a>
       </p>
     </div>
 
