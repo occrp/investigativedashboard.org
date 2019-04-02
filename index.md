@@ -19,7 +19,10 @@ hide_navigation: true
       <h2 class="t-light mb-4">Ask our researchers</h2>
       <p>Our team has worked on dozens of award-winning investigations in different regions.</p>
       <p>Their support is free for reporters from anywhere in the world.</p>
-      <p class="mt-5"><a href="/tickets/new" class="button button--inverted">Send a research request</a></p>
+      <p class="mt-5">
+        <a href="/tickets/new" class="button button--inverted">Send a research request</a>
+        <a href="/tickets" class="button button--inverted">See your requests</a>
+      </p>
     </div>
 
     <div class="research-team">
