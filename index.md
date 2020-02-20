@@ -7,7 +7,7 @@ hide_navigation: true
 <div class="hero">
   <div class="wrapper t-center">
     <h1 class="t-normal"><img width="60" height="60" src="https://cdn.occrp.org/common/logo/WhiteTransparent_globe.png" /> {{site.title | escape}}</h1>
-    <p>We help journalists anywhere to trace people, companies and assets across the globe.</p>
+    <p>We help journalists to trace people, companies and assets across the globe.</p>
   </div>
 </div>
 
@@ -18,7 +18,7 @@ hide_navigation: true
     <div class="research-text">
       <h2 class="t-light mb-4">Ask our researchers</h2>
       <p>Our team has worked on dozens of award-winning investigations in different regions.</p>
-      <p>Their support is free for reporters from anywhere in the world.</p>
+      <p>Our support is free for OCCRP member centers and partners.</p>
       <p class="mt-5">
         <a href="/tickets/new" class="button button--inverted">Send a research request</a>
         <a href="/tickets" class="button button--inverted">Track your requests</a>
