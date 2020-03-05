@@ -1,0 +1,39 @@
+#
+# how it works:
+# 1. temporary directory /tmp/output/ is created/cleaned
+# 2. stuff is generated into that clean directory
+# 3. if the generation was successful, stuff is rsync into the actual output directory; stuff that has been removed in build is deleted in this process too
+
+variables:
+    # we do need that, look below
+    PATH: '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/tmp/bin/'
+
+before_script:
+    - 'mkdir -p /tmp/output/' # create the temporary output dir if it does not exist
+    - 'rm -rf /tmp/output/*'   # clear it if it does
+
+# this builds the whole project,
+# including the posts that have future dates and posts marked as published: false
+investigativedashboard-jekyll-master:
+    script:
+        - 'cd "$CI_PROJECT_DIR"'
+        - '/usr/local/bin/bundle install --path vendor/bundle --binstubs'               # jekyll requirements
+        - './bin/jekyll build --future --unpublished --destination=/tmp/output/master/' # stuff the dreams are made of
+        - '/usr/bin/rsync -avz --delete /tmp/output/master/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
+    only:
+        - master
+    tags:
+        - master
+
+#
+# this is production
+investigativedashboard-jekyll-production:
+    script:
+        - 'cd "$CI_PROJECT_DIR"'
+        - '/usr/local/bin/bundle install --path vendor/bundle --binstubs' # jekyll requirements
+        - './bin/jekyll build --destination=/tmp/output/'                 # stuff the dreams are made of
+        - '/usr/bin/rsync -avz --delete /tmp/output/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
+    only:
+        - production
+    tags:
+        - production
