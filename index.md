@@ -4,125 +4,90 @@ title: Homepage
 hide_navigation: true
 ---
 
-<div class="hero">
-  <div class="wrapper t-center">
-    <h1 class="t-normal"><img width="60" height="60" src="https://cdn.occrp.org/common/logo/WhiteTransparent_globe.png" /> {{site.title | escape}}</h1>
-    <p>We help journalists to trace people, companies and assets across the globe.</p>
+<div class="bg--circuit bb">
+  <div class="center mw8 pv5 tc">
+    <img class="w-30 ba br-100 b--gray pa3 bw2" src="/static/svg/id.svg">
+    <h1 class="normal ttu tracked b mid-gray bg-white">
+      We help OCCRP member centers to trace people,
+      companies and assets across the globe
+    </h1>
   </div>
 </div>
 
-<div class="b-primary">
-<div class="wrapper pt-6 pb-7">
-  <div class="research">
+<div class="center mw8 pv5 flex justify-between">
+  <div class="w-60">
+    <h3 class="ttu tracked normal">Ask our researchers</h3>
+    <p class="lh-copy">
+      Our team has worked on dozens of award-winning investigations in
+      different regions.
+    </p>
 
-    <div class="research-text">
-      <h2 class="t-light mb-4">Ask our researchers</h2>
-      <p>Our team has worked on dozens of award-winning investigations in different regions.</p>
-      <p>Our support is free for OCCRP member centers and partners.</p>
-      <p class="mt-5">
-        <a href="/tickets/new" class="button button--inverted">Send a research request</a>
-        <a href="/tickets" class="button button--inverted">Track your requests</a>
+    <p class="lh-copy pv2">
+      <a href="/tickets" class="link ttu tracked dim mid-gray ph3 pv2 br1 ba b--mid-gray">
+        File a new request
+      </a>
+    </p>
+
+    <p class="lh-copy">
+      If you have submitted requests,
+      <a href="/tickets" class="dim mid-gray">
+        you can track them here</a>.
+    </p>
+  </div>
+
+  <div class="w-40">
+    <h3 class="ttu tracked normal">Find online sources</h3>
+    <p class="lh-copy">
+      Browse our global index of public registries for companies, land registries
+      and courts.
+    </p>
+
+    <p class="lh-copy pt2">
+      <a href="/databases" class="link ttu tracked dim mid-gray ph3 pv2 br1 ba b--mid-gray">
+        Browse databases
+      </a>
+    </p>
+  </div>
+</div>
+
+
+<div class="mw8 center pb5">
+  <h3 class="mb0 normal ttu tracked">Who is behind this?</h3>
+
+  <div class="flex justify-content">
+    <div class="w-60">
+      <p class="lh-copy measure-wide">
+        The Investigative Dashboard is operated by the
+        <a href="https://occrp.org/" class="mid-gray dim">
+          Organized Crime and Corruption Reporting Project
+        </a>,
+        a not-for-profit network of award-winning investigative reporting teams.
+        ID is supported by international partner networks and our donors.
+      </p>
+
+      <p class="lh-copy pt2">
+        <a href="/about" class="link ttu tracked dim mid-gray ph3 pv2 br1 ba b--mid-gray">
+          More about us
+        </a>
       </p>
     </div>
 
-    <div class="research-team">
-      <div class="grid grid--thirds">
-
-<div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#dragana">
-    <img class="face mb-2" src="/static/images/team/dragana-peco-500.jpg" alt="Dragana Pećo" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Dragana Pećo</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>An experienced investigative journalist herself, Dragana helps you track down hidden assets and business interests across the Balkan countries and in broader Eastern Europe.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#vladimir">
-    <img class="face mb-2" src="/static/images/team/vladimir-petin-500.jpg" alt="Vladimir Petin" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Vladimir Petin</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Tracks companies, people and their assets in the CIS region, including Russian Federation.</p>
-  </div>
-</div>
-
-<div class="grid-unit">
-  <a class="link-hiddenWhite" href="/about/researchers/#karina">
-    <img class="face mb-2" src="/static/images/team/karina-shedrofsky-500.jpg" alt="Karina Shedrofsky" width="150" height="150" />
-    <h3 class="t4 t-light t-center mb-3">Karina Shedrofsky</h3>
-  </a>
-  <div class="copy t-sm">
-    <p>Tracks down individuals, companies and hidden assets in offshore tax havens.</p>
-  </div>
-</div>
-
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-
-<div class="wrapper pt-6 pb-6">
-  <div class="grid grid--extra">
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Find online sources</h3>
-        <p>Browse our global index of public registries for companies, land registries and courts.</p>
-        <p class="mt-4"><a href="/databases" class="button buttonOutlined--primary">Browse databases</a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Search for leads</h3>
-        <p>Search millions of documents and datasets, from public sources, leaks and investigations.</p>
-        <p class="mt-4"><a href="https://data.occrp.org/" class="button buttonOutlined--primary">Search Documents<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-    <div class="grid-unit">
-      <div class="copy t-sm">
-        <h3 class="t-light t-primary">Map your investigation</h3>
-        <p>Create visual investigative scenarios that map the people and companies in your story.</p>
-        <p class="mt-4"><a href="https://vis.occrp.org/" class="button buttonOutlined--primary">Visualize networks<svg class="icon"><use xlink:href="#link-external"></use></svg></a></p>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="wrapper">
-  <div class="whodis pt-6 pb-6">
-
-    <div class="whodis-text">
-      <div class="copy t-sm">
-        <h4 class="t3 t-light t-muted">Who is behind this?</h4>
-        <p>The Investigative Dashboard is operated by the <a href="https://occrp.org/" class="red-id link dim">Organized Crime and Corruption Reporting Project</a>, a not-for-profit network of award-winning investigative reporting teams. ID is supported by international partner networks and our donors.</p>
-        <p><a href="/about" class="button buttonOutlined--primary">More about us</a></p>
-      </div>
-    </div>
-
-    <div class="whodis-partners">
-      <a href="https://occrp.org/" class="partner">
+    <div class="w-40">
+      <a href="https://occrp.org/" class="dib link pr4 pv3 dim">
         <img src="/static/images/logos/occrp.png" alt="OCCRP" width="130" height="25"/>
       </a>
-      <a href="http://en.arij.net/" class="partner">
+      <a href="http://en.arij.net/" class="dib link pr4 pv3 dim">
         <img src="/static/images/logos/arij.png" alt="ARIJ" width="99" height="25"/>
       </a>
-      <a href="https://investigativecenters.org/" class="partner">
+      <a href="https://investigativecenters.org/" class="dib link pr4 pv3 dim">
         <img src="/static/images/logos/ancir.png" alt="ANCIR" width="134" height="25"/>
       </a>
-      <a href="https://jigsaw.google.com/" class="partner">
+      <a href="https://jigsaw.google.com/" class="dib link pr4 pv3 dim">
         <img src="/static/images/logos/jigsaw.png" alt="Jigsaw" width="79" height="25"/>
       </a>
-      <a href="https://www.opensocietyfoundations.org/" class="partner">
+      <a href="https://www.opensocietyfoundations.org/" class="dib link pr4 pv3 dim">
         <img src="/static/images/logos/osf.png" alt="OSF" width="107" height="25"/>
       </a>
     </div>
-
   </div>
 </div>
