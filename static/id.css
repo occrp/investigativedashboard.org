@@ -1,0 +1,13 @@
+@import 'https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css';
+
+.occrp-red { color: #982022; }
+.bg-occrp-red { background-color: #982022; }
+.b--occrp-red { border-color: #982022; }
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.bg--circuit {
+  background-image: url('/static/svg/circuit-board.svg');
+}
