@@ -17,8 +17,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-autoprefixer
-  - jekyll-typogrify
 
 exclude:
   - Gemfile
