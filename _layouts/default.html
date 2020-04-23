@@ -4,13 +4,13 @@
   {% include head.html %}
 
   <body class="sans-serif open-sans mid-gray">
+    {% include alert.html %}
+
     {% if page.hide_navigation != true %}
       {% include header.html %}
     {% endif %}
 
     <main aria-label="Content">
-      {% include alert.html %}
-
       {{ content }}
     </main>
 

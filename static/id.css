@@ -8,6 +8,6 @@
   font-family: "Open Sans";
 }
 
-.bg--circuit {
-  background-image: url('/static/svg/circuit-board.svg');
+.bg--pattern {
+  background-image: url('/static/images/subway-lines.png');
 }
