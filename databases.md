@@ -24,7 +24,7 @@ permalink: /databases/
 </p>
 <p>
   This page information is publicly available and can be updated. If you find
-  errors, please report them <a
+  errors, please report them <a class="mid-gray dim"
   href="https://git.occrp.org/libre/investigativedashboard.org/issues">on our
   Gitlab</a>.
 </p>

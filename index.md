@@ -60,14 +60,8 @@ hide_navigation: true
       a not-for-profit network of award-winning investigative reporting teams.
     </p>
 
-    <p class="lh-copy">
-      ID is supported by international partner networks and our donors.
-    </p>
-
-    <p class="lh-copy pt2">
-      <a href="/about" class="link ttu tracked dim mid-gray ph3 pv2 ba b--mid-gray">
-        More about us
-      </a>
+    <p class="lh-copy measure-wide">
+      <a href="/about" class="dim mid-gray">Learn more more about us</a>.
     </p>
   </div>
 </div>

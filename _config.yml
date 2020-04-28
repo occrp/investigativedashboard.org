@@ -1,16 +1,7 @@
-title: Investigative Dashboard
+title: OCCRP ID
 email: id@occrp.org
-description: >-
-  Investigative Dashboard (ID) is intended to help investigative journalists to
-  do their work in a fast and effective way. It combines a number of software
-  tools, including search engines, databases, a research support system and a
-  file manager, to try to shorten the lead time from story inception to
-  publication.
 baseurl: ''
 url: ''
-logo: /static/svg/logo.svg
-google_analytics: ''
-repository_url: https://github.com/occrp/investigativedashboard.org
 
 # Build settings
 markdown: kramdown
