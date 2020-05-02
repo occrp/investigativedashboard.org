@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="sans-serif open-sans mid-gray">
+  <body class="sans-serif open-sans mid-gray {{page.body_class}}">
     {% include alert.html %}
 
     {% if page.hide_navigation != true %}

@@ -9,5 +9,9 @@
 }
 
 .bg--pattern {
-  background-image: url('/static/images/subway-lines.png');
+  background-image: url('/static/images/texture.jpg');
+}
+
+.w-45 {
+  width: 45%;
 }
