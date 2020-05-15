@@ -62,13 +62,13 @@ body_class: bg-near-white
 
   <p class="lh-copy ameasure-wide">
     This project is operated by the
-    <a href="https://occrp.org/" class="mid-gray dim"
+    <a href="https://www.occrp.org/en/about-us" class="mid-gray dim"
       title="Organized Crime and Corruption Reporting Project"
     >OCCRP</a>,
     a not-for-profit network of award-winning investigative reporting teams.
   </p>
 
   <p class="lh-copy measure-wide">
-    <a href="/about" class="dim mid-gray">Learn more more about us</a>.
+    <a href="/about" class="dim mid-gray">Learn more more about the OCCRP ID</a>.
   </p>
 </div>

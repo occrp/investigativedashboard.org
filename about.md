@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 <b>ID</b> is an
-<abbr title="Organized Crime and Corruption Reporting Project">OCCRP</abbr>
+<a class="mid-gray dim" href="https://www.occrp.org/en/about-us"
+  title="Organized Crime and Corruption Reporting Project">OCCRP</a>
 service that helps investigative journalists within the network conduct
 research quickly and effectively.
 
@@ -214,31 +215,3 @@ Democracy.
 
 ID was developed in collaboration with
 <a class="mid-gray dim" href="https://jigsaw.google.com">Google Ideas</a>.
-
-## About OCCRP
-
-As an investigative reporting platform for an ever-growing
-<a class="mid-gray dim" href="https://www.occrp.org/en/members">worldwide
-network of independent media centers</a> and journalists, OCCRP is reinventing
-investigative journalism for the 21st century as a public good.
-In the face of rising costs and growing threats to independent media, OCCRP
-provides media outlets and journalists with a range of critical resources and
-tools including digital and physical security and allows those covering the
-most sensitive topics to work in teams with trusted editors.
-
-While upholding the highest journalistic ethics and editorial standards, OCCRP
-develops and deploys cutting-edge tech tools to enable collaborative, secure
-data-driven investigations.
-With <a class="mid-gray dim" href="https://aleph.occrp.org">OCCRP Aleph</a>,
-an investigative data platform powered by software we developed, journalists
-can search and cross-reference more than one billion records to trace criminal
-connections and patterns and efficiently collaborate across borders.
-
-OCCRP also <a class="mid-gray dim"
-href="https://www.occrp.org/en/gacc/">partners with advocacy groups</a>, arming
-civil society with information to meaningfully press for justice and change,
-and unearths evidence that enables law enforcement to act.
-
-We see a future where corruption and organized crime are drastically reduced
-and democracy is strengthened as a result of a more informed citizenry,
-increased accountability, and sharply higher costs for criminal activity.
