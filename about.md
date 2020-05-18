@@ -38,34 +38,13 @@ experts at Stanford University and in Silicon Valley.
 
 <div class="flex">
   <div class="w-20">
-    <img class="br-100 w-80 mt2" src="/static/images/team/eric-barrett-500.jpg" alt="Eric Barrett" />
-  </div>
-  <div class="w-80" markdown="1">
-#### Eric Barrett
-{: .ttu .ma0 .tracked}
-
-Data Desk Manager
-{: .normal .ma0 .gray .f6}
-
-Based in Tbilisi, Georgia, Eric Barrett joined OCCRP in 2019 and is the data
-desk manager. He works with OCCRP journalists and member centers leveraging
-data to support investigations that shine a light on corruption.
-
-Previously, he directed Georgia’s first data non-profit, JumpStart Georgia, and
-later managed technology and security at Azerbaijan’s leading independent media
-outlet in exile, MeydanTV.
-  </div>
-</div>
-
-<div class="flex mt5">
-  <div class="w-20">
     <img class="br-100 w-80 mt2" src="/static/images/team/karina-shedrofsky-500.jpg" alt="Karina Shedrofsky" />
   </div>
   <div class="w-80" markdown="1">
 #### Karina Shedrofsky
 {: .ttu .ma0 .tracked}
 
-Head of research
+Head of Research
 {: .normal .ma0 .gray .f6}
 
 Based in Sarajevo, Karina Shedrofsky joined OCCRP in 2017 as a daily news
@@ -203,6 +182,27 @@ Before that, she was on the investigative team for the Ukrainian digital
 newspaper Ukrayinska Pravda and worked on stories about economic fraud, the
 monopoly of the tobacco business, and corruption in the construction
 businesses.
+  </div>
+</div>
+
+<div class="flex mt5">
+  <div class="w-20">
+    <img class="br-100 w-80 mt2" src="/static/images/team/eric-barrett-500.jpg" alt="Eric Barrett" />
+  </div>
+  <div class="w-80" markdown="1">
+#### Eric Barrett
+{: .ttu .ma0 .tracked}
+
+Data Desk Manager
+{: .normal .ma0 .gray .f6}
+
+Based in Tbilisi, Georgia, Eric Barrett joined OCCRP in 2019 and is the data
+desk manager. He works with OCCRP journalists and member centers leveraging
+data to support investigations that shine a light on corruption.
+
+Previously, he directed Georgia’s first data non-profit, JumpStart Georgia, and
+later managed technology and security at Azerbaijan’s leading independent media
+outlet in exile, MeydanTV.
   </div>
 </div>
 
