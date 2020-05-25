@@ -19,14 +19,16 @@ permalink: /databases/
 {% endfor %}
 
 <p>
-  Below is a collection of the most useful public data sources for
-  investigative reporting compiled by our researchers.
+  Below is a collection of public data sources compiled by our researchers that
+  are the most useful for investigative reporting.
 </p>
 <p>
   This page information is publicly available and can be updated. If you find
-  errors, please report them <a class="mid-gray dim"
+  errors or would like to suggest more sources to add to our ever growing
+  library, please report them <a class="mid-gray dim"
   href="https://git.occrp.org/libre/investigativedashboard.org/issues">on our
-  Gitlab</a>.
+  Gitlab</a> or
+  <a class="mid-gray dim" href="mailto:research@occrp.org">email us</a>.
 </p>
 
 <div class="mb5 mt4">
