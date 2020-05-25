@@ -1,5 +1,5 @@
 ---
-title: About ID
+title: About OCCRP ID
 layout: page
 permalink: /about/
 ---
@@ -7,32 +7,27 @@ permalink: /about/
 <b>ID</b> is an
 <a class="mid-gray dim" href="https://www.occrp.org/en/about-us"
   title="Organized Crime and Corruption Reporting Project">OCCRP</a>
-service that helps investigative journalists within the network conduct
+service that helps investigative journalists in the OCCRP network conduct
 research quickly and effectively.
 
-A team of researchers and data specialists is on hand to track down people,
-companies, and assets — like ships and planes — anywhere in the world.
+A team of expert researchers and data specialists is available  to help track
+down people, companies, and assets — like ships and planes — anywhere in the
+world.
 
-They are equipped with access to a number of commercial search engines and
+We are equipped with access to a number of commercial search engines and
 databases, as well as the experience to make effective use of dozens of
-publicly available, but little-known, open sources.
-
-The team also supports investigations in need of data acquisition, wrangling,
-and analysis of data.
+publicly available, but little-known, open sources. Services also include
+assistance with data acquisition, wrangling, and analysis.
 
 With the support of a bespoke ticketing system to shorten the lead time from
-story inception to publication, the research team helps OCCRP members break new
-ground in investigative journalism.
+story inception to publication, the research team helps OCCRP’s member centers
+and partners to break new ground in investigative journalism.
 
-### History
+## History
 
-The Investigative Dashboard was developed by Paul Cristian Radu (OCCRP) and
-Justin Arenstein (ANCIR) while they both were in residence at Stanford
-University as Knight Fellows.
-
-The John S. Knight Fellowships for Professional Journalists made the dashboard
-possible by providing access to the know-how of fellow journalists and of
-experts at Stanford University and in Silicon Valley.
+OCCRP ID was developed by OCCRP co-founder Paul Radu and Justin Arenstein from
+the African Network of Centers for Investigative Reporting  while they were
+both John S. Knight Fellows in residence at Stanford University in 2010.
 
 ## Team
 
