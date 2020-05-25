@@ -86,7 +86,7 @@ body_class: bg-near-white
   <h3 class="normal ttu tracked">Who is behind this?</h3>
 
   <p class="lh-copy">
-    This project is operated by the
+    This project is operated by
     <a href="https://www.occrp.org/en/about-us" class="mid-gray dim"
       title="Organized Crime and Corruption Reporting Project"
     >OCCRP</a>,
