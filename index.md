@@ -94,6 +94,6 @@ body_class: bg-near-white
   </p>
 
   <p class="lh-copy">
-    <a href="/about" class="dim mid-gray">Learn more more about the OCCRP ID</a>.
+    <a href="/about" class="dim mid-gray">Learn more more about OCCRP ID</a>.
   </p>
 </div>
