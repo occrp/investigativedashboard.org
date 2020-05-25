@@ -13,7 +13,6 @@ research quickly and effectively.
 A team of expert researchers and data specialists is available  to help track
 down people, companies, and assets — like ships and planes — anywhere in the
 world.
-
 We are equipped with access to a number of commercial search engines and
 databases, as well as the experience to make effective use of dozens of
 publicly available, but little-known, open sources. Services also include

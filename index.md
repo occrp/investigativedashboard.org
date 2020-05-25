@@ -34,11 +34,13 @@ body_class: bg-near-white
       </p>
 
       <p class="lh-copy pt2">
-        <strong>Who is this for?</strong>
-        We’ve scoured the Internet and compiled a list of public data sources
-        available to anyone. This information changes regularly. If you find
-        errors or would like to suggest more sources to add to our ever growing
-        library, please
+        <strong>Who is this for?</strong> Everyone!
+        We've scoured the Internet and compiled a list of public data sources
+        available to anyone. This information changes regularly.
+      </p>
+      <p class="lh-copy">
+        If you find errors or would like to suggest more sources to add to our
+        ever growing library, please
         <a class="mid-gray dim" href="mailto:research@occrp.org">send us an email</a>.
       </p>
     </div>
