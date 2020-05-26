@@ -8,7 +8,7 @@ permalink: /about/
 <a class="mid-gray dim" href="https://www.occrp.org/en/about-us"
   title="Organized Crime and Corruption Reporting Project">OCCRP</a>
 service that helps investigative journalists in the OCCRP network conduct
-research quickly and effectively.
+research quickly and effectively. OCCRP's research team runs ID.
 
 A team of expert researchers and data specialists is available  to help track
 down people, companies, and assets — like ships and planes — anywhere in the
@@ -21,6 +21,14 @@ assistance with data acquisition, wrangling, and analysis.
 With the support of a bespoke ticketing system to shorten the lead time from
 story inception to publication, the research team helps OCCRP’s member centers
 and partners to break new ground in investigative journalism.
+
+We support research requests from journalists working at our
+<a class="mid-gray dim" href="https://www.occrp.org/en/members">member centers</a>
+and reporters partnering with us on investigations. If you are collaborating
+with us in a different capacity, for example through
+<a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">our GACC partnership</a>,
+we can also support your research. If in doubt, please
+<a class="mid-gray dim" href="mailto:research@occrp.org">get in touch</a>.
 
 ## History
 
