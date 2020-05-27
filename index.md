@@ -8,7 +8,7 @@ body_class: bg-near-white
 <div class="bg--pattern bg-black bg-center cover bb">
   <div class="center mw8 pv6 tc">
     <h1 class="white ttu tracked-tight normal f1">
-      <img class="w2" src="/static/svg/logo-white.svg"> OCCRP ID
+      <img class="w-60" src="/static/svg/logo-id-white.svg" />
     </h1>
     <h2 class="white normal ttu tracked-mega">
       We help the OCCRP network trace people,
