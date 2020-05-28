@@ -1,9 +1,3 @@
-@import 'https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css';
-
-.occrp-red { color: #982022; }
-.bg-occrp-red { background-color: #982022; }
-.b--occrp-red { border-color: #982022; }
-
 .open-sans {
   font-family: "Open Sans";
 }
@@ -14,4 +8,8 @@
 
 .w-45 {
   width: 45%;
+}
+
+@media screen and (min-width: 30em) {
+  .w-45-ns { width: 45%; }
 }
