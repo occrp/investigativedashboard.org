@@ -22,14 +22,6 @@ With the support of a bespoke ticketing system to shorten the lead time from
 story inception to publication, the research team helps OCCRP’s member centers
 and partners to break new ground in investigative journalism.
 
-We support research requests from journalists working at our
-<a class="mid-gray dim" href="https://www.occrp.org/en/members">member centers</a>
-and reporters partnering with us on investigations. If you are collaborating
-with us in a different capacity, for example through
-<a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">our GACC partnership</a>,
-we can also support your research. If in doubt, please
-<a class="mid-gray dim" href="mailto:research@occrp.org">get in touch</a>.
-
 ## History
 
 OCCRP ID was developed by OCCRP co-founder Paul Radu and Justin Arenstein from
