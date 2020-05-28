@@ -6,9 +6,9 @@ body_class: bg-near-white
 ---
 
 <div class="bg--pattern bg-black bg-center cover bb">
-  <div class="center mw8 pv6 tc">
+  <div class="center mw8 pv6 tc ph4-m">
     <h1 class="white ttu tracked-tight normal f1">
-      <img class="w-60" src="/static/svg/logo-id-white.svg" />
+      <img class="w-60-ns" src="/static/svg/logo-id-white.svg" />
     </h1>
     <h2 class="white normal ttu tracked-mega">
       We help the OCCRP network trace people,
@@ -17,9 +17,9 @@ body_class: bg-near-white
   </div>
 </div>
 
-<div class="bg-white pv5">
-  <div class="center mw8 flex justify-between">
-    <div class="w-45">
+<div class="bg-white pv5 ph4 ph4-m ph0-ns">
+  <div class="center mw8 flex-ns justify-between-ns">
+    <div class="w-45-ns">
       <h3 class="ttu tracked normal">Find online resources</h3>
       <p class="lh-copy">
         Browse our global index of public registries for companies, land
@@ -37,7 +37,7 @@ body_class: bg-near-white
       </p>
     </div>
 
-    <div class="w-45">
+    <div class="w-45-ns mt5 mt0-ns">
       <h3 class="ttu tracked normal">Ask our researchers</h3>
       <p class="lh-copy">
         Our team has worked on dozens of award-winning investigations. If you
@@ -79,7 +79,7 @@ body_class: bg-near-white
   </div>
 </div>
 
-<div class="center mw8 pv5">
+<div class="center mw8 pv5 ph4 ph4-m ph0-ns">
   <h3 class="normal ttu tracked">Who is behind this?</h3>
 
   <p class="lh-copy">

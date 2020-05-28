@@ -36,14 +36,14 @@ permalink: /databases/
     Please select one of the following filters to limit the results.
   </p>
 
-  <select data-filter="region">
+  <select data-filter="region db db-m di-ns">
     <option value=""> - All Regions - </option>
     {% for region in regions %}
       <option value="{{region | slugify}}">{{region}}</option>
     {% endfor %}
   </select>
 
-  <select class="mh3" data-filter="country">
+  <select class="mh0 mh0-m mv2 mv2-m mv0-ns mh3-ns db db-m di-ns" data-filter="country">
     <option value=""> - All Countries - </option>
     {% for code in countries %}
       {% assign country = site.data.countries | where: 'alpha-2', code | first %}
@@ -53,7 +53,7 @@ permalink: /databases/
     {% endfor %}
   </select>
 
-  <select data-filter="type">
+  <select class="db db-m di-ns" data-filter="type">
     <option value=""> - All Types - </option>
     {% for type in types %}
       <option value="{{type | slugify}}">{{type | capitalize}}</option>
@@ -111,9 +111,9 @@ permalink: /databases/
       <span class="normal tt light-silver">&mdash; {{ by_country.items.size }}</span>
     </h2>
 
-    <div class="flex flex-wrap justify-between">
+    <div class="flex-ns flex-wrap-ns">
     {% for source in by_country.items %}
-      <div class="w-30"
+      <div class="w-30-ns mr4-ns"
         data-type="{{source.Type | slugify}}"
         data-country="{{by_country.name | slugify}}"
         data-region="{{country.region | slugify}}"
