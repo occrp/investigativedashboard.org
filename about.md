@@ -28,6 +28,16 @@ OCCRP ID was developed by OCCRP co-founder Paul Radu and Justin Arenstein from
 the African Network of Centers for Investigative Reporting  while they were
 both John S. Knight Fellows in residence at Stanford University in 2010.
 
+## Supporters
+
+ID has been generously supported by the governments of the United States, the
+United Kingdom, Sweden, Denmark and the European Union, as well as by the Open
+Society Foundations, Sigrid Rausing Trust, and the National Endowment for
+Democracy.
+
+ID was developed in collaboration with
+<a class="mid-gray dim" href="https://jigsaw.google.com">Google Ideas</a>.
+
 ## Team
 
 <div class="flex">
@@ -199,13 +209,3 @@ later managed technology and security at Azerbaijan’s leading independent medi
 outlet in exile, MeydanTV.
   </div>
 </div>
-
-## Supporters
-
-ID has been generously supported by the governments of the United States, the
-United Kingdom, Sweden, Denmark and the European Union, as well as by the Open
-Society Foundations, Sigrid Rausing Trust, and the National Endowment for
-Democracy.
-
-ID was developed in collaboration with
-<a class="mid-gray dim" href="https://jigsaw.google.com">Google Ideas</a>.
