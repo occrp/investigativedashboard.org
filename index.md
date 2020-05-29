@@ -66,7 +66,7 @@ body_class: bg-near-white
 
       <p class="lh-copy pt2">
         <a href="/tickets/new" class="link ttu tracked dim mid-gray ph3 pv2 ba br1 b--mid-gray">
-          File a new request
+          <img class="o-70" height="12px" src="/static/svg/lock.svg" alt="🔒" /> File a new request
         </a>
       </p>
 
