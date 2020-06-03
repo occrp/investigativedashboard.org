@@ -12,7 +12,7 @@ body_class: bg-near-white
     </h1>
     <h2 class="white normal ttu tracked-mega">
       We help the OCCRP network trace people,
-      companies and assets across the globe
+      companies, and assets across the globe
     </h2>
   </div>
 </div>
@@ -52,9 +52,10 @@ body_class: bg-near-white
         <span id="_more" class="dn">
           reporters partnering with us on investigations. If you are
           collaborating with us in a different capacity, for example through
-          <a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">our
-          GACC partnership</a>, we can also support your research. If in doubt,
-          please <a class="mid-gray dim" href="mailto:research@occrp.org">get in
+          <a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">the
+          Global Anti-corruption Consortium partnership</a>, we can also
+          support your research. If in doubt, please
+          <a class="mid-gray dim" href="mailto:research@occrp.org">get in
           touch</a>.
         </span>
         <a
@@ -87,7 +88,8 @@ body_class: bg-near-white
     <a href="https://www.occrp.org/en/about-us" class="mid-gray dim"
       title="Organized Crime and Corruption Reporting Project"
     >OCCRP</a>,
-    a not-for-profit network of award-winning investigative reporting teams.
+    a not-for-profit investigative reporting platform for a worldwide network
+    of independent media centers and journalists
   </p>
 
   <p class="lh-copy">

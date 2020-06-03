@@ -31,7 +31,7 @@ both John S. Knight Fellows in residence at Stanford University in 2010.
 ## Supporters
 
 ID has been generously supported by the governments of the United States, the
-United Kingdom, Sweden, Denmark and the European Union, as well as by the Open
+United Kingdom, Sweden, Denmark, and the European Union as well as by the Open
 Society Foundations, Sigrid Rausing Trust, and the National Endowment for
 Democracy.
 
