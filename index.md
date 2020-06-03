@@ -48,9 +48,9 @@ body_class: bg-near-white
         <strong>Who is this for?</strong>
         Our
         <a class="mid-gray dim" href="https://www.occrp.org/en/members">member centers</a>
-        journalists
+        and
         <span id="_more" class="dn">
-          and reporters partnering with us on investigations. If you are
+          reporters partnering with us on investigations. If you are
           collaborating with us in a different capacity, for example through
           <a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">our
           GACC partnership</a>, we can also support your research. If in doubt,
@@ -61,7 +61,7 @@ body_class: bg-near-white
           class="mid-gray dim"
           href="javascript:"
           onclick="document.getElementById('_more').classList.toggle('dn'); this.classList.toggle('dn');"
-        >and more...</a>
+        >more...</a>
       </p>
 
       <p class="lh-copy pt2">

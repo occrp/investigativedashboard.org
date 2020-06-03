@@ -52,9 +52,9 @@ Head of Research
 {: .normal .ma0 .gray .f6}
 
 Based in Sarajevo, Karina Shedrofsky joined OCCRP in 2017 as a daily news
-reporter and became head of the research team in 2019. She leads a team of five
-full-time researchers in five countries who man ID, which helps journalists in
-OCCRP’s network track down people, companies and assets across the globe.
+reporter and became head of the research team in 2019. She leads a team of six
+researchers in six countries helping journalists in OCCRP’s network track down
+people, companies and assets across the globe.
 
 She has contributed research to a number of OCCRP projects, including the
 Paradise Papers and the Daphne Project, where she helped uncover the secret
@@ -80,14 +80,19 @@ of the Philip Merrill College of Journalism at the University of Maryland.
 Researcher
 {: .normal .ma0 .gray .f6}
 
-Vladimir Petin joined OCCRP in 2017 and is a researcher. He has extensive
+Vladimir Petin joined OCCRP in 2017 as a researcher. He has extensive
 experience researching people connected to Russian politicians across numerous
 jurisdictions. As part of the research team behind ID, he works with
 journalists all over the world to track down companies and assets, specializing
-in the countries of the Commonwealth of Independent States.
+in the countries of the Commonwealth of Independent States.Vladimir has
+contributed to several projects at OCCRP, including the Paradise Papers
+investigations.
 
-Vladimir has contributed to several projects at OCCRP, including the Paradise
-Papers investigations.
+He graduated from Moscow State University with a journalism degree in 2008. He
+has written for several Russian publications covering a range of topics,
+including philanthropy, society and sports. In addition to his work as a
+journalist, Vladimir worked as a public relations manager for several Russian
+IT companies.
   </div>
 </div>
 
@@ -102,12 +107,10 @@ Papers investigations.
 Researcher
 {: .normal .ma0 .gray .f6}
 
-Dragana Pećo is a researcher at OCCRP for ID, which helps journalists in
-OCCRP’s network track down people, companies, and assets across the globe. She
-is also an investigative journalist at the Crime and Corruption Reporting
-Network (KRIK), an OCCRP member center in Serbia. Before working at KRIK, Pećo
-reported for six years at the Centre for Investigative Reporting of Serbia,
-another OCCRP member center.
+Dragana Pećo is a researcher with ID, and an investigative journalist at the
+Crime and Corruption Reporting Network (KRIK), an OCCRP member center in
+Serbia. Before working at KRIK, Pećo reported for six years at the Centre for
+Investigative Reporting of Serbia, another OCCRP member center.
 
 She is a winner of the 2017 Data Journalism Award in the open data category
 from the Global Editors Network, and the Dušan Bogavac Journalistic Award for
@@ -158,12 +161,19 @@ studied the importance of social diversity and citizen responsibility.
 Researcher
 {: .normal .ma0 .gray .f6}
 
-Olga Gein joined OCCRP in 2018 and is a researcher at ID. She helps journalists
-track companies and individuals all over the world, specializing in Central
-Asia and the countries of the Commonwealth of Independent States.
+Olga Gein joined OCCRP in 2018 as a reporting fellow on the Central Asian team.
+As a researcher with ID,  she helps journalists track companies and individuals
+all over the world, specializing in Central Asia and the countries of the
+Commonwealth of Independent States.Olga has contributed to several projects at
+OCCRP, including the Paradise Papers investigations and other stories in
+Central Asia.
 
-Olga has contributed to several projects at OCCRP, including the Paradise
-Papers investigations and other stories in Central Asia.
+Prior to joining OCCRP, Olga worked for Kloop, an OCCRP member center in
+Kyrgyzstan, where she led the team that implemented the organization’s first
+live online broadcasts. She worked on documentaries, covered the military
+conflict in Eastern Ukraine from the field, and conducted investigations into
+corruption, one of which received the IWPR Award for best journalistic
+investigation.
   </div>
 </div>
 
@@ -178,14 +188,64 @@ Papers investigations and other stories in Central Asia.
 Researcher
 {: .normal .ma0 .gray .f6}
 
-Based in Kyiv, Yanina Korniienko is a researcher at ID. She helps journalists
-track companies, people, and assets, and specializes in Ukraine. Previously,
-she worked with Slidstvo.info, an OCCRP member center.
+Based in Kyiv, Yanina Korniienko helps journalists track companies, people, and
+assets, and specializes in Ukraine. Previously, she worked with Slidstvo.info,
+an OCCRP member center.
 
 Before that, she was on the investigative team for the Ukrainian digital
 newspaper Ukrayinska Pravda and worked on stories about economic fraud, the
 monopoly of the tobacco business, and corruption in the construction
 businesses.
+  </div>
+</div>
+
+<div class="flex mt5">
+  <div class="w-20">
+    <img class="br-100 w-80 mt2" src="/static/images/team/david-ilieksi-500.jpg" alt="David Ilieksi" />
+  </div>
+  <div class="w-80" markdown="1">
+#### David Ilieksi
+{: .ttu .ma0 .tracked}
+
+Researcher
+{: .normal .ma0 .gray .f6}
+
+Based in North Macedonia, David Ilieski joined OCCRP in 2020 as an ID
+researcher. Since 2018, he has worked as a reporter at Investigative Reporting
+Lab Macedonia (IRL), an OCCRP member center, where he specializes in uncovering
+the illicit construction business and political abuse of power.. At IRL he also
+produces videos, presenting investigations in more engaging ways and reaching
+new audiences
+
+He supported OCCRP’s tobacco project, working to expose the hidden lobbying by
+tobacco companies in North Macedonia. In 2019 he was part of the first OCCRP
+Research Fellowship. He began his journalistic career as a co-creator of the
+youth television show "Krik,” a project developed under the BBC Media Action
+program.
+  </div>
+</div>
+
+<div class="flex mt5">
+  <div class="w-20">
+    <img class="br-100 w-80 mt2" src="/static/images/team/daniel-salazar-murrillo-500.jpg" alt="Daniel Salazar Murrillo" />
+  </div>
+  <div class="w-80" markdown="1">
+#### Daniel Salazar Murrillo
+{: .ttu .ma0 .tracked}
+
+Researcher
+{: .normal .ma0 .gray .f6}
+
+Based in Costa Rica, Daniel Salazar Murrillo joined OCCRP in 2020 as an ID
+researcher, focusing on investigations related to Latin America. Since 2012, he
+has been a journalist specializing in data analysis and economic policies. In
+2019 he was part of the first OCCRP Research Fellowship
+
+Previously, Daniel was part of the Panama Papers team and other investigations
+for Semanario Universidad, and was a researcher and economics reporter for La
+Nación and El Financiero in Costa Rica. He is also a co-founder of Doble Check,
+one of the first media outlets in Costa Rica to focus on fact-checking the
+media and politics.
   </div>
 </div>
 
