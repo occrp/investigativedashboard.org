@@ -14,7 +14,7 @@ A team of expert researchers and data specialists is available  to help track
 down people, companies, and assets — like ships and planes — anywhere in the
 world.
 We are equipped with access to a number of commercial search engines and
-databases, as well as the experience to make effective use of dozens of
+databases as well as the experience to make effective use of dozens of
 publicly available, but little-known, open sources. Services also include
 assistance with data acquisition, wrangling, and analysis.
 
@@ -117,7 +117,7 @@ from the Global Editors Network, and the Dušan Bogavac Journalistic Award for
 Ethics and Courage. She also received three awards from the Independent
 Journalists’ Association of Serbia in 2011, 2014 and 2016. Dragana was a
 recipient of the Balkan Fellowship for Journalistic Excellence in 2014. She has
-training in data journalism and data visualization, as well as researching
+training in data journalism and data visualization as well as researching
 corporate structures and obtaining company records from around the world. She
 received a degree in journalism from the University of Belgrade’s Faculty of
 Political Sciences.

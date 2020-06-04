@@ -53,7 +53,7 @@ body_class: bg-near-white
           reporters partnering with us on investigations. If you are
           collaborating with us in a different capacity, for example through
           <a class="mid-gray dim" href="https://www.occrp.org/en/gacc/">the
-          Global Anti-corruption Consortium partnership</a>, we can also
+          Global Anti-Corruption Consortium partnership</a>, we can also
           support your research. If in doubt, please
           <a class="mid-gray dim" href="mailto:research@occrp.org">get in
           touch</a>.
