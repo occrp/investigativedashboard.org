@@ -1,7 +1,6 @@
 title: OCCRP ID
-email: id@occrp.org
-baseurl: ''
-url: ''
+email: research@occrp.org
+repository_url: https://github.com/occrp/investigativedashboard.org
 
 # Build settings
 markdown: kramdown

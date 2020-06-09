@@ -25,10 +25,9 @@ permalink: /databases/
 <p>
   This page information is publicly available and can be updated. If you find
   errors or would like to suggest more sources to add to our ever growing
-  library, please report them <a class="mid-gray dim"
-  href="https://git.occrp.org/libre/investigativedashboard.org/issues">on our
-  Gitlab</a> or
-  <a class="mid-gray dim" href="mailto:research@occrp.org">email us</a>.
+  library, <a class="mid-gray dim"
+  href="{{ site.repository_url }}/issues">please report them</a> or
+  <a class="mid-gray dim" href="mailto:{{ site.email }}">email us</a>.
 </p>
 
 <div class="mb5 mt4">
