@@ -32,12 +32,12 @@ Botswana,BW,BWA,072,ISO 3166-2:BW,Africa,Sub-Saharan Africa,Southern Africa,002,
 Bouvet Island,BV,BVT,074,ISO 3166-2:BV,Americas,Latin America and the Caribbean,South America,019,419,005
 Brazil,BR,BRA,076,ISO 3166-2:BR,Americas,Latin America and the Caribbean,South America,019,419,005
 British Indian Ocean Territory,IO,IOT,086,ISO 3166-2:IO,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
-Brunei Darussalam,BN,BRN,096,ISO 3166-2:BN,Asia,South-eastern Asia,"",142,035,""
+Brunei Darussalam,BN,BRN,096,ISO 3166-2:BN,Asia,South-Eastern Asia,"",142,035,""
 Bulgaria,BG,BGR,100,ISO 3166-2:BG,Europe,Eastern Europe,"",150,151,""
 Burkina Faso,BF,BFA,854,ISO 3166-2:BF,Africa,Sub-Saharan Africa,Western Africa,002,202,011
 Burundi,BI,BDI,108,ISO 3166-2:BI,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
 Cabo Verde,CV,CPV,132,ISO 3166-2:CV,Africa,Sub-Saharan Africa,Western Africa,002,202,011
-Cambodia,KH,KHM,116,ISO 3166-2:KH,Asia,South-eastern Asia,"",142,035,""
+Cambodia,KH,KHM,116,ISO 3166-2:KH,Asia,South-Eastern Asia,"",142,035,""
 Cameroon,CM,CMR,120,ISO 3166-2:CM,Africa,Sub-Saharan Africa,Middle Africa,002,202,017
 Canada,CA,CAN,124,ISO 3166-2:CA,Americas,Northern America,"",019,021,""
 Cayman Islands,KY,CYM,136,ISO 3166-2:KY,Americas,Latin America and the Caribbean,Caribbean,019,419,029
@@ -103,7 +103,7 @@ Hong Kong,HK,HKG,344,ISO 3166-2:HK,Asia,Eastern Asia,"",142,030,""
 Hungary,HU,HUN,348,ISO 3166-2:HU,Europe,Eastern Europe,"",150,151,""
 Iceland,IS,ISL,352,ISO 3166-2:IS,Europe,Northern Europe,"",150,154,""
 India,IN,IND,356,ISO 3166-2:IN,Asia,Southern Asia,"",142,034,""
-Indonesia,ID,IDN,360,ISO 3166-2:ID,Asia,South-eastern Asia,"",142,035,""
+Indonesia,ID,IDN,360,ISO 3166-2:ID,Asia,South-Eastern Asia,"",142,035,""
 Iran (Islamic Republic of),IR,IRN,364,ISO 3166-2:IR,Asia,Southern Asia,"",142,034,""
 Iraq,IQ,IRQ,368,ISO 3166-2:IQ,Asia,Western Asia,"",142,145,""
 Ireland,IE,IRL,372,ISO 3166-2:IE,Europe,Northern Europe,"",150,154,""
@@ -122,7 +122,7 @@ Korea (Democratic People's Republic of),KP,PRK,408,ISO 3166-2:KP,Asia,Eastern As
 Kosovo,XK,RKS,383,ISO 3166-2:XK,Europe,Eastern Europe,"",,,""
 Kuwait,KW,KWT,414,ISO 3166-2:KW,Asia,Western Asia,"",142,145,""
 Kyrgyzstan,KG,KGZ,417,ISO 3166-2:KG,Asia,Central Asia,"",142,143,""
-Lao People's Democratic Republic,LA,LAO,418,ISO 3166-2:LA,Asia,South-eastern Asia,"",142,035,""
+Lao People's Democratic Republic,LA,LAO,418,ISO 3166-2:LA,Asia,South-Eastern Asia,"",142,035,""
 Latvia,LV,LVA,428,ISO 3166-2:LV,Europe,Northern Europe,"",150,154,""
 Lebanon,LB,LBN,422,ISO 3166-2:LB,Asia,Western Asia,"",142,145,""
 Lesotho,LS,LSO,426,ISO 3166-2:LS,Africa,Sub-Saharan Africa,Southern Africa,002,202,018
@@ -134,7 +134,7 @@ Luxembourg,LU,LUX,442,ISO 3166-2:LU,Europe,Western Europe,"",150,155,""
 Macao,MO,MAC,446,ISO 3166-2:MO,Asia,Eastern Asia,"",142,030,""
 Madagascar,MG,MDG,450,ISO 3166-2:MG,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
 Malawi,MW,MWI,454,ISO 3166-2:MW,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
-Malaysia,MY,MYS,458,ISO 3166-2:MY,Asia,South-eastern Asia,"",142,035,""
+Malaysia,MY,MYS,458,ISO 3166-2:MY,Asia,South-Eastern Asia,"",142,035,""
 Maldives,MV,MDV,462,ISO 3166-2:MV,Asia,Southern Asia,"",142,034,""
 Mali,ML,MLI,466,ISO 3166-2:ML,Africa,Sub-Saharan Africa,Western Africa,002,202,011
 Malta,MT,MLT,470,ISO 3166-2:MT,Europe,Southern Europe,"",150,039,""
@@ -152,7 +152,7 @@ Montenegro,ME,MNE,499,ISO 3166-2:ME,Europe,Southern Europe,"",150,039,""
 Montserrat,MS,MSR,500,ISO 3166-2:MS,Americas,Latin America and the Caribbean,Caribbean,019,419,029
 Morocco,MA,MAR,504,ISO 3166-2:MA,Africa,Northern Africa,"",002,015,""
 Mozambique,MZ,MOZ,508,ISO 3166-2:MZ,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
-Myanmar,MM,MMR,104,ISO 3166-2:MM,Asia,South-eastern Asia,"",142,035,""
+Myanmar,MM,MMR,104,ISO 3166-2:MM,Asia,South-Eastern Asia,"",142,035,""
 Namibia,NA,NAM,516,ISO 3166-2:NA,Africa,Sub-Saharan Africa,Southern Africa,002,202,018
 Nauru,NR,NRU,520,ISO 3166-2:NR,Oceania,Micronesia,"",009,057,""
 Nepal,NP,NPL,524,ISO 3166-2:NP,Asia,Southern Asia,"",142,034,""
@@ -175,7 +175,7 @@ Panama,PA,PAN,591,ISO 3166-2:PA,Americas,Latin America and the Caribbean,Central
 Papua New Guinea,PG,PNG,598,ISO 3166-2:PG,Oceania,Melanesia,"",009,054,""
 Paraguay,PY,PRY,600,ISO 3166-2:PY,Americas,Latin America and the Caribbean,South America,019,419,005
 Peru,PE,PER,604,ISO 3166-2:PE,Americas,Latin America and the Caribbean,South America,019,419,005
-Philippines,PH,PHL,608,ISO 3166-2:PH,Asia,South-eastern Asia,"",142,035,""
+Philippines,PH,PHL,608,ISO 3166-2:PH,Asia,South-Eastern Asia,"",142,035,""
 Pitcairn,PN,PCN,612,ISO 3166-2:PN,Oceania,Polynesia,"",009,061,""
 Poland,PL,POL,616,ISO 3166-2:PL,Europe,Eastern Europe,"",150,151,""
 Portugal,PT,PRT,620,ISO 3166-2:PT,Europe,Southern Europe,"",150,039,""
@@ -200,7 +200,7 @@ Senegal,SN,SEN,686,ISO 3166-2:SN,Africa,Sub-Saharan Africa,Western Africa,002,20
 Serbia,RS,SRB,688,ISO 3166-2:RS,Europe,Southern Europe,"",150,039,""
 Seychelles,SC,SYC,690,ISO 3166-2:SC,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
 Sierra Leone,SL,SLE,694,ISO 3166-2:SL,Africa,Sub-Saharan Africa,Western Africa,002,202,011
-Singapore,SG,SGP,702,ISO 3166-2:SG,Asia,South-eastern Asia,"",142,035,""
+Singapore,SG,SGP,702,ISO 3166-2:SG,Asia,South-Eastern Asia,"",142,035,""
 Sint Maarten (Dutch part),SX,SXM,534,ISO 3166-2:SX,Americas,Latin America and the Caribbean,Caribbean,019,419,029
 Slovakia,SK,SVK,703,ISO 3166-2:SK,Europe,Eastern Europe,"",150,151,""
 Slovenia,SI,SVN,705,ISO 3166-2:SI,Europe,Southern Europe,"",150,039,""
@@ -220,8 +220,8 @@ Syrian Arab Republic,SY,SYR,760,ISO 3166-2:SY,Asia,Western Asia,"",142,145,""
 "Taiwan, Province of China",TW,TWN,158,ISO 3166-2:TW,Asia,Eastern Asia,"",142,030,""
 Tajikistan,TJ,TJK,762,ISO 3166-2:TJ,Asia,Central Asia,"",142,143,""
 "Tanzania, United Republic of",TZ,TZA,834,ISO 3166-2:TZ,Africa,Sub-Saharan Africa,Eastern Africa,002,202,014
-Thailand,TH,THA,764,ISO 3166-2:TH,Asia,South-eastern Asia,"",142,035,""
-Timor-Leste,TL,TLS,626,ISO 3166-2:TL,Asia,South-eastern Asia,"",142,035,""
+Thailand,TH,THA,764,ISO 3166-2:TH,Asia,South-Eastern Asia,"",142,035,""
+Timor-Leste,TL,TLS,626,ISO 3166-2:TL,Asia,South-Eastern Asia,"",142,035,""
 Togo,TG,TGO,768,ISO 3166-2:TG,Africa,Sub-Saharan Africa,Western Africa,002,202,011
 Tokelau,TK,TKL,772,ISO 3166-2:TK,Oceania,Polynesia,"",009,061,""
 Tonga,TO,TON,776,ISO 3166-2:TO,Oceania,Polynesia,"",009,061,""
@@ -241,7 +241,7 @@ Uruguay,UY,URY,858,ISO 3166-2:UY,Americas,Latin America and the Caribbean,South 
 Uzbekistan,UZ,UZB,860,ISO 3166-2:UZ,Asia,Central Asia,"",142,143,""
 Vanuatu,VU,VUT,548,ISO 3166-2:VU,Oceania,Melanesia,"",009,054,""
 Venezuela (Bolivarian Republic of),VE,VEN,862,ISO 3166-2:VE,Americas,Latin America and the Caribbean,South America,019,419,005
-Viet Nam,VN,VNM,704,ISO 3166-2:VN,Asia,South-eastern Asia,"",142,035,""
+Viet Nam,VN,VNM,704,ISO 3166-2:VN,Asia,South-Eastern Asia,"",142,035,""
 Virgin Islands (British),VG,VGB,092,ISO 3166-2:VG,Americas,Latin America and the Caribbean,Caribbean,019,419,029
 Virgin Islands (U.S.),VI,VIR,850,ISO 3166-2:VI,Americas,Latin America and the Caribbean,Caribbean,019,419,029
 Wallis and Futuna,WF,WLF,876,ISO 3166-2:WF,Oceania,Polynesia,"",009,061,""
