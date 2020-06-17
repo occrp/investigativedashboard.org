@@ -5,18 +5,23 @@ permalink: /databases/
 ---
 {% assign countries = '' | split: ',' %}
 {% assign regions = '' | split: ',' %}
+{% assign cust_regions = '' | split: ',' %}
 {% assign types = '' | split: ',' %}
 {% for resource in site.data.databases %}
   {% assign countries = countries | push: resource.Country | uniq | compact | sort %}
 
-  {% assign type = resource.Type | downcase | replace: ', ', ',' | split: ',' %}
+  {% assign type = resource['public records'] | downcase | replace: ', ', ',' | split: ',' %}
   {% assign types = types | push: type | flatten | uniq | compact | sort %}
 
   {% assign country = site.data.countries | where: 'alpha-2', resource.Country | first %}
   {% if country %}
-    {% assign regions = regions | push: country.region | uniq | sort %}
+    {% assign regions = regions | push: country['sub-region'] | uniq | sort %}
+  {% else %}
+    {% assign cust_regions = cust_regions | push: resource.Country | uniq | sort %}
   {% endif %}
 {% endfor %}
+
+{% assign regions = cust_regions | concat: regions %}
 
 <p>
   Below is a collection of public data sources compiled by our researchers that
@@ -35,14 +40,14 @@ permalink: /databases/
     Please select one of the following filters to limit the results.
   </p>
 
-  <select data-filter="region db db-m di-ns">
+  <select data-filter="region" class="db db-m di-ns">
     <option value=""> - All Regions - </option>
     {% for region in regions %}
       <option value="{{region | slugify}}">{{region}}</option>
     {% endfor %}
   </select>
 
-  <select class="mh0 mh0-m mv2 mv2-m mv0-ns mh3-ns db db-m di-ns" data-filter="country">
+  <select class="mh0 mh0-m mv2 mv2-m mv0-ns mh3-ns db db-m di-ns w-third-ns" data-filter="country">
     <option value=""> - All Countries - </option>
     {% for code in countries %}
       {% assign country = site.data.countries | where: 'alpha-2', code | first %}
@@ -52,7 +57,7 @@ permalink: /databases/
     {% endfor %}
   </select>
 
-  <select class="db db-m di-ns" data-filter="type">
+  <select class="db db-m di-ns w-third-ns" data-filter="type">
     <option value=""> - All Types - </option>
     {% for type in types %}
       <option value="{{type | slugify}}">{{type | capitalize}}</option>
@@ -96,8 +101,12 @@ permalink: /databases/
   {% assign country = site.data.countries | where: 'alpha-2', by_country.name | first %}
 
   <div class="mb5" id="{{ country.name | slugify }}"
+    {% if country %}
     data-country="{{by_country.name | slugify}}"
-    data-region="{{country.region | slugify}}"
+    data-region="{{country['sub-region'] | slugify}}"
+    {% else %}
+    data-region="{{by_country.name | slugify}}"
+    {% endif %}
   >
     <h2 class="normal ttu bb">
       {% if country.name %}
@@ -113,9 +122,9 @@ permalink: /databases/
     <div class="flex-ns flex-wrap-ns">
     {% for source in by_country.items %}
       <div class="w-30-ns mr4-ns"
-        data-type="{{source.Type | slugify}}"
+        data-type="{{source['public records'] | slugify}}"
         data-country="{{by_country.name | slugify}}"
-        data-region="{{country.region | slugify}}"
+        data-region="{{country['sub-region'] | slugify}}"
       >
         <h4 class="ttu bw3 pv4 bg-near-white bl bw2 b--light-gray pl2">
           <a class="link mid-gray dim" href="{{ source.Website }}">
@@ -123,7 +132,7 @@ permalink: /databases/
           </a>
         </h4>
         <p class="f7">
-          <span class="ttu silver code bg-near-white pv1 ph1">{{ source.Type }}</span>
+          <span class="ttu silver code bg-near-white pv1 ph1">{{ source['public records'] }}</span>
 
           {% if source.Governmental == 'TRUE' %}
             <span class="ml2 pointer code silver bg-near-white pv1 ph1" title="Governmental">🏛&#xFE0E;</span>
