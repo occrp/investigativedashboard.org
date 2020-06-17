@@ -14,7 +14,9 @@ permalink: /databases/
   {% assign types = types | push: type | flatten | uniq | compact | sort %}
 
   {% assign country = site.data.countries | where: 'alpha-2', resource.Country | first %}
-  {% if country %}
+  {% if country['region'] == 'Oceania' %}
+    {% assign regions = regions | push: country['region'] | uniq | sort %}
+  {% elsif country %}
     {% assign regions = regions | push: country['sub-region'] | uniq | sort %}
   {% else %}
     {% assign cust_regions = cust_regions | push: resource.Country | uniq | sort %}
@@ -71,6 +73,14 @@ permalink: /databases/
     var option = event.target.options[event.target.selectedIndex].value;
     var selects = document.querySelectorAll('select');
 
+    // Allow switching between regions by resetting the filters
+    if (filter === 'region') {
+      document.querySelectorAll('[data-region]').forEach(function(el) {
+        el.classList.remove('dn');
+      });
+    }
+
+    // Apply any filters
     document.querySelectorAll('[data-' + filter + ']').forEach(function(el) {
       var elFilter = el.dataset[filter];
       var isHidden = el.classList.contains('dn');
@@ -92,6 +102,16 @@ permalink: /databases/
         el.classList.add('dn');
       }
     });
+
+    // Hide any region which show no countries
+    document.querySelectorAll('.region').forEach(function(el) {
+      var allCountries = el.querySelectorAll('.country').length;
+      var hiddenCountries = el.querySelectorAll('.country.dn').length;
+
+      if (allCountries === hiddenCountries) {
+        el.classList.add('dn');
+      }
+    });
   }, false);
 </script>
 
@@ -100,13 +120,16 @@ permalink: /databases/
 {% for by_country in by_countries %}
   {% assign country = site.data.countries | where: 'alpha-2', by_country.name | first %}
 
-  <div class="mb5" id="{{ country.name | slugify }}"
-    {% if country %}
+  <div class="mb5 region" id="{{ country.name | slugify }}"
+  {% if country['region'] == 'Oceania' %}
+    data-country="{{by_country.name | slugify}}"
+    data-region="{{country['region'] | slugify}}"
+  {% elsif country %}
     data-country="{{by_country.name | slugify}}"
     data-region="{{country['sub-region'] | slugify}}"
-    {% else %}
+  {% else %}
     data-region="{{by_country.name | slugify}}"
-    {% endif %}
+  {% endif %}
   >
     <h2 class="normal ttu bb">
       {% if country.name %}
@@ -121,10 +144,16 @@ permalink: /databases/
 
     <div class="flex-ns flex-wrap-ns">
     {% for source in by_country.items %}
-      <div class="w-30-ns mr4-ns"
+      <div class="w-30-ns mr4-ns country"
         data-type="{{source['public records'] | slugify}}"
         data-country="{{by_country.name | slugify}}"
+      {% if country['region'] == 'Oceania' %}
+        data-region="{{country['region'] | slugify}}"
+      {% elseif country %}
         data-region="{{country['sub-region'] | slugify}}"
+      {% else %}
+        data-region="{{country.name | slugify}}"
+      {% endif %}
       >
         <h4 class="ttu bw3 pv4 bg-near-white bl bw2 b--light-gray pl2">
           <a class="link mid-gray dim" href="{{ source.Website }}">
