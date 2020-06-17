@@ -5,25 +5,26 @@ permalink: /databases/
 ---
 {% assign countries = '' | split: ',' %}
 {% assign regions = '' | split: ',' %}
-{% assign cust_regions = '' | split: ',' %}
+{% assign merged_regions = 'Oceania,Africa' | split: ',' %}
 {% assign types = '' | split: ',' %}
+
 {% for resource in site.data.databases %}
   {% assign countries = countries | push: resource.Country | uniq | compact | sort %}
 
   {% assign type = resource['public records'] | downcase | replace: ', ', ',' | split: ',' %}
   {% assign types = types | push: type | flatten | uniq | compact | sort %}
-
   {% assign country = site.data.countries | where: 'alpha-2', resource.Country | first %}
-  {% if country['region'] == 'Oceania' %}
+
+  {% if country and merged_regions contains country['region'] %}
     {% assign regions = regions | push: country['region'] | uniq | sort %}
   {% elsif country %}
     {% assign regions = regions | push: country['sub-region'] | uniq | sort %}
   {% else %}
-    {% assign cust_regions = cust_regions | push: resource.Country | uniq | sort %}
+    {% assign regions = regions | push: resource.Country | uniq | sort %}
   {% endif %}
 {% endfor %}
 
-{% assign regions = cust_regions | concat: regions %}
+{{regions}}
 
 <p>
   Below is a collection of public data sources compiled by our researchers that
@@ -121,7 +122,7 @@ permalink: /databases/
   {% assign country = site.data.countries | where: 'alpha-2', by_country.name | first %}
 
   <div class="mb5 region" id="{{ country.name | slugify }}"
-  {% if country['region'] == 'Oceania' %}
+  {% if merged_regions contains country['region'] %}
     data-country="{{by_country.name | slugify}}"
     data-region="{{country['region'] | slugify}}"
   {% elsif country %}
@@ -147,7 +148,7 @@ permalink: /databases/
       <div class="w-30-ns mr4-ns country"
         data-type="{{source['public records'] | slugify}}"
         data-country="{{by_country.name | slugify}}"
-      {% if country['region'] == 'Oceania' %}
+      {% if merged_regions contains country['region'] %}
         data-region="{{country['region'] | slugify}}"
       {% elsif country %}
         data-region="{{country['sub-region'] | slugify}}"
