@@ -5,26 +5,24 @@ permalink: /databases/
 ---
 {% assign countries = '' | split: ',' %}
 {% assign regions = '' | split: ',' %}
-{% assign merged_regions = 'Oceania,Africa' | split: ',' %}
+{% assign merged_regions = 'Oceania' | split: ',' %}
 {% assign types = '' | split: ',' %}
 
 {% for resource in site.data.databases %}
-  {% assign countries = countries | push: resource.Country | uniq | compact | sort %}
+  {% assign countries = countries | push: resource.Country | uniq | compact | sort_natural %}
 
   {% assign type = resource['public records'] | downcase | replace: ', ', ',' | split: ',' %}
-  {% assign types = types | push: type | flatten | uniq | compact | sort %}
+  {% assign types = types | push: type | flatten | uniq | compact | sort_natural %}
   {% assign country = site.data.countries | where: 'alpha-2', resource.Country | first %}
 
   {% if country and merged_regions contains country['region'] %}
-    {% assign regions = regions | push: country['region'] | uniq | sort %}
+    {% assign regions = regions | push: country['region'] | uniq | sort_natural %}
   {% elsif country %}
-    {% assign regions = regions | push: country['sub-region'] | uniq | sort %}
+    {% assign regions = regions | push: country['sub-region'] | uniq | sort_natural %}
   {% else %}
-    {% assign regions = regions | push: resource.Country | uniq | sort %}
+    {% assign regions = regions | push: resource.Country | uniq | sort_natural %}
   {% endif %}
 {% endfor %}
-
-{{regions}}
 
 <p>
   Below is a collection of public data sources compiled by our researchers that
@@ -87,11 +85,11 @@ permalink: /databases/
       var isHidden = el.classList.contains('dn');
       var matches = false;
 
-      if (elFilter && option && (elFilter == option || elFilter.indexOf(option) > -1) ) {
+      if (!!elFilter && !!option && (elFilter === option)) {
         matches = true;
       }
 
-      if (isHidden && elFilter && !option) {
+      if (isHidden && !!elFilter && !!!option) {
         el.classList.remove('dn');
 
         if (filter != 'type') {
@@ -99,7 +97,7 @@ permalink: /databases/
         }
       }
 
-      if (!isHidden && elFilter && option && !matches) {
+      if (!isHidden && !!elFilter && !!option && !matches) {
         el.classList.add('dn');
       }
     });
@@ -122,11 +120,11 @@ permalink: /databases/
   {% assign country = site.data.countries | where: 'alpha-2', by_country.name | first %}
 
   <div class="mb5 region" id="{{ country.name | slugify }}"
-  {% if merged_regions contains country['region'] %}
     data-country="{{by_country.name | slugify}}"
+
+  {% if country and merged_regions contains country['region'] %}
     data-region="{{country['region'] | slugify}}"
   {% elsif country %}
-    data-country="{{by_country.name | slugify}}"
     data-region="{{country['sub-region'] | slugify}}"
   {% else %}
     data-region="{{by_country.name | slugify}}"
@@ -148,12 +146,13 @@ permalink: /databases/
       <div class="w-30-ns mr4-ns country"
         data-type="{{source['public records'] | slugify}}"
         data-country="{{by_country.name | slugify}}"
-      {% if merged_regions contains country['region'] %}
+
+      {% if country and merged_regions contains country['region'] %}
         data-region="{{country['region'] | slugify}}"
       {% elsif country %}
         data-region="{{country['sub-region'] | slugify}}"
       {% else %}
-        data-region="{{country.name | slugify}}"
+        data-region="{{by_country.name | slugify}}"
       {% endif %}
       >
         <h4 class="ttu bw3 pv4 bg-near-white bl bw2 b--light-gray pl2">
