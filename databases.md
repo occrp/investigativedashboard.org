@@ -149,7 +149,7 @@ permalink: /databases/
         data-country="{{by_country.name | slugify}}"
       {% if country['region'] == 'Oceania' %}
         data-region="{{country['region'] | slugify}}"
-      {% elseif country %}
+      {% elsif country %}
         data-region="{{country['sub-region'] | slugify}}"
       {% else %}
         data-region="{{country.name | slugify}}"
