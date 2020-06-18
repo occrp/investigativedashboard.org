@@ -89,7 +89,7 @@ body_class: bg-near-white
       title="Organized Crime and Corruption Reporting Project"
     >OCCRP</a>,
     a not-for-profit investigative reporting platform for a worldwide network
-    of independent media centers and journalists
+    of independent media centers and journalists.
   </p>
 
   <p class="lh-copy">
