@@ -156,7 +156,7 @@ permalink: /databases/
       {% endif %}
       >
         <h4 class="ttu bw3 pv4 bg-near-white bl bw2 b--light-gray pl2">
-          <a class="link mid-gray dim" href="{{ source.Website }}">
+          <a class="link mid-gray dim" href="{{ source.Website }}" target="_blank">
             {{ source.Title }}
           </a>
         </h4>
