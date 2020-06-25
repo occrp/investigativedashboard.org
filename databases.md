@@ -68,37 +68,42 @@ permalink: /databases/
 
 <script>
   document.addEventListener('input', function (event) {
-    var filter = event.target.dataset.filter;
-    var option = event.target.options[event.target.selectedIndex].value;
     var selects = document.querySelectorAll('select');
+    var filters = {};
 
-    // Allow switching between regions by resetting the filters
-    if (filter === 'region') {
-      document.querySelectorAll('[data-region]').forEach(function(el) {
+    selects.forEach(function(sel) {
+      filters[sel.dataset.filter] = sel.options[sel.selectedIndex].value;
+    });
+
+    var regionFilter = filters['region'];
+    var countryFilter = filters['country'];
+    var typeFilter = filters['type'];
+
+    document.querySelectorAll('.country').forEach(function(el) {
+      var matches = true;
+
+      if (!!!regionFilter && !!!countryFilter && !!!typeFilter) {
         el.classList.remove('dn');
-      });
-    }
-
-    // Apply any filters
-    document.querySelectorAll('[data-' + filter + ']').forEach(function(el) {
-      var elFilter = el.dataset[filter];
-      var isHidden = el.classList.contains('dn');
-      var matches = false;
-
-      if (!!elFilter && !!option && (elFilter === option)) {
-        matches = true;
+        return;
       }
 
-      if (isHidden && !!elFilter && !!!option) {
-        el.classList.remove('dn');
+      // Hide all first
+      el.classList.add('dn');
 
-        if (filter != 'type') {
-          selects.forEach(function(sel) { sel.value = "" });
-        }
+      if (!!regionFilter && regionFilter !== el.dataset.region) {
+        matches = false;
       }
 
-      if (!isHidden && !!elFilter && !!option && !matches) {
-        el.classList.add('dn');
+      if (!!countryFilter && countryFilter !== el.dataset.country) {
+        matches = false;
+      }
+
+      if (!!typeFilter && el.dataset.type.toString().indexOf(typeFilter) < 0) {
+        matches = false;
+      }
+
+      if (matches) {
+        el.classList.remove('dn');
       }
     });
 
@@ -109,6 +114,8 @@ permalink: /databases/
 
       if (allCountries === hiddenCountries) {
         el.classList.add('dn');
+      } else {
+        el.classList.remove('dn');
       }
     });
   }, false);
@@ -119,22 +126,24 @@ permalink: /databases/
 {% for by_country in by_countries %}
   {% assign country = site.data.countries | where: 'alpha-2', by_country.name | first %}
 
-  <div class="mb5 region" id="{{ country.name | slugify }}"
-    data-country="{{by_country.name | slugify}}"
-
   {% if country and merged_regions contains country['region'] %}
-    data-region="{{country['region'] | slugify}}"
+    {% assign region = country['region'] | slugify %}
   {% elsif country %}
-    data-region="{{country['sub-region'] | slugify}}"
+    {% assign region = country['sub-region'] | slugify %}
   {% else %}
-    data-region="{{by_country.name | slugify}}"
+    {% assign region = by_country.name | slugify %}
   {% endif %}
-  >
+
+  {% if country %}
+    {% assign country = country.name %}
+  {% else %}
+    {% assign country = region %}
+  {% endif %}
+
+  <div class="mb5 region" id="{{ country | slugify }}" data-region="{{ region }}">
     <h2 class="normal ttu bb">
-      {% if country.name %}
-        <a class="link mid-gray" href="#{{ country.name | slugify }}">{{ country.name}}</a>
-      {% elsif by_country.name %}
-        {{ by_country.name }}
+      {% if country %}
+        <a class="link mid-gray" href="#{{ country | slugify }}">{{ country}}</a>
       {% else %}
         N/A
       {% endif %}
@@ -146,14 +155,7 @@ permalink: /databases/
       <div class="w-30-ns mr4-ns country"
         data-type="{{source['public records'] | slugify}}"
         data-country="{{by_country.name | slugify}}"
-
-      {% if country and merged_regions contains country['region'] %}
-        data-region="{{country['region'] | slugify}}"
-      {% elsif country %}
-        data-region="{{country['sub-region'] | slugify}}"
-      {% else %}
-        data-region="{{by_country.name | slugify}}"
-      {% endif %}
+        data-region="{{ region }}"
       >
         <h4 class="ttu bw3 pv4 bg-near-white bl bw2 b--light-gray pl2">
           <a class="link mid-gray dim" href="{{ source.Website }}" target="_blank">
