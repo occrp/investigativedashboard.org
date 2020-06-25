@@ -22,9 +22,9 @@ body_class: bg-near-white
     <div class="w-45-ns">
       <h3 class="ttu tracked normal">Find online resources</h3>
       <p class="lh-copy">
-        Browse our global index of public registries for companies, land
-        registries and court records.
-        We've pulled together over 900 sources from 184 countries.
+        Browse our global index of public registries for company, land and
+        court records. We've pulled together over 1,000 sources from 181
+        countries.
       </p>
       <p class="lh-copy">
         <strong>Who is this for?</strong> Everyone!
