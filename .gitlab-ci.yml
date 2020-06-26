@@ -17,8 +17,8 @@ before_script:
 investigativedashboard-jekyll-master:
     script:
         - 'cd "$CI_PROJECT_DIR"'
-        - 'rm -rf Gemfile.lock'
-        - '/usr/local/bin/bundle update --path vendor/bundle --binstubs'               # jekyll requirements
+        - 'rm -rf Gemfile.lock vendor/bundle'
+        - '/usr/local/bin/bundle install --path vendor/bundle --binstubs'               # jekyll requirements
         - './bin/jekyll build --future --unpublished --destination=/tmp/output/master/' # stuff the dreams are made of
         - '/usr/bin/rsync -avz --delete --delete-excluded --exclude=bin/ --exclude=readme.md /tmp/output/master/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
     only:
@@ -31,8 +31,8 @@ investigativedashboard-jekyll-master:
 investigativedashboard-jekyll-production:
     script:
         - 'cd "$CI_PROJECT_DIR"'
-        - 'rm -rf Gemfile.lock'
-        - '/usr/local/bin/bundle update --path vendor/bundle --binstubs' # jekyll requirements
+        - 'rm -rf Gemfile.lock vendor/bundle'
+        - '/usr/local/bin/bundle install --path vendor/bundle --binstubs' # jekyll requirements
         - './bin/jekyll build --destination=/tmp/output/'                 # stuff the dreams are made of
         - '/usr/bin/rsync -avz --delete --delete-excluded --exclude=bin/ --exclude=readme.md /tmp/output/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
     only:
