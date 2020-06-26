@@ -31,10 +31,10 @@ investigativedashboard-jekyll-master:
 investigativedashboard-jekyll-production:
     script:
         - 'cd "$CI_PROJECT_DIR"'
-        - 'rm -rf Gemfile.lock vendor/bundle'
+        - 'rm -rf Gemfile.lock vendor/bundle /tmp/output-prod/'
         - '/usr/local/bin/bundle install --path vendor/bundle --binstubs' # jekyll requirements
-        - './bin/jekyll build --destination=/tmp/output/'                 # stuff the dreams are made of
-        - '/usr/bin/rsync -avz --delete --delete-excluded --exclude=bin/ --exclude=readme.md /tmp/output/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
+        - './bin/jekyll build --destination=/tmp/output-prod/'                 # stuff the dreams are made of
+        - '/usr/bin/rsync -avz --delete --delete-excluded --exclude=bin/ --exclude=readme.md /tmp/output-prod/ /output/investigativedashboard/'            # rsync the output files to the output directory, deleting files that have been removed
     only:
         - tags
     except:
