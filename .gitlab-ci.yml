@@ -29,6 +29,8 @@ investigativedashboard-jekyll-master:
 #
 # this is production
 investigativedashboard-jekyll-production:
+    variables:
+        - JEKYLL_ENV: production
     script:
         - 'cd "$CI_PROJECT_DIR"'
         - 'rm -rf Gemfile.lock vendor/bundle /tmp/output-prod/'

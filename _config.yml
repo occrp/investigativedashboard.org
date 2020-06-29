@@ -1,6 +1,8 @@
 title: OCCRP ID
 email: research@occrp.org
 repository_url: https://github.com/occrp/investigativedashboard.org
+google_analytics:
+matomo_analytics: 33
 
 # Build settings
 markdown: kramdown
