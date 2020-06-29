@@ -79,6 +79,16 @@ permalink: /databases/
     var countryFilter = filters['country'];
     var typeFilter = filters['type'];
 
+    // Analytics
+    if (_paq && !!filters[event.target.dataset.filter]) {
+      _paq.push([
+        'trackEvent',
+        'Databases',
+        event.target.dataset.filter.toUpperCase(),
+        filters[event.target.dataset.filter]
+      ]);
+    }
+
     document.querySelectorAll('.country').forEach(function(el) {
       var matches = true;
 
