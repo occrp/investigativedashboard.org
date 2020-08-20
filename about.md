@@ -213,9 +213,9 @@ Researcher
 Based in North Macedonia, David Ilieski joined OCCRP in 2020 as an ID
 researcher. Since 2018, he has worked as a reporter at Investigative Reporting
 Lab Macedonia (IRL), an OCCRP member center, where he specializes in uncovering
-the illicit construction business and political abuse of power.. At IRL he also
+the illicit construction business and political abuse of power. At IRL he also
 produces videos, presenting investigations in more engaging ways and reaching
-new audiences
+new audiences.
 
 He supported OCCRP’s tobacco project, working to expose the hidden lobbying by
 tobacco companies in North Macedonia. In 2019 he was part of the first OCCRP
@@ -227,19 +227,19 @@ program.
 
 <div class="flex mt5">
   <div class="w-20">
-    <img class="br-100 w-80 mt2" src="/static/images/team/daniel-salazar-murrillo-500.jpg" alt="Daniel Salazar Murrillo" />
+    <img class="br-100 w-80 mt2" src="/static/images/team/daniel-salazar-murrillo-500.jpg" alt="Daniel Salazar Murillo" />
   </div>
   <div class="w-80" markdown="1">
-#### Daniel Salazar Murrillo
+#### Daniel Salazar Murillo
 {: .ttu .ma0 .tracked}
 
 Researcher
 {: .normal .ma0 .gray .f6}
 
-Based in Costa Rica, Daniel Salazar Murrillo joined OCCRP in 2020 as an ID
+Based in Costa Rica, Daniel Salazar Murillo joined OCCRP in 2020 as an ID
 researcher, focusing on investigations related to Latin America. Since 2012, he
 has been a journalist specializing in data analysis and economic policies. In
-2019 he was part of the first OCCRP Research Fellowship
+2019 he was part of the first OCCRP Research Fellowship.
 
 Previously, Daniel was part of the Panama Papers team and other investigations
 for Semanario Universidad, and was a researcher and economics reporter for La
