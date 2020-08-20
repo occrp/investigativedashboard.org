@@ -201,10 +201,10 @@ businesses.
 
 <div class="flex mt5">
   <div class="w-20">
-    <img class="br-100 w-80 mt2" src="/static/images/team/david-ilieksi-500.jpg" alt="David Ilieksi" />
+    <img class="br-100 w-80 mt2" src="/static/images/team/david-ilieksi-500.jpg" alt="David Ilieski" />
   </div>
   <div class="w-80" markdown="1">
-#### David Ilieksi
+#### David Ilieski
 {: .ttu .ma0 .tracked}
 
 Researcher
